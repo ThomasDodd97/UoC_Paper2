@@ -1,0 +1,70 @@
+% Setting the document's class and font size.
+\documentclass[12pt,a4paper]{article}
+% Importing the geometry package, allowing the tightening of margins.
+\usepackage[nomarginpar,top=25.4mm,bottom=25.4mm,left=25.4mm,right=25.4mm]{geometry}
+% Imported to support biber
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes,xpatch}
+\usepackage[english]{babel}
+% Importing the package allowing referencing
+\usepackage[backend=biber]{biblatex}
+\addbibresource{Bibliography/Bibliography.bib}
+\errorcontextlines=3
+% Importing an important maths formatting tool
+\usepackage{amsmath}
+% Importing a package allowing for justification of text.
+\usepackage{ragged2e}
+\DeclareMathOperator*{\argmaxA}{arg\,max} % Declaring an operator using the amsmath package.
+% Import all the mathematical symbols we may need, e.g. \rightarrow
+\usepackage{amssymb}
+% Importing package allowing for the use of a degrees C symbol e.g. \degree
+\usepackage{textcomp, gensymb}
+% Colorise the text at will. e.g. \color{red} \textcolor[HTML]{EB7D3C}{CO}
+\usepackage{xcolor}
+\definecolor{CarboxylOrange}{HTML}{EB7D3C}
+\definecolor{HydroxylBlue}{HTML}{1DB1ED}
+% Importing a package to deal with captions outside the usual. e.g. captionof
+\usepackage{caption}
+% Importing a package allowing the changing of caption formats
+\usepackage{subcaption}
+\DeclareCaptionFormat{custom}{\textbf{#1#2}\textit{\small #3}}
+\captionsetup{format=custom,width=0.4\textwidth,skip=0pt}
+% Importing the package used to present graphics.
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+% Importing package allowing for table creation
+\usepackage{tabularray}
+\UseTblrLibrary{siunitx} % alignment of numbers in tables
+% Importing a package allowing for justification of text.
+\usepackage{ragged2e}
+% Import the package allowing the invoking of multiple columns of text.
+\usepackage{multicol}
+% A package allowing for space-holding text input.
+\usepackage{lipsum}
+% A package that tends to be able to fix the hbox issues...
+\usepackage{microtype}
+% Allow urls to be used in the document
+\usepackage{url}
+% Import a package capable of more complicated cross-referencing e.g. \cref{eq:StoichiometricEquation,eq:CitricAcidBounds,eq:ItaconicAcidBounds}
+\usepackage{cleveref}
+
+% % This is a code snipped stolen from online which fixes spacing above and below any equations I have written.
+% \expandafter\def\expandafter\normalsize\expandafter{%
+%     \normalsize%
+%     \setlength\abovedisplayskip{8pt}%
+%     \setlength\belowdisplayskip{8pt}%
+%     \setlength\abovedisplayshortskip{-8pt}%
+%     \setlength\belowdisplayshortskip{2pt}%
+% }
+
+\begin{document}
+    \input{Sections/A1_Title}
+    \input{Sections/B1_Abstract}
+    \begin{multicols}{2}
+        \input{Sections/C1_Introduction}
+        \input{Sections/D1_Method}
+        \input{Sections/E1_Results}
+        \input{Sections/F1_Conclusion}
+        \input{Sections/G1_Bibliography}
+    \end{multicols}
+\end{document}
