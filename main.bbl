@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,5 +16,334 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Chen2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5e8a0d223a5aa8f4b96e939e50ad4cae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Huaguo},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{fullhash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{fullhashraw}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{bibnamehash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{authorbibnamehash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{authornamehash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{authorfullhash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{authorfullhashraw}{2bb0b717a147f37eec7e72a34b17177a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cement and Concrete Composites}
+      \field{number}{104922}
+      \field{title}{Recycling thermoset plastic waste for manufacturing green cement mortar}
+      \field{volume}{137}
+      \field{year}{2023}
+    \endentry
+    \entry{OWID202507121456}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fde445346ee01a6c2881aca3bbca7e18}{%
+           family={Data)},
+           familyi={D\bibinitperiod},
+           given={OWID\bibnamedelimb (Our\bibnamedelima World},
+           giveni={O\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \true{moreeditor}
+      \name{editor}{1}{}{%
+        {{hash=a6d904a648976069036f5eddb4ad0151}{%
+           family={Ritchie},
+           familyi={R\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{fullhash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{fullhashraw}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{bibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authorbibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authornamehash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authorfullhash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authorfullhashraw}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{editorbibnamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \strng{editornamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \strng{editorfullhash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \strng{editorfullhashraw}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved July 12th, 2025}
+      \field{title}{Plastic Pollution}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://ourworldindata.org/plastic-pollution
+      \endverb
+      \verb{url}
+      \verb https://ourworldindata.org/plastic-pollution
+      \endverb
+    \endentry
+    \entry{Eriksson2009}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=1d2e3eef2e315801c6db2610eadb4468}{%
+           family={Eriksson},
+           familyi={E\bibinitperiod},
+           given={Orla},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{fullhash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{fullhashraw}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{bibnamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{authorbibnamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{authornamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{authorfullhash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{authorfullhashraw}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy and Environmental Science}
+      \field{title}{Plastic waste as a fuel - CO2-neutral or not?}
+      \field{volume}{2}
+      \field{year}{2009}
+      \field{pages}{907\bibrangedash 914}
+      \range{pages}{8}
+    \endentry
+    \entry{Geyer2017}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=25c79470bb92d7ab42bcea501d23382d}{%
+           family={Geyer},
+           familyi={G\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{fullhash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{fullhashraw}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{bibnamehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{authorbibnamehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{authornamehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{authorfullhash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \strng{authorfullhashraw}{4ac30d9f0fcd104ad13a6b46bedf2a30}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science Advances}
+      \field{number}{e1700782}
+      \field{title}{Production, use, and fate of all plastics ever made}
+      \field{volume}{3}
+      \field{year}{2017}
+    \endentry
+    \entry{Gilbert2017}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=6a35bd397e0680cf1f3312ee6c312871}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6a35bd397e0680cf1f3312ee6c312871}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{fullhash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{fullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{bibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{authorbibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{authornamehash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{authorfullhash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{authorfullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{editorbibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{editornamehash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{editorfullhash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{editorfullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{1}
+      \field{edition}{Eighth}
+      \field{title}{Brydson's Plastics Materials}
+      \field{year}{2017}
+    \endentry
+    \entry{Goodman1986}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4412abd08791f0eeca2639b467fcc3f5}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4412abd08791f0eeca2639b467fcc3f5}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Noyes Publications}%
+      }
+      \strng{namehash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{fullhash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{fullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{bibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{authorbibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{authornamehash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{authorfullhash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{authorfullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{editorbibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{editornamehash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{editorfullhash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{editorfullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{First}
+      \field{title}{Handbook of Thermoset Plastics}
+      \field{year}{1986}
+    \endentry
+    \entry{Hettiarachchi2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=863c655a5553285c8515ad158f8dc6bb}{%
+           family={Hettiarachchi},
+           familyi={H\bibinitperiod},
+           given={Hiroshan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{fullhash}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{fullhashraw}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{bibnamehash}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{authorbibnamehash}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{authornamehash}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{authorfullhash}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \strng{authorfullhashraw}{5c5a4b9f26327bd9e0270b8785bd01be}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Environmental Research and Public Health}
+      \field{number}{14}
+      \field{title}{Microplastic Pollution Prevention- The Need for Robust Policy Interventions to Close the Loopholes in Current Waste Management Practices}
+      \field{volume}{20}
+      \field{year}{2023}
+    \endentry
+    \entry{Lawrence1960}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8d7c1b012643137bbc0ebfd78aebe90c}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e20db0f8de509d56560eeb4ebbb84d0f}{%
+           family={Simonds},
+           familyi={S\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Reinhold Publishing Corporation}%
+      }
+      \strng{namehash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{fullhash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{fullhashraw}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{bibnamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{authorbibnamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{authornamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{authorfullhash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{authorfullhashraw}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{editorbibnamehash}{e20db0f8de509d56560eeb4ebbb84d0f}
+      \strng{editornamehash}{e20db0f8de509d56560eeb4ebbb84d0f}
+      \strng{editorfullhash}{e20db0f8de509d56560eeb4ebbb84d0f}
+      \strng{editorfullhashraw}{e20db0f8de509d56560eeb4ebbb84d0f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{First}
+      \field{title}{Polyester Resins}
+      \field{year}{1960}
+    \endentry
+    \entry{Topham2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=884702326938beeee943a7bee744a1f3}{%
+           family={Topham},
+           familyi={T\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{884702326938beeee943a7bee744a1f3}
+      \strng{fullhash}{884702326938beeee943a7bee744a1f3}
+      \strng{fullhashraw}{884702326938beeee943a7bee744a1f3}
+      \strng{bibnamehash}{884702326938beeee943a7bee744a1f3}
+      \strng{authorbibnamehash}{884702326938beeee943a7bee744a1f3}
+      \strng{authornamehash}{884702326938beeee943a7bee744a1f3}
+      \strng{authorfullhash}{884702326938beeee943a7bee744a1f3}
+      \strng{authorfullhashraw}{884702326938beeee943a7bee744a1f3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Policy}
+      \field{title}{Recycling offshore wind farms at decommissioning stage}
+      \field{volume}{129}
+      \field{year}{2019}
+      \field{pages}{698\bibrangedash 709}
+      \range{pages}{12}
+    \endentry
+    \entry{Wang2021}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=7f1b08bcbbbb73f8d19023ad55e6871f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chunyan},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{fullhash}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{fullhashraw}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{bibnamehash}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{authorbibnamehash}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{authornamehash}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{authorfullhash}{15bfadc405997118a07e75ac3fe67ee3}
+      \strng{authorfullhashraw}{15bfadc405997118a07e75ac3fe67ee3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{number}{5}
+      \field{title}{Critical review of global plastics stock and flow data}
+      \field{volume}{25}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
