@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{Chen2023}{article}{}{}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Chen2023}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -31,12 +31,10 @@
       }
       \strng{namehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{fullhash}{2bb0b717a147f37eec7e72a34b17177a}
-      \strng{fullhashraw}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{bibnamehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{authorbibnamehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{authornamehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{authorfullhash}{2bb0b717a147f37eec7e72a34b17177a}
-      \strng{authorfullhashraw}{2bb0b717a147f37eec7e72a34b17177a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -47,7 +45,7 @@
       \field{volume}{137}
       \field{year}{2023}
     \endentry
-    \entry{OWID202507121456}{misc}{}{}
+    \entry{OWID202507121456}{misc}{}
       \name{author}{1}{}{%
         {{hash=fde445346ee01a6c2881aca3bbca7e18}{%
            family={Data)},
@@ -67,16 +65,13 @@
       }
       \strng{namehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{fullhash}{fde445346ee01a6c2881aca3bbca7e18}
-      \strng{fullhashraw}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{bibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{authorbibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{authornamehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{authorfullhash}{fde445346ee01a6c2881aca3bbca7e18}
-      \strng{authorfullhashraw}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{editorbibnamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
       \strng{editornamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
       \strng{editorfullhash}{c3342d04ac4f2f53e15e445f4ee591b5}
-      \strng{editorfullhashraw}{c3342d04ac4f2f53e15e445f4ee591b5}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -91,7 +86,7 @@
       \verb https://ourworldindata.org/plastic-pollution
       \endverb
     \endentry
-    \entry{Eriksson2009}{article}{}{}
+    \entry{Eriksson2009}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -103,12 +98,10 @@
       }
       \strng{namehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{fullhash}{2babd2a9c80c85ec0cf20dceda9ae327}
-      \strng{fullhashraw}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{bibnamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{authorbibnamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{authornamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{authorfullhash}{2babd2a9c80c85ec0cf20dceda9ae327}
-      \strng{authorfullhashraw}{2babd2a9c80c85ec0cf20dceda9ae327}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}
@@ -120,7 +113,7 @@
       \field{pages}{907\bibrangedash 914}
       \range{pages}{8}
     \endentry
-    \entry{Geyer2017}{article}{}{}
+    \entry{Geyer2017}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -132,12 +125,10 @@
       }
       \strng{namehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
       \strng{fullhash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
-      \strng{fullhashraw}{4ac30d9f0fcd104ad13a6b46bedf2a30}
       \strng{bibnamehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
       \strng{authorbibnamehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
       \strng{authornamehash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
       \strng{authorfullhash}{4ac30d9f0fcd104ad13a6b46bedf2a30}
-      \strng{authorfullhashraw}{4ac30d9f0fcd104ad13a6b46bedf2a30}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -148,7 +139,7 @@
       \field{volume}{3}
       \field{year}{2017}
     \endentry
-    \entry{Gilbert2017}{inbook}{}{}
+    \entry{Gilbert2017}{inbook}{}
       \name{author}{1}{}{%
         {{hash=6a35bd397e0680cf1f3312ee6c312871}{%
            family={Gilbert},
@@ -165,26 +156,23 @@
       }
       \strng{namehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{fullhash}{6a35bd397e0680cf1f3312ee6c312871}
-      \strng{fullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{bibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{authorbibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{authornamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{authorfullhash}{6a35bd397e0680cf1f3312ee6c312871}
-      \strng{authorfullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{editorbibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{editornamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{editorfullhash}{6a35bd397e0680cf1f3312ee6c312871}
-      \strng{editorfullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{chapter}{1}
-      \field{edition}{Eighth}
+      \field{edition}{8}
       \field{title}{Brydson's Plastics Materials}
       \field{year}{2017}
     \endentry
-    \entry{Goodman1986}{book}{}{}
+    \entry{Goodman1986}{book}{}
       \name{author}{1}{}{%
         {{hash=4412abd08791f0eeca2639b467fcc3f5}{%
            family={Goodman},
@@ -204,25 +192,22 @@
       }
       \strng{namehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{fullhash}{4412abd08791f0eeca2639b467fcc3f5}
-      \strng{fullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{bibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{authorbibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{authornamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{authorfullhash}{4412abd08791f0eeca2639b467fcc3f5}
-      \strng{authorfullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{editorbibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{editornamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{editorfullhash}{4412abd08791f0eeca2639b467fcc3f5}
-      \strng{editorfullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{First}
+      \field{edition}{1}
       \field{title}{Handbook of Thermoset Plastics}
       \field{year}{1986}
     \endentry
-    \entry{Hettiarachchi2023}{article}{}{}
+    \entry{Hettiarachchi2023}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -234,12 +219,10 @@
       }
       \strng{namehash}{5c5a4b9f26327bd9e0270b8785bd01be}
       \strng{fullhash}{5c5a4b9f26327bd9e0270b8785bd01be}
-      \strng{fullhashraw}{5c5a4b9f26327bd9e0270b8785bd01be}
       \strng{bibnamehash}{5c5a4b9f26327bd9e0270b8785bd01be}
       \strng{authorbibnamehash}{5c5a4b9f26327bd9e0270b8785bd01be}
       \strng{authornamehash}{5c5a4b9f26327bd9e0270b8785bd01be}
       \strng{authorfullhash}{5c5a4b9f26327bd9e0270b8785bd01be}
-      \strng{authorfullhashraw}{5c5a4b9f26327bd9e0270b8785bd01be}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -250,7 +233,7 @@
       \field{volume}{20}
       \field{year}{2023}
     \endentry
-    \entry{Lawrence1960}{book}{}{}
+    \entry{Lawrence1960}{book}{}
       \name{author}{1}{}{%
         {{hash=8d7c1b012643137bbc0ebfd78aebe90c}{%
            family={Lawrence},
@@ -270,25 +253,22 @@
       }
       \strng{namehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{fullhash}{8d7c1b012643137bbc0ebfd78aebe90c}
-      \strng{fullhashraw}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{bibnamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{authorbibnamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{authornamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{authorfullhash}{8d7c1b012643137bbc0ebfd78aebe90c}
-      \strng{authorfullhashraw}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{editorbibnamehash}{e20db0f8de509d56560eeb4ebbb84d0f}
       \strng{editornamehash}{e20db0f8de509d56560eeb4ebbb84d0f}
       \strng{editorfullhash}{e20db0f8de509d56560eeb4ebbb84d0f}
-      \strng{editorfullhashraw}{e20db0f8de509d56560eeb4ebbb84d0f}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{First}
+      \field{edition}{1}
       \field{title}{Polyester Resins}
       \field{year}{1960}
     \endentry
-    \entry{Topham2019}{article}{}{}
+    \entry{Topham2019}{article}{}
       \name{author}{1}{}{%
         {{hash=884702326938beeee943a7bee744a1f3}{%
            family={Topham},
@@ -298,12 +278,10 @@
       }
       \strng{namehash}{884702326938beeee943a7bee744a1f3}
       \strng{fullhash}{884702326938beeee943a7bee744a1f3}
-      \strng{fullhashraw}{884702326938beeee943a7bee744a1f3}
       \strng{bibnamehash}{884702326938beeee943a7bee744a1f3}
       \strng{authorbibnamehash}{884702326938beeee943a7bee744a1f3}
       \strng{authornamehash}{884702326938beeee943a7bee744a1f3}
       \strng{authorfullhash}{884702326938beeee943a7bee744a1f3}
-      \strng{authorfullhashraw}{884702326938beeee943a7bee744a1f3}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
@@ -315,7 +293,7 @@
       \field{pages}{698\bibrangedash 709}
       \range{pages}{12}
     \endentry
-    \entry{Wang2021}{article}{}{}
+    \entry{Wang2021}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -327,12 +305,10 @@
       }
       \strng{namehash}{15bfadc405997118a07e75ac3fe67ee3}
       \strng{fullhash}{15bfadc405997118a07e75ac3fe67ee3}
-      \strng{fullhashraw}{15bfadc405997118a07e75ac3fe67ee3}
       \strng{bibnamehash}{15bfadc405997118a07e75ac3fe67ee3}
       \strng{authorbibnamehash}{15bfadc405997118a07e75ac3fe67ee3}
       \strng{authornamehash}{15bfadc405997118a07e75ac3fe67ee3}
       \strng{authorfullhash}{15bfadc405997118a07e75ac3fe67ee3}
-      \strng{authorfullhashraw}{15bfadc405997118a07e75ac3fe67ee3}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
