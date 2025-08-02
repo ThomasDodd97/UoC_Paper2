@@ -1,8 +1,4 @@
 \section{Introduction}
-% Plastics
-% Thermosets
-% Bio-based Thermosets
-% Bio-based Polyester Thermosets
 
 Plastics encompass a plethora of polymeric materials which provide
  a wide-range of desirable material properties; and given this, have
@@ -23,22 +19,169 @@ Mismanaged plastics may degrade and pollute watercourses
  \cite{OWID202507121456}; these are a subset of the many challenges
  born out of the use of this family of materials.
 
-Since around 85\% of virgin plastics manufactured today can be
- classified as thermoplastic \cite{Wang2021}, a dominant
- proportion of literature is focussed upon tackling the various
- associated challenges.
+Since around 85\% of virgin plastic manufactured is thermoplastic
+ they have generally dominated plastic sustainability literature,
+ with papers focussed upon improvement of recycling methods
+ \cite{Jagadeesh2022}, mitigation of microplastic waste \cite{Nafea2024},
+ and biodegradability \cite{Moshood2022}.
+Despite their proportional minority, this paper focusses upon the
+ group of plastics called thermosets- plastics characterised by
+ cross-linked network structures, high dimensional stability, and
+ chemical corrosion resistance \cite{Liu2021}.
+It is generally impractical to depolymerise cross-linked thermoset
+ materials which has lead to the common practice of either landfilling
+ or incinerating these materials at end-of-life
+ \cite{Utekar2021,Chen2023,Topham2019}.
+Contemporary European legislation has prioritised incineration ahead
+ of landfill for composite materials with thermosetting matrices, 
+ and incoming legislation (e.g. Directives `99/31/EC' and 
+ `2000/53/EC') is likely to increase the proportion incinerated
+ \cite{Pickering2006}.
+As the majority of thermoset plastics are derived from fossil
+ sources of carbon, their combustion releases the greenhouse gas
+ CO\textsubscript{2} into the atmosphere, perturbing the short-term
+ carbon cycle \cite{Levi2018}.
+This research directly treated this challenge through the
+ application of Bayesian optimisation in the development
+ of strength in bio-based alternatives to fossil incumbents.
 
-This paper will focus upon the lesser-known grouping of thermosets
- given the unique challenges and opportunities associated with these
- materials.
-
-Polyester resins are used for a number of reasons, including ease 
- of handling in liquid form, rapid curing, and excellent dimensional
- stability \cite{Lawrence1960}.
-
-Generally thermosets are either landfilled \cite{Chen2023} or incinerated
- \cite{Topham2019}.
-
-Many thermosets exist including (and not limited to) phenolic
+Many thermosets exist including (but not limited to) phenolic
  resins, unsaturated polyester resins, epoxy resins, and
  polyurethanes \cite{Goodman1986}.
+A prominent group are the unsaturated polyester resins, which are
+ routinely used in the manufacture of composite components; these
+ resins exhibit desirable properties including ease of handling in
+ liquid form, rapid curing, and excellent dimensional stability
+ \cite{Aziz2005,Lawrence1960}.
+The simplest form of conventional unsaturated polyester resin would
+ be that formed from the mixture of poly(propylene glycol fumarate)
+ copolymer (polymerised from propylene glycol and maleic anhydride)
+ with a styrene reactive diluent \cite{Ahamad2001}.
+Unfortunately, all monomers associated with conventional unsaturated
+ polyester resins are fossil-derived products: propylene
+ glycol is industrially manufactured from propylene oxide- a
+ downstream chemical product of propane extracted from natural gas
+ \cite{Levi2018}.
+Maleic anhydride is synthesised by catalytic oxidation
+ of the chemical butane \cite{Felthouse2001}- this derived from 
+ fractional distillation of petroleum crude \cite{Kissin1987}.
+And styrene is produced from the dehydrogenation of 
+ ethylbenzene- this being the product of a reaction between
+ benzene and ethylene, both of which are fossil-fuel derived
+ feedstocks \cite{Lee2008,Levi2018}.
+
+Recently, literature has explored development of bio-based
+ synthesis of these monomers; it has been shown that propylene
+ glycol can be synthesised from the biodiesel-manufacturing
+ byproduct glycerol via hydrogenolysis
+ \cite{Dasari2005,Ricciardi2017}, or from the hydrogenation
+ of the sugar-fermentation derived product lactic acid
+ \cite{Berlowska2015,Xiao2015}.
+Meanwhile, bio-based maleic anhydride
+ can be synthesised from either oxidehydration of n-butanol
+ (from biomass fermentation of C5 and C6 sugars)
+ \cite{Pavarelli2015} or catalytic oxidation of furfural
+ (from the dehydration of C6 sugars) \cite{Li2016,Teong2014}.
+Even bio-based styrene has been successfully manufactured
+ via a biosynthetic route from glucose \cite{McKenna2011}.
+
+This paper focusses upon bio-based unsaturated polyester
+ resins based on itaconic acid, a simple bio-based
+ difunctional carboxylic acid manufactured by fungal
+ fermentation of sugars by fungi such as 
+ \textit{Aspergillus terreus} \cite{Bafana2017}.
+Itaconic acid's dicarboxyl and monoalkene functionality
+ allows it to directly substitute maleic acid during
+ polycondensation to form an unsaturated polyester 
+ \cite{Bamane2020}.
+Furthermore, itaconic acid can be synthesised into a
+ variety of diesters (the family of diitaconates) which
+ exhibit properties appropriate
+ of a reactive diluent (i.e. radical initiated
+ homopolymerisation and a low viscosity), allowing
+ them to replace styrene in an eventual unsaturated
+ polyester resin \cite{Sollka2020}.
+Bio-based itaconic acid has the advantage of being more
+ directly synthesised from sugars than maleic acid, whilst
+ diitaconates are a less volatile, less harmful and less
+ flammable alternative reactive diluent to bio-based
+ styrene.
+
+Literature has explored catalytic influence upon polycondensation
+ of itaconic acid within eventual unsaturated polyesters
+ \cite{Schoon2017}, synthesis of partially bio-based resins
+ incorporating itaconic acid based unsaturated polyester but
+ retaining styrene as the reactive diluent \cite{Costa2017},
+ as well as fully bio-based resins using itaconic acid based
+ unsaturated polyester in tandem with diitaconates as
+ reactive diluents \cite{Pantic2022,Panic2017}.
+As an aside, literature has also considered partially bio-based
+ resins incorporating itaconic acid based unsaturated polyesters
+ together with the cross-linking compatible methacrylate class
+ of reactive diluents \cite{Spasojevic2021,Dai2017}.
+Although traditionally fossil-fuel derived, recent work has seen
+ bio-based methyl methacrylate synthesised from
+ itaconic acid, which would unlock fully bio-based resins based
+ on methacrylate reactive diluents in future \cite{Nagai2001,Bohre2021}.
+Diitaconates were nontheless focussed upon in this research (despite
+ inferior homopolymerisation rates \cite{Sollka2020} and viscosity
+ characteristics \cite{Spasojevic2021}) ahead of methacrylates
+ on account of their relatively higher strengths as cured thermosets
+ \cite{Spasojevic2021}, safety as reactive diluents (lower toxicity 
+ and flammability) \cite{Leonard1970}, and environmentally-benign
+ nature as a non-volatile organic compound \cite{Spasojevic2021,Trejbal2022}.
+
+On account of the temporal and financial expense of synthesising
+ the chemicals concerned, the sample-efficient technique of
+ Bayesian optimisation was used to facilitate the development
+ of strength in these bio-based materials \cite{Frazier2018}.
+Literature describes how this technique has been used to successfully
+ accelerate optimisation in a variety of domains: improving synthesis 
+ efficiency in organic chemistry \cite{Shields2021}, reducing 
+ phenotyping costs during crop breeding in plant science
+ \cite{Tanaka2017}, and tuning microfluidic device setup for polymer
+ fibre synthesis in materials science \cite{Li2017}.
+
+In polymer science, Bayesian optimisation has been deployed in
+ both purely computational domains (e.g. optimisation of thermoplastic
+ repeat units for improved glass transition temperatures in a simulated
+ parameter space \cite{Minami2019}) as well as in applied practice
+ (e.g. improving compositional homogeneity during co-polymerisation
+ of styrene and methyl methacrylate \cite{Takasuka2024}).
+Various thermosets have been practically optimised using 
+ Bayesian optimisation: Benzoxazine-based thermosets have been optimised
+ with respect to six thermomechanical properties \cite{Lu2025},
+ polycyanurates have had three thermal/mechanical/hygroscopic properties
+ improved upon \cite{Xu2023}, and epoxy thermosets based on amine curing
+ agents have been optimised with respect to a trio of mechanical
+ properties using a dual-driver method \cite{Zhao2024}.
+In the more specific domain of practical Bayesian optimisation of
+ bio-based thermosets, literature has been dominated by epoxy-based
+ chemistries; Albuquerque et al. successfully improved glass transition
+ temperatures in bio-based epoxy thermosets derived from amino acid based
+ resin systems \cite{Albuquerque2024}, whilst Rothenhäusler et al. explored
+ this class of thermosets further by taking into account both cost and
+ bio-based content \cite{Rothenhausler2024}.
+
+It seems that there exist no papers on practical optimisation of
+ bio-based thermoset composites nevermind those incorporating
+ polyester as the matrix forming material\dots
+
+Can such a paper be found?
+
+
+% [POTENTIALLY GOOD MATERIAL FOR THE CHEMICAL SYSTEM INTRODUCTION:]
+% An alternative form of thermoset
+% with substantially faster cure times are cross-linked unsaturated polyester systems, these rely
+% upon a combination of condensation and addition polymer. The condensation polymer is
+% typically an unsaturated linear polyester formed from the copolymerisation of diols and diacids,
+% with at least one monomer having an unsaturated double bond in its structure which is retained
+% after copolymerisation- this copolymer is referred to as an unsaturated polyester (UP) \cite{Seraji2022} 
+% [CHECK UP THE NUMBER OF THE ARTICLE AND ADD TO THE BIBLIOGRAPHY SOON]. The
+% addition polymer is typically generated through a radical-addition homopolymerisation
+% reaction, where a monomer which had been acting as an UP solvent reacts and crosslinks
+% individual UP chains- these monomers are therefore referred to as reactive diluents (RD) \cite{Chen2015}.
+% When UP and RD are brought together, they are known as unsaturated polyester resin (UPR),
+% a viscous liquid which, on addition of radical-initiating chemicals, can rapidly form a rigid
+% thermoset material.
+
