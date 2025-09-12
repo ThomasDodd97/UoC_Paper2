@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  2 AUG 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  8 SEP 2025 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -723,20 +723,20 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -785,18 +785,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 60.
-Package gensymb Info: Math companion symbols declared on input line 60.
-LaTeX Info: Redefining \degree on input line 60.
-LaTeX Info: Redefining \celsius on input line 60.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 60.
-LaTeX Info: Redefining \ohm on input line 60.
-Package gensymb Info: Using \textohm for \ohm on input line 60.
-Package gensymb Info: Using \textmu for \micro on input line 60.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 63.
+Package gensymb Info: Math companion symbols declared on input line 63.
+LaTeX Info: Redefining \degree on input line 63.
+LaTeX Info: Redefining \celsius on input line 63.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 63.
+LaTeX Info: Redefining \ohm on input line 63.
+Package gensymb Info: Using \textohm for \ohm on input line 63.
+Package gensymb Info: Using \textmu for \micro on input line 63.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count477
@@ -823,21 +823,21 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 60.
-LaTeX Info: Redefining \microtypecontext on input line 60.
-Package microtype Info: Applying patch `item' on input line 60.
-Package microtype Info: Applying patch `toc' on input line 60.
-Package microtype Info: Applying patch `eqnum' on input line 60.
-Package microtype Info: Applying patch `footnote' on input line 60.
-Package microtype Info: Applying patch `verbatim' on input line 60.
-LaTeX Info: Redefining \microtypesetup on input line 60.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 63.
+LaTeX Info: Redefining \microtypecontext on input line 63.
+Package microtype Info: Applying patch `item' on input line 63.
+Package microtype Info: Applying patch `toc' on input line 63.
+Package microtype Info: Applying patch `eqnum' on input line 63.
+Package microtype Info: Applying patch `footnote' on input line 63.
+Package microtype Info: Applying patch `verbatim' on input line 63.
+LaTeX Info: Redefining \microtypesetup on input line 63.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 60.
+LaTeX Info: Redefining \showhyphens on input line 63.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -857,23 +857,115 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )) (./Sections/B1_Abstract.tex) (./Sections/C1_Introduction.tex [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Sections/D1_Method.tex) (./Sections/E1_Results.tex) (./Sections/F1_Conclusion.tex) (./Sections/G1_Bibliography.tex
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./Sections/D1_Method.tex [3]
+<Images/SimpleDMIReactionScheme.png, id=18, 846.16125pt x 180.675pt>
+File: Images/SimpleDMIReactionScheme.png Graphic file (type png)
+<use Images/SimpleDMIReactionScheme.png>
+Package pdftex.def Info: Images/SimpleDMIReactionScheme.png  used on input line 93.
+(pdftex.def)             Requested size: 452.96793pt x 96.71944pt.
+ [4]
+
+Package siunitx Warning: Unit macro \bar has been deprecated in this release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\bar{bar}
+
+<Images/SynthesisRigDMI_Lettered.png, id=24, 418.56375pt x 735.74875pt>
+File: Images/SynthesisRigDMI_Lettered.png Graphic file (type png)
+<use Images/SynthesisRigDMI_Lettered.png>
+Package pdftex.def Info: Images/SynthesisRigDMI_Lettered.png  used on input line 134.
+(pdftex.def)             Requested size: 219.68971pt x 386.1616pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--184
+[]$
+ []
+
+[5 <./Images/SimpleDMIReactionScheme.png> <./Images/SynthesisRigDMI_Lettered.png>] [6]
+<Images/FTIRComparison.png, id=36, 520.94624pt x 520.94624pt>
+File: Images/FTIRComparison.png Graphic file (type png)
+<use Images/FTIRComparison.png>
+Package pdftex.def Info: Images/FTIRComparison.png  used on input line 270.
+(pdftex.def)             Requested size: 219.68971pt x 219.68622pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--300
+[]$
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 304.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 304.
+<Images/SimpleUPReactionScheme.png, id=37, 902.87312pt x 180.675pt>
+File: Images/SimpleUPReactionScheme.png Graphic file (type png)
+<use Images/SimpleUPReactionScheme.png>
+Package pdftex.def Info: Images/SimpleUPReactionScheme.png  used on input line 331.
+(pdftex.def)             Requested size: 452.96793pt x 90.64604pt.
+ [7 <./Images/FTIRComparison.png>]
+<Images/SynthesisRigUP_Lettered.png, id=46, 369.38pt x 662.475pt>
+File: Images/SynthesisRigUP_Lettered.png Graphic file (type png)
+<use Images/SynthesisRigUP_Lettered.png>
+Package pdftex.def Info: Images/SynthesisRigUP_Lettered.png  used on input line 372.
+(pdftex.def)             Requested size: 219.68971pt x 394.01073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--405
+[]$
+ []
+
+[8 <./Images/SimpleUPReactionScheme.png>] [9 <./Images/SynthesisRigUP_Lettered.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]\OT1/cmr/bx/n/14.4 (+20) Unsaturated Polyester
+ []
+
+<Images/CompositePreparation.png, id=55, 385.1991pt x 572.73975pt>
+File: Images/CompositePreparation.png Graphic file (type png)
+<use Images/CompositePreparation.png>
+Package pdftex.def Info: Images/CompositePreparation.png  used on input line 503.
+(pdftex.def)             Requested size: 219.68971pt x 326.6573pt.
+[10] [11{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images/CompositePreparation.png>]
+<Images/CorrectionalMethod.jpg, id=64, 275.22826pt x 206.57175pt>
+File: Images/CorrectionalMethod.jpg Graphic file (type jpg)
+<use Images/CorrectionalMethod.jpg>
+Package pdftex.def Info: Images/CorrectionalMethod.jpg  used on input line 608.
+(pdftex.def)             Requested size: 219.68971pt x 164.89197pt.
+ [12 <./Images/CorrectionalMethod.jpg>]
+<Images/ExampleStressStrain.jpg, id=68, 274.626pt x 211.38976pt>
+File: Images/ExampleStressStrain.jpg Graphic file (type jpg)
+<use Images/ExampleStressStrain.jpg>
+Package pdftex.def Info: Images/ExampleStressStrain.jpg  used on input line 677.
+(pdftex.def)             Requested size: 219.68971pt x 169.10234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--697
+[]$
+ []
+
+) (./Sections/E1_Results.tex) (./Sections/F1_Conclusion.tex) (./Sections/G1_Bibliography.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 []\OT1/cmr/m/n/12 (+20) Sharifah Aziz et al. \  Mod-i-fied
  []
 
-[3]
-Overfull \hbox (5.92033pt too wide) in paragraph at lines 2--2
-[]\OT1/cmr/m/n/12 (-20) Jinyue Dai et al. \  2,5-Furandicarboxylic
- []
-
+[13 <./Images/ExampleStressStrain.jpg>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[4] [5])
 
-[6] (./main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[]\OT1/cmr/m/n/12 (+20) John Cowie et al. \  Poly(alkyl
+ []
+
+
+Overfull \hbox (5.92033pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/m/n/12 (-20) Jinyue Dai et al. \  2,5-Furandicarboxylic
+ []
+
+[14] [15] [16])
+
+[17] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -883,18 +975,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25670 strings out of 473190
- 545902 string characters out of 5715801
- 1442507 words of memory out of 5000000
- 48497 multiletter control sequences out of 15000+600000
- 575920 words of font info for 170 fonts, out of 8000000 for 9000
+ 25953 strings out of 473190
+ 553656 string characters out of 5715801
+ 1445643 words of memory out of 5000000
+ 48716 multiletter control sequences out of 15000+600000
+ 580233 words of font info for 205 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,5n,79p,1113b,1736s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (6 pages, 123070 bytes).
+ 65i,7n,79p,1113b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (17 pages, 2483779 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 37377 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 47657 words of extra memory for PDF output out of 51595 (max. 10000000)
 

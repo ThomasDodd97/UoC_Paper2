@@ -851,52 +851,6 @@
       \field{volume}{20}
       \field{year}{2023}
     \endentry
-    \entry{Horwood2023}{inbook}{}{}
-      \name{author}{2}{}{%
-        {{hash=880923acf4561a083c1b6e645af08869}{%
-           family={Horwood},
-           familyi={H\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=32c6bda099e11290402ac8521af33fa6}{%
-           family={Chockalingam},
-           familyi={C\bibinitperiod},
-           given={Nachiappan},
-           giveni={N\bibinitperiod}}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=880923acf4561a083c1b6e645af08869}{%
-           family={Horwood},
-           familyi={H\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=32c6bda099e11290402ac8521af33fa6}{%
-           family={Chockalingam},
-           familyi={C\bibinitperiod},
-           given={Nachiappan},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{fullhash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{fullhashraw}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{bibnamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{authorbibnamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{authornamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{authorfullhash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{authorfullhashraw}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{editorbibnamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{editornamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{editorfullhash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \strng{editorfullhashraw}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{chapter}{2}
-      \field{edition}{first}
-      \field{title}{Clinical Biomechanics in Human Locomotion}
-      \field{year}{2023}
-    \endentry
     \entry{Jagadeesh2022}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1252,42 +1206,6 @@
       \field{title}{Ultrahigh performance benzoxazine/poly(silane arylacetylene) thermosetting composite materials based on smart molecular engineering and machine learning}
       \field{volume}{307}
       \field{year}{2025}
-    \endentry
-    \entry{Martin2006}{inbook}{}{}
-      \name{author}{1}{}{%
-        {{hash=a527309fef5c1d42f6ca3e8a384305c2}{%
-           family={Martin},
-           familyi={M\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=a527309fef5c1d42f6ca3e8a384305c2}{%
-           family={Martin},
-           familyi={M\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{fullhash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{fullhashraw}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{bibnamehash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{authorbibnamehash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{authornamehash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{authorfullhash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{authorfullhashraw}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{editorbibnamehash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{editornamehash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{editorfullhash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \strng{editorfullhashraw}{a527309fef5c1d42f6ca3e8a384305c2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{chapter}{2}
-      \field{edition}{3}
-      \field{title}{Materials for Engineering}
-      \field{year}{2006}
     \endentry
     \entry{McKenna2011}{article}{}{}
       \name{author}{2}{}{%
@@ -2012,48 +1930,6 @@
       \field{title}{Comprehensive study of recycling of thermosetting polymer composites– Driving force, challenges and methods}
       \field{volume}{207}
       \field{year}{2021}
-    \endentry
-    \entry{Vaidya2018}{inbook}{}{}
-      \name{author}{2}{}{%
-        {{hash=1af6b1827402005e7799f04dd89dd038}{%
-           family={Vaidya},
-           familyi={V\bibinitperiod},
-           given={Ankur},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c9825aada8cafa690bf88360b7d20d48}{%
-           family={Pathak},
-           familyi={P\bibinitperiod},
-           given={Kamla},
-           giveni={K\bibinitperiod}}}%
-      }
-      \true{moreeditor}
-      \name{editor}{1}{}{%
-        {{hash=a2b1c2f10006159f2aff68fdcf4c3a1f}{%
-           family={Asiri},
-           familyi={A\bibinitperiod},
-           given={Abdullah},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{c32b304f7b5ed1687367f24c29649683}
-      \strng{fullhash}{c32b304f7b5ed1687367f24c29649683}
-      \strng{fullhashraw}{c32b304f7b5ed1687367f24c29649683}
-      \strng{bibnamehash}{c32b304f7b5ed1687367f24c29649683}
-      \strng{authorbibnamehash}{c32b304f7b5ed1687367f24c29649683}
-      \strng{authornamehash}{c32b304f7b5ed1687367f24c29649683}
-      \strng{authorfullhash}{c32b304f7b5ed1687367f24c29649683}
-      \strng{authorfullhashraw}{c32b304f7b5ed1687367f24c29649683}
-      \strng{editorbibnamehash}{3f486aec846bf829891eb133e458746e}
-      \strng{editornamehash}{3f486aec846bf829891eb133e458746e}
-      \strng{editorfullhash}{3f486aec846bf829891eb133e458746e}
-      \strng{editorfullhashraw}{3f486aec846bf829891eb133e458746e}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{chapter}{17}
-      \field{edition}{first}
-      \field{title}{Applications of Nanocomposite Materials in Dentistry}
-      \field{year}{2018}
     \endentry
     \entry{Xiao2015}{article}{}{}
       \true{moreauthor}
