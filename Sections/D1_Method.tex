@@ -668,11 +668,113 @@ Subsequently, engineering strain was calculated (\ref{eq:EngineeringStrain})
     \epsilon _{eng}=\frac{\Delta l_{init}}{l_{init}}=\frac{l-l_{init}}{l_{init}}
 \end{equation}
 
-\paragraph{Analysis of Stress-Strain Data}
-Figure~\ref{fig:ExampleStressStrain} shows an archetypical example of how
- stress-strain datasets were used to acquire the Young's modulus and
- yield strength.
- \noindent
+\paragraph{Stress-Strain Smoothing}
+Sample-rate reduction and filtering were applied simultaneously during the
+ downsampling of the stress-strain dataset resulting in a smoothed dataset.
+Downsampling was achieved using a windowed averaging technique, whereby
+ all the points within the unsmoothed dataset as a whole (\(p_{us}\)) was
+ split (Eq.\ref{eq:WindowDivisionOfDataset}) into a number of windows along
+ the strain-axis (\(p_{s}\)) by electing a suitable number of points per
+ window (\(p_{w}\)).
+Suitability was determined by trial-and-error within the wider experimental
+ framework but was also based on the requirement of a perfect divisibility
+ of \(p_{us}\) by \(p_{w}\).
+Given the constant size of the unsmoothed dataset (\(p_{us}=1,000\)) a
+ constant number of points per window was elected (\(p_{w}=5\)).
+\begin{equation}\label{eq:WindowDivisionOfDataset}
+    p_{s}=p_{us}/p_{w}
+\end{equation}
+Equation~\ref{eq:WindowAveraging} shows how the processs of averaging stress
+ (\(\sigma_{eng}^{i}\)) and strain (\(\epsilon_{eng}^{i}\)) values within
+ a given window yielded a single point described by it's average stress
+ (\(\overline{\sigma}_{eng}^{j}\)) and strain (\(\overline{\epsilon}_{eng}^{j}\)).
+\begin{equation}\label{eq:WindowAveraging}
+    \overline{\sigma}_{eng}^{j},\overline{\epsilon}_{eng}^{j}=\frac{\sum_{i=1}^{p_{w}}\sigma_{eng}^{i}}{p_{w}},\frac{\sum_{i=1}^{p_{w}}\epsilon_{eng}^{i}}{p_{w}}
+\end{equation}
+Averaged points from each window were assembled to form the new downsampled
+ dataset depicted in Equation~\ref{eq:SmoothedDataset}.
+\footnotesize
+\begin{equation}\label{eq:SmoothedDataset}
+    [[\overline{\sigma}_{eng}^{j},\overline{\epsilon}_{eng}^{j}],[\overline{\sigma}_{eng}^{j+1},\overline{\epsilon}_{eng}^{j+1}],...,[\overline{\sigma}_{eng}^{p_{s}},\overline{\epsilon}_{eng}^{p_{s}}]]
+\end{equation}
+\normalsize
+Figure~\ref{fig:AverageSmoothing} demonstrates the efficacy of this
+ technique in removing noise from the unsmoothed stress-strain dataset.
+\noindent
+\begin{minipage}{0.485\textwidth}
+    \includegraphics[width=\textwidth]{AverageSmoothing.jpg}
+    \captionsetup{format=custom,width=\textwidth,skip=0pt}
+    \captionof{figure}{
+        \footnotesize{
+            Multi-scale depiction of the stress-strain dataset before
+            and after downscaling.
+            (A) Overview line plot.
+            (B) Zoomed scatter plot.
+        }
+    }
+    \label{fig:AverageSmoothing}
+\end{minipage}
+
+\paragraph{Derivative Analysis}
+The proportional limit may be defined as the stress at which a material
+ fails to abide by Hooke's law (e.g. stress fails to proportionally rise
+ with strain)- the gradient of the preceding elastic region of deformation
+ being equal to the Young's modulus.
+Given the material's unreliability in producing stress-strain curves with
+ an obvious linear region, the limit of proportionality was equated to the
+ point at which the stress-strain curve began to level-off (i.e. the first
+ point of inflection).
+To find this inflection point, the first derivative of stress with respect
+ to strain (tangent modulus \(E_{t}\) in \unit{\mega\pascal}) was calculated
+ from the smoothed stress-strain dataset (Eq.\ref{eq:TangentModulus}) by
+ taking into account the instantaneous change in both stress (\(\Delta
+ \sigma_{eng}\)) and strain (\(\Delta \epsilon_{eng}\)).
+
+\begin{equation}\label{eq:TangentModulus}
+    E_{t}=\frac{\Delta \sigma_{eng}}{\Delta \epsilon_{eng}}=\frac{\sigma_{eng}^{j+1}-\sigma_{eng}^{j}}{\epsilon_{eng}^{j+1}-\epsilon_{eng}^{j}}
+\end{equation}
+
+Figure~\ref{fig:DerivativeComparison} shows how smoothing of the 
+ stress-strain dataset facilitated the analysis of the resultant tangent
+ modulus versus strain dataset.
+Note that markedly step-like behaviour in the raw stress-strain data
+ (Fig.\ref{fig:DerivativeComparison}) was an artifact of an unknown
+ processing step applied by the universal test machine's proprietary
+ software.
+
+\noindent
+\begin{minipage}{0.485\textwidth}
+    \includegraphics[width=\textwidth]{DerivativeComparison.jpg}
+    \captionsetup{format=custom,width=\textwidth,skip=0pt}
+    \captionof{figure}{
+        \footnotesize{
+            A comparison of the tangent modulus vs strain curves obtained
+            from both the raw and the smoothed counterpart stress-strain
+            datasets.
+            (A) Strain at first inflection point.
+        }
+    }
+    \label{fig:DerivativeComparison}
+\end{minipage}
+
+Detection of the first inflection point was automated using a simple
+ algorithm that iterated chronologically through the tangent modulus versus
+ strain dataset from low strains to high.
+At each point the algorithm would calculate an average gradient exhibited
+ by an equal number of points both ahead and behind (the 'point horizon')
+ the current strain value; cessation and return of the current strain was
+ enacted on reaching a point at which summed gradient ahead and behind
+ fell below a threshold of zero.
+Figure~\ref{fig:DerivativeComparison}A shows how a point horizon of 10 was
+ used to identify the first inflection point, and therewith the strain at
+ which the limit of proportionality had been reached.
+
+\paragraph{Objective Retrieval}
+By re-considering the smoothed stress-strain dataset, the point with the
+ closest proximity to the proportional limit's determined strain value was
+ equated to the first inflection point: the proportional limit
+ (Fig.\ref{fig:ExampleStressStrain}A).
+\noindent
 \begin{minipage}{0.485\textwidth}
     \includegraphics[width=\textwidth]{ExampleStressStrain.jpg}
     \captionsetup{format=custom,width=\textwidth,skip=0pt}
@@ -686,25 +788,153 @@ Figure~\ref{fig:ExampleStressStrain} shows an archetypical example of how
     }
     \label{fig:ExampleStressStrain}
 \end{minipage}
-A simple algorithm was implemented to locate the first inflection point
- (Fig.\ref{fig:ExampleStressStrain}:A), whereafter a tangent was fitted
- and the rise (Fig.\ref{fig:ExampleStressStrain}:\(\sigma _{eng}^{A}\)) and
- run (Fig\ref{fig:ExampleStressStrain}:\(\epsilon _{eng}^{A}\)) used to find
- the gradient.
-Equation~\ref{eq:YoungsModulusCalculation} reveals that finding this
- gradient is analagous to finding the Young's modulus (\(E\) in
- \unit{\mega\pascal}) for the sample \cite{Horwood2023}.
+
+As shown in Figure~\ref{fig:ExampleStressStrain}, a polynomial was fit to
+ the ten points preceding the proportional limit; allowing approximation of
+ Young's modulus (\(E\) in \unit{\mega\pascal}) from the change in stress
+ (Fig.\ref{fig:ExampleStressStrain}: \(\Delta \sigma _{eng}^{A}\)) and strain
+ (Fig\ref{fig:ExampleStressStrain}: \(\Delta \epsilon _{eng}^{A}\)) in
+ accordance with Equation~\ref{eq:YoungsModulusCalculation}
+ \cite{Horwood2023}.
+Outputted Young's moduli were negative given the compresive nature
+ of the dataset, but were naturally taken as absolute values.
+ 
 \begin{equation}\label{eq:YoungsModulusCalculation}
-    E=\frac{\sigma_{eng}}{\epsilon_{eng}}=\frac{\sigma _{eng}^{A}}{\epsilon _{eng}^{A}}
+    E=\frac{\sigma_{eng}}{\epsilon_{eng}}=\frac{\Delta \sigma _{eng}^{A}}{\Delta \epsilon _{eng}^{A}}
 \end{equation}
+
 Based on it's common definition (``the stress at which a material begins to
  behave in a plastic fashion''), this work defined
  (Eq.\ref{eq:YieldStrengthDefinition}) the yield strength (\(\sigma_{y}\)
  in \unit{\mega\pascal}) as the stress required to reach the second
- inflection point (Fig.\ref{fig:ExampleStressStrain}:B) \cite{Vaidya2018}.
+ inflection point (Fig.\ref{fig:ExampleStressStrain}B) as visualised
+ by \(\sigma_{eng}^{B}\) in Figure~\ref{fig:ExampleStressStrain}
+ \cite{Vaidya2018}.
+
 \begin{equation}\label{eq:YieldStrengthDefinition}
     \sigma_{y}=\sigma_{eng}^{B}
 \end{equation}
 
-% ========================================================================
+Since the samples tested consistently produced similar stress-strain curves
+ to that depicted in Figure~\ref{fig:ExampleStressStrain}, the second
+ inflection point was trivially located searching the stress-strain dataset
+ for the point exhibiting the highest stress value; the sample's yield or
+ break strength.
+
+ % ========================================================================
 \subsection{Optimisation}
+As described above, three predictors controlled the composition of samples:
+ the unsaturated polyester content ratio (\(x_{1}\)), the dibenzoyl peroxide
+ content modifier (\(x_{2}\)) and the initiating agent content modifier
+ (\(x_{3}\)).
+These three predictors and their ranges formed a d-dimensional (\(d=3\))
+ parameter space (\(A\)) which is a subset of the entire real coordinate
+ space (\(A\subseteq \mathbb{R}^{d}\)).
+This parameter space was explored by the sequential optimisation techniques,
+ with the objective variables including Young's modulus (\(E\)) and yield
+ strength (\(\sigma_{y}\)).
+
+Three different optimisation procedures were carried out from the same
+ initial prior dataset: two were single-objective Bayesian routines with
+ differing objectives, whilst the third was a purely exploratory method
+ which was objective-indifferent.
+A fourth multi-objective Bayesian optimisation routine incorporating both
+ the objectives previously considered was carried out using a combination of
+ the original prior dataset and all data generated by the three sequential
+ optimisations.
+
+\paragraph{Single-Objective}
+Optimisation problems were based on black-box functions \(f\) which
+ took any point within the parameter space \(A\) and returned a real-valued
+ target \(\mathbb{R}\); this being a mapping between the two respective
+ spaces (\(f:A\rightarrow \mathbb{R}\)).
+Equation~\ref{eq:GoverningOptimisation} describes optimisation as the
+ maximisation of the black-box function by tuning the predictor variable
+ values (\(\mathbf{x}=[x_{1},x_{2},x_{3}]\)) such that the global optimum
+ set of predictors (\(\mathbf{x}^{*}=[x_{1}^{*},x_{2}^{*},x_{3}^{*}]\)) is
+ sought.
+
+\begin{equation}\label{eq:GoverningOptimisation}
+    \mathbf{x}^{*}=\argmaxA_{\mathbf{x}\in A} f([x_{1},x_{2},x_{3}])
+\end{equation}
+
+Equation~\ref{eq:SOBOProblems} describes the two black-box functions which
+ were separately maximised during the course of the single-objective
+ optimisations; the former \(f_{1}\) and latter \(f_{2}\) considering
+ Young's modulus \(E\) and yield strength \(\sigma_{y}\) as target variables
+ respectively.
+
+\begin{equation}\label{eq:SOBOProblems}
+    \begin{split}
+        &E=f_{1}(\mathbf{x})\\
+        &\sigma_{y}=f_{2}(\mathbf{x})
+    \end{split}
+\end{equation}
+
+Eight vectors of predictor variables, each corresponding to a sample (\(i\)),
+ were representatively drawn by Sobol sampling from across the parameter
+ space \(A\) forming an initial matrix of predictors (\(\mathbf{X}\)); the
+ matrix's form is presented in Equation~\ref{eq:MatrixOfPredictors}.
+
+\begin{equation}\label{eq:MatrixOfPredictors}
+    \begin{split}
+        \mathbf{X}=&[\mathbf{x}^{i=1},\mathbf{x}^{i=2},...,\mathbf{x}^{i=8}]\\
+        =&[[x_{1}^{i=1},x_{2}^{i=1},x_{3}^{i=1}],[x_{1}^{i=2},...],...]
+    \end{split}
+\end{equation}
+
+Evaluation of all the vectors of the predictor matrix (\(f_{1}(\mathbf{X})\)
+ or \(f_{2}(\mathbf{X})\)) generated a vector of targets (\(\mathbf{E}\) or
+ \(\bm{\sigma_{y}}\)).
+Combination of the initial predictor matrix \(\mathbf{X}\) and the
+ corresponding targets \(f(\mathbf{X})\) produced an initial dataset
+ (\(\mathbb{D}=[\mathbf{X},f(\mathbf{X})]\)) with which sequential
+ optimisation experiments were begun.
+During the course of a sequential optimisation experiment, 16 further samples
+ were drawn from across the parameter space \(A\), with one sample taken per
+ iteration; each sample's predictor vector \(\mathbf{x}\) and function
+ evaluation \(f(\mathbf{x})\) was appended to the growing dataset
+ \(\mathbb{D}\) associated with that experiment.
+At each iteration the Bayesian experiments strove to balance exploration and
+ exploitation during selection of sample composition within the parameter
+ space, whilst the benchmark deterministic experiment solely focussed upon
+ exploration.
+ 
+Bayesian optimisation involved an iterative process of developing a surrogate
+ model approximating the latent objective function based on the available
+ dataset \(\mathbb{D}\), using an acquisition function to evaluate
+ candidate suitability and selection of a new sample \(\mathbf{x}_{i}\), and
+ finally evaluation of a sample followed by incorporation of the resultant
+ target scalar \(\sigma_{y}^{i}\) and predictor vector \(\mathbf{x}^{i}\)
+ into the growing dataset \(\mathbb{D}\).
+On updating the dataset \(\mathbb{D}\), Gaussian process regression was used
+ to develop a Gaussian process regression model \(\mathcal{GP}\) which can
+ be considered a distribution over possible functions
+ (\(f(\mathbf{x})\sim \mathcal{GP}(m(\mathbf{x}),K(\mathbf{x},\mathbf{x}'))\))
+ fully described by both it's mean (\(m\)) and covariance (\(K\)) functions.
+
+In the
+
+This work employed the Matérn class of covariance function and set the
+ smoothness parameter
+
+ 
+This work employed the Matérn class of covariance function with a smoothness
+ parameter set to 5/2
+
+
+A new sample is selected by sobol sampling to generate a large random set of
+ candidates across the entire parameter space, 
+
+ By generating a random set of candidate points 
+
+
+
+
+
+
+
+
+
+% \paragraph{Multi-Objective}
+% [EXPLAIN THE MULTI-OBJECTIVE TECHNIQUE BREIFLY]
