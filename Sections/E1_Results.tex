@@ -1,1 +1,156 @@
 \section{Results}
+All results stem from the datasets generated during the practical-application
+ of Bayesian optimisation in the domain of thermoset composite property
+ development.
+Practical experimental results were split into those derived from the two
+ single-objective experiments and the singular multi-objective optimisation.
+Computational results centre on the re-analysis of datasets to ascertain
+ the efficacy of the techniques applied.
+
+\subsection{Single-Objective Experiments}
+Differing between the two single-objective Bayesian optimisation experiments
+ devised was the objective variable considered by the Bayesian sequential
+ sampler, which was either Young's modulus \(E\) or yield
+ strength \(\sigma_{y}\).
+Initial Gaussian process priors developed for both experiments were trained
+ on the same eight quasirandomly sampled (Sobol) points \(\mathbf{X}\) (from
+ across the parameter space \(\mathcal{X}\)) and their evaluations
+ \(\mathbf{Y}\).
+Both experiments proceeded sequentially with a single sample evaluated at 
+ each Bayesian iteration, the sample limit was set to 24 (including the
+ prior-forming dataset), and the optimisation was one of objective metric
+ maximisation.
+
+An objective-naive sequential sampling technique (``MIPT'') was used to
+ sample in a purely exploratory fashion, which provided a benchmark
+ against which Bayesian optimisation routine progression was gauged.
+Given it's objective-naivety, purely exploratory nature, and the fact that
+ it was initiated on the same prior-forming dataset as the Bayesian routines,
+ the MIPT routine was only run once (samples having both Young's
+ modulus and yield strength evaluated); the resultant dataset could be
+ directly compared with both the Bayesian sequential routines.
+
+\subsubsection{Young's Modulus Experiment}
+Figure~\ref{fig:OptProgYM} compares the optimisation progression of both
+ Bayesian and exploratory sequential routines in the maximisation of
+ Young's modulus.
+The one-shot quasirandomly-sampled initial dataset provided a baseline
+ maximum of 4274~\unit{\mega\pascal} and a mean of 3052~\unit{\mega\pascal}.
+On reaching the sample limit, the Bayesian technique had exceeded both these
+ baselines (max 5012~\unit{\mega\pascal}, mean 3396~\unit{\mega\pascal})
+ whilst the exploratory sampler only exceeded the maximum baseline
+ (max 4851~\unit{\mega\pascal}, mean 3046~\unit{\mega\pascal}).
+Although the Bayesian routine ultimately discovered a sample exhibiting the
+ highest Young's modulus within this experiment, it is interesting that the
+ exploratory routine discovered a greater number of points surpassing the
+ baseline maximum set by the initial dataset.
+The exploratory sampling routine was the first to locate a sample improving
+ upon the baseline maximum; this was it's 15\textsuperscript{th}
+ sample with a Young's modulus of 4851~\unit{\mega\pascal}.
+Subsequently, on it's 17\textsuperscript{th} sample, the Bayesian routine
+ discovered the experiments highest Young's modulus of
+ 5012~\unit{\mega\pascal}.
+
+\noindent
+\begin{minipage}{0.485\textwidth}
+    \includegraphics[width=\textwidth]{SOBO-YM-Progression.png}
+    \captionsetup{format=custom,width=\textwidth,skip=0pt}
+    \captionof{figure}{
+        \footnotesize{
+            Progression of a sequential optimisation experiment concerning
+            the maximisation of Young's modulus.
+        }
+    }
+    \label{fig:OptProgYM}
+\end{minipage}
+
+\subsubsection{Yield Point Experiment}
+Figure~\ref{fig:OptProgYS} compares optimisation progression of both the
+ Bayesian and exploratory sequential routines with respect to the
+ maximisation of the yield point.
+The one-shot quasirandomly-sampled initial dataset provided a baseline
+ maximum of 137~\unit{\mega\pascal} and a mean of 123~\unit{\mega\pascal}.
+On reaching the sample limit, the Bayesian technique had surpassed the
+ baseline maximum (143~\unit{\mega\pascal}) and remained level with respect
+ to the mean (123~\unit{\mega\pascal}), whilst the exploratory routine
+ had surpassed the baseline maximum (140~\unit{\mega\pascal}) and failed to
+ improve upon the baseline mean (118~\unit{\mega\pascal}).
+In this experiment both the Bayesian and exploratory routines discovered the
+ same number of points surpassing the baseline maximum, although the
+ Bayesian technique ultimately uncovered the sample with the highest yield
+ strength.
+The exploratory sampling technique was the first to discover a point
+ improving upon the maximum baseline; with this happening on it's
+ 15\textsuperscript{th} sample with a yield strength of
+ 140~\unit{\mega\pascal}.
+Subsequently, the Bayesian sequential technique improves upon the maximum
+ baseline on it's 18\textsuperscript{th} sample (140~\unit{\mega\pascal})
+ and surpasses the exploratory routine on the 21\textsuperscript{st} sample
+ with a final yield strength of 143~\unit{\mega\pascal}.
+
+\noindent
+\begin{minipage}{0.485\textwidth}
+    \includegraphics[width=\textwidth]{SOBO-YS-Progression.png}
+    \captionsetup{format=custom,width=\textwidth,skip=0pt}
+    \captionof{figure}{
+        \footnotesize{
+            Progression of a sequential optimisation experiment concerning
+            the maximisation of yield strength.
+        }
+    }
+    \label{fig:OptProgYS}
+\end{minipage}
+
+\subsubsection{Cross-Comparison}
+In both single-objective optimisation experiments the Bayesian sequential
+ routines outperformed the exploratory sampling routine in terms of
+ discovery of samples approaching a global maximum within the alotted
+ sample limit.
+Bayesian techniques draw benefit from adaptive sampling based on the
+ balancing of exploitative and exploratory behaviour, the former exhibited
+ clearly in the upward/constant trends shown by the Bayesian running means
+ seen in both Figures~\ref{fig:OptProgYM}\&\ref{fig:OptProgYS}.
+These results would support the hypothesis that the Bayesian sampling
+ routine was more effective in maximising the objective property during the
+ course of a sequential optimisation, but would need supporting with repeat
+ experiments of either a physical or computational nature given the slim
+ margins of improvement over the explorational technique in both experiments.
+
+In both experiments we saw the exploratory sampling routine outperform the
+ Bayesian technique in terms of sample efficiency: the exploratory technique
+ improved upon the baseline maxima (\(E=4274\)~\unit{\mega\pascal} and
+ \(\sigma_{y}=137\)~\unit{\mega\pascal}) of both experiments on drawing it's
+ 15\textsuperscript{th} sample for evaluation (\(E=4851\) and
+ \(\sigma_{y}=140\)).
+The fact that this occurred on the 15\textsuperscript{th} sample for both
+ experiments is trivially explained since this was the same exploratory
+ routine being performed (i.e. the same samples being evaluated upon
+ different target variables) and the especially well-performing
+ 15\textsuperscript{th} sample was simply displaying it's evaluated
+ properties in both experimental progressions; these circumstances almost
+ come to pass a second time with respect to the 20\textsuperscript{th}
+ sample drawn by the exploratory sampler.
+A hypothesis that the exploratory sampler more efficiently improves upon
+ the baseline maximum than the Bayesian routine would be weakly supported
+ by the above findings given that both circumstances were precipitated from
+ the same data point, but further repeat studies in the physical or
+ computational domain would aid in the supporting or negating this
+ conjecture.
+
+\subsection{Multi-Objective Experiment}
+In the multi-objective optimisation both the different objective variables
+ were considered simultaneously.
+
+In the multi-objective setting a Bayesian optimisation routine was
+
+ \noindent
+\begin{minipage}{0.485\textwidth}
+    \includegraphics[width=\textwidth]{MOBO-Progression.png}
+    \captionsetup{format=custom,width=\textwidth,skip=0pt}
+    \captionof{figure}{
+        \footnotesize{
+            Multi-Objective Bayesian optimisation routine and results.
+        }
+    }
+    \label{fig:OptMO}
+\end{minipage}

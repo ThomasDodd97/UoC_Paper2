@@ -78,6 +78,41 @@
       \field{pages}{59\bibrangedash 70}
       \range{pages}{12}
     \endentry
+    \entry{Ament2025}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=23dfcb95a520edd4b50ca85d8096e732}{%
+           family={Ament},
+           familyi={A\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea99d5178d186f7517842d0aff517712}
+      \strng{fullhash}{ea99d5178d186f7517842d0aff517712}
+      \strng{fullhashraw}{ea99d5178d186f7517842d0aff517712}
+      \strng{bibnamehash}{ea99d5178d186f7517842d0aff517712}
+      \strng{authorbibnamehash}{ea99d5178d186f7517842d0aff517712}
+      \strng{authornamehash}{ea99d5178d186f7517842d0aff517712}
+      \strng{authorfullhash}{ea99d5178d186f7517842d0aff517712}
+      \strng{authorfullhashraw}{ea99d5178d186f7517842d0aff517712}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Unexpected Improvements to Expected Improvement for Bayesian Optimization}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2310.20708
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2310.20708
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2310.20708
+      \endverb
+    \endentry
     \entry{Aziz2005}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -454,6 +489,35 @@
       \field{pages}{612\bibrangedash 616}
       \range{pages}{5}
     \endentry
+    \entry{Crombecq2011}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b71f6f40b8b48748720a9f75eac618a8}{%
+           family={Crombecq},
+           familyi={C\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{fullhash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{fullhashraw}{58e50b00d2930f6d031fb9c197717660}
+      \strng{bibnamehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authorbibnamehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authornamehash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authorfullhash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{authorfullhashraw}{58e50b00d2930f6d031fb9c197717660}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{title}{Efficient space-filling and non-collapsing sequential design strategies for simulation-based models}
+      \field{volume}{214}
+      \field{year}{2011}
+      \field{pages}{683\bibrangedash 696}
+      \range{pages}{14}
+    \endentry
     \entry{Dai2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -557,6 +621,44 @@
       \verb https://ourworldindata.org/plastic-pollution
       \endverb
     \endentry
+    \entry{Daulton2021}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=98dbdb3dd07bb31f09d3dd6840db66ed}{%
+           family={Daulton},
+           familyi={D\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{fullhash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{fullhashraw}{73c95a343a113414b5c2c797b30fca52}
+      \strng{bibnamehash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{authorbibnamehash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{authornamehash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{authorfullhash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{authorfullhashraw}{73c95a343a113414b5c2c797b30fca52}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Retrieved 1st October 2025}
+      \field{title}{Parallel Bayesian Optimization of Multiple Noisy Objectives with Expected Hypervolume Improvement}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2105.08195
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2105.08195
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2105.08195
+      \endverb
+    \endentry
     \entry{Eriksson2009}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -655,6 +757,37 @@
       \field{title}{Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes, sive, Solutio problematis isoperimetrici latissimo sensu accepti}
       \field{year}{1744}
     \endentry
+    \entry{Facebook2025}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=d85544fce402c7a2a96a48078edaf203}{%
+           family={Facebook},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhashraw}{d85544fce402c7a2a96a48078edaf203}
+      \strng{bibnamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorbibnamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authornamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorfullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorfullhashraw}{d85544fce402c7a2a96a48078edaf203}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{9}
+      \field{title}{Ax}
+      \field{version}{1.1.2}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/facebook/Ax
+      \endverb
+      \verb{url}
+      \verb https://github.com/facebook/Ax
+      \endverb
+    \endentry
     \entry{Felthouse2001}{inbook}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -720,6 +853,32 @@
       \verb{url}
       \verb https://arxiv.org/abs/1807.02811
       \endverb
+    \endentry
+    \entry{Garnett2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=eaf84e3fe4f887967dc3d793d28b9e94}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhashraw}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{bibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{authorfullhashraw}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Optimization}
+      \field{year}{2023}
     \endentry
     \entry{Geyer2017}{article}{}{}
       \true{moreauthor}
@@ -850,6 +1009,39 @@
       \field{title}{Microplastic Pollution Prevention- The Need for Robust Policy Interventions to Close the Loopholes in Current Waste Management Practices}
       \field{volume}{20}
       \field{year}{2023}
+    \endentry
+    \entry{HojlundDodd2025}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=37869c8d000b76d8a5494d7fcad1aca5}{%
+           family={Højlund-Dodd},
+           familyi={H\bibinithyphendelim D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{fullhash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{fullhashraw}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{bibnamehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authorbibnamehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authornamehash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authorfullhash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{authorfullhashraw}{37869c8d000b76d8a5494d7fcad1aca5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{9}
+      \field{title}{BO4ACST}
+      \field{version}{1.0.0}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ThomasDodd97/BO4ACST_Ax1
+      \endverb
+      \verb{url}
+      \verb https://github.com/ThomasDodd97/BO4ACST_Ax1
+      \endverb
     \endentry
     \entry{Horwood2023}{inbook}{}{}
       \name{author}{2}{}{%
@@ -1578,6 +1770,39 @@
       \field{pages}{1206\bibrangedash 1215}
       \range{pages}{10}
     \endentry
+    \entry{MetaPytorch2025B}{software}{}{}
+      \name{author}{1}{}{%
+        {{hash=5fcaf3c3b8731cecd235cd8ba5221d9b}{%
+           family={PyTorch},
+           familyi={P\bibinitperiod},
+           given={Meta},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{fullhash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{fullhashraw}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{bibnamehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{authorbibnamehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{authornamehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{authorfullhash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{authorfullhashraw}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{10}
+      \field{title}{botorch}
+      \field{version}{0.15.1}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/meta-pytorch/botorch
+      \endverb
+      \verb{url}
+      \verb https://github.com/meta-pytorch/botorch
+      \endverb
+    \endentry
     \entry{Ricciardi2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1754,6 +1979,40 @@
       \field{pages}{89\bibrangedash 96}
       \range{pages}{8}
     \endentry
+    \entry{Snoek2012}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b9d827c94405733235f3f953a0691fd5}{%
+           family={Snoek},
+           familyi={S\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{fullhash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{fullhashraw}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{bibnamehash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{authorbibnamehash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{authornamehash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{authorfullhash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{authorfullhashraw}{ed6793cb5ec5e5b336b96236df5b354f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{year}{2012}
+      \verb{eprint}
+      \verb 1206.2944
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1206.2944
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1206.2944
+      \endverb
+    \endentry
     \entry{Sollka2020}{article}{}{}
       \name{author}{2}{}{%
         {{hash=069239e2a6727fe2cf4bb1f0afe49155}{%
@@ -1840,6 +2099,44 @@
       \field{labeltitlesource}{title}
       \field{title}{Manual of Steel Construction- Allowable Stress Design}
       \field{year}{1989}
+    \endentry
+    \entry{Stein1999}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f64d55d91346ce867701b1ed2c823d74}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f64d55d91346ce867701b1ed2c823d74}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{fullhash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{fullhashraw}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{bibnamehash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{authorbibnamehash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{authornamehash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{authorfullhash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{authorfullhashraw}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{editorbibnamehash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{editornamehash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{editorfullhash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{editorfullhashraw}{f64d55d91346ce867701b1ed2c823d74}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Interpolation of Spatial Data}
+      \field{year}{1999}
     \endentry
     \entry{Takasuka2024}{article}{}{}
       \true{moreauthor}
