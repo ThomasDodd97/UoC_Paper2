@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  8 OCT 2025 08:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  11 OCT 2025 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -737,20 +737,20 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -799,18 +799,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 66.
-Package biblatex Info: Reference segment=0 on input line 66.
+Package biblatex Info: Reference section=0 on input line 67.
+Package biblatex Info: Reference segment=0 on input line 67.
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 66.
-Package gensymb Info: Math companion symbols declared on input line 66.
-LaTeX Info: Redefining \degree on input line 66.
-LaTeX Info: Redefining \celsius on input line 66.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 66.
-LaTeX Info: Redefining \ohm on input line 66.
-Package gensymb Info: Using \textohm for \ohm on input line 66.
-Package gensymb Info: Using \textmu for \micro on input line 66.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 67.
+Package gensymb Info: Math companion symbols declared on input line 67.
+LaTeX Info: Redefining \degree on input line 67.
+LaTeX Info: Redefining \celsius on input line 67.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 67.
+LaTeX Info: Redefining \ohm on input line 67.
+Package gensymb Info: Using \textohm for \ohm on input line 67.
+Package gensymb Info: Using \textmu for \micro on input line 67.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count477
@@ -837,34 +837,34 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 66.
-LaTeX Info: Redefining \microtypecontext on input line 66.
-Package microtype Info: Applying patch `item' on input line 66.
-Package microtype Info: Applying patch `toc' on input line 66.
-Package microtype Info: Applying patch `eqnum' on input line 66.
-Package microtype Info: Applying patch `footnote' on input line 66.
-Package microtype Info: Applying patch `verbatim' on input line 66.
-LaTeX Info: Redefining \microtypesetup on input line 66.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 67.
+LaTeX Info: Redefining \microtypecontext on input line 67.
+Package microtype Info: Applying patch `item' on input line 67.
+Package microtype Info: Applying patch `toc' on input line 67.
+Package microtype Info: Applying patch `eqnum' on input line 67.
+Package microtype Info: Applying patch `footnote' on input line 67.
+Package microtype Info: Applying patch `verbatim' on input line 67.
+LaTeX Info: Redefining \microtypesetup on input line 67.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 66.
+LaTeX Info: Redefining \showhyphens on input line 67.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (./Sections/A1_Title.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -878,16 +878,7 @@ File: Images/SimpleDMIReactionScheme.png Graphic file (type png)
 Package pdftex.def Info: Images/SimpleDMIReactionScheme.png  used on input line 93.
 (pdftex.def)             Requested size: 452.96793pt x 96.71944pt.
  [4]
-
-Package siunitx Warning: Unit macro \bar has been deprecated in this release.
-(siunitx)                
-(siunitx)                The BIPM have removed this unit from the SI Brochure.
-(siunitx)                You should define it yourself using \DeclareSIUnit in
-(siunitx)                your source. The current definition is
-(siunitx)                
-(siunitx)                \DeclareSIUnit\bar{bar}
-
-<Images/SynthesisRigDMI_Lettered.png, id=24, 418.56375pt x 735.74875pt>
+<Images/SynthesisRigDMI_Lettered.png, id=23, 418.56375pt x 735.74875pt>
 File: Images/SynthesisRigDMI_Lettered.png Graphic file (type png)
 <use Images/SynthesisRigDMI_Lettered.png>
 Package pdftex.def Info: Images/SynthesisRigDMI_Lettered.png  used on input line 134.
@@ -983,38 +974,60 @@ Underfull \hbox (badness 5388) in paragraph at lines 10--10
 []\OT1/cmr/bx/n/14.4 (+20) Single-Objective Ex-per-i-
  []
 
-[18]
-<Images/SOBO-YM-Progression.png, id=103, 289.08pt x 289.08pt>
+<Images/SOBO-YM-Progression.png, id=100, 289.08pt x 289.08pt>
 File: Images/SOBO-YM-Progression.png Graphic file (type png)
 <use Images/SOBO-YM-Progression.png>
-Package pdftex.def Info: Images/SOBO-YM-Progression.png  used on input line 56.
+Package pdftex.def Info: Images/SOBO-YM-Progression.png  used on input line 55.
 (pdftex.def)             Requested size: 219.68971pt x 219.68983pt.
+
+Underfull \hbox (badness 5288) in paragraph at lines 34--69
+\OT1/cmr/m/n/12 (+20) Figure 11[] com-pares the op-ti-mi-sa-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--69
+[]$
+ []
+
+[18]
 <Images/SOBO-YS-Progression.png, id=104, 289.08pt x 289.08pt>
 File: Images/SOBO-YS-Progression.png Graphic file (type png)
 <use Images/SOBO-YS-Progression.png>
-Package pdftex.def Info: Images/SOBO-YS-Progression.png  used on input line 93.
+Package pdftex.def Info: Images/SOBO-YS-Progression.png  used on input line 96.
 (pdftex.def)             Requested size: 219.68971pt x 219.68983pt.
  [19 <./Images/SOBO-YM-Progression.png> <./Images/SOBO-YS-Progression.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\OT1/cmr/bx/n/14.4 (+20) Multi-Objective Ex-per-i-
  []
 
-<Images/MOBO-Progression.png, id=111, 289.08pt x 289.08pt>
+[20]
+<Images/MOBO-Progression.png, id=114, 289.08pt x 289.08pt>
 File: Images/MOBO-Progression.png Graphic file (type png)
 <use Images/MOBO-Progression.png>
-Package pdftex.def Info: Images/MOBO-Progression.png  used on input line 148.
+Package pdftex.def Info: Images/MOBO-Progression.png  used on input line 196.
+(pdftex.def)             Requested size: 219.68971pt x 219.68983pt.
+ [21 <./Images/MOBO-Progression.png>]
+<Images/MOBO-ConditionalMatrix.png, id=119, 867.24pt x 433.62pt>
+File: Images/MOBO-ConditionalMatrix.png Graphic file (type png)
+<use Images/MOBO-ConditionalMatrix.png>
+Package pdftex.def Info: Images/MOBO-ConditionalMatrix.png  used on input line 266.
+(pdftex.def)             Requested size: 452.96793pt x 226.48279pt.
+<Images/MOBO-SampleCompositions.png, id=120, 289.08pt x 289.08pt>
+File: Images/MOBO-SampleCompositions.png Graphic file (type png)
+<use Images/MOBO-SampleCompositions.png>
+Package pdftex.def Info: Images/MOBO-SampleCompositions.png  used on input line 314.
 (pdftex.def)             Requested size: 219.68971pt x 219.68983pt.
 ) (./Sections/F1_Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 146--1
+Underfull \hbox (badness 10000) in paragraph at lines 312--1
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--1
+Underfull \hbox (badness 10000) in paragraph at lines 312--1
 
  []
 
-) (./Sections/G1_Bibliography.tex
+[22 <./Images/MOBO-SampleCompositions.png>]) (./Sections/G1_Bibliography.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1024,7 +1037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 []\OT1/cmr/m/n/12 (+20) Sharifah Aziz et al. \  Mod-i-fied
  []
 
-[20 <./Images/MOBO-Progression.png>]
+[23 <./Images/MOBO-ConditionalMatrix.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 []\OT1/cmr/m/n/12 (+20) John Cowie et al. \  Poly(alkyl
  []
@@ -1039,14 +1052,30 @@ Underfull \hbox (badness 7203) in paragraph at lines 2--2
 []\OT1/cmr/m/n/12 (+20) Samuel Daulton et al. \OT1/cmr/m/it/12 (+20) Par-al-lel
  []
 
-[21]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
 \OT1/cmr/m/n/12 (+20) Ver-sion 1.0.0. Sept. 27, 2025.
  []
 
-[22] [23] [24])
+[25] [26]) (./Sections/H1_Appendix.tex [27]
+<Images/SOBO-YM-Progression-STY.png, id=144, 289.08pt x 289.08pt>
+File: Images/SOBO-YM-Progression-STY.png Graphic file (type png)
+<use Images/SOBO-YM-Progression-STY.png>
+Package pdftex.def Info: Images/SOBO-YM-Progression-STY.png  used on input line 17.
+(pdftex.def)             Requested size: 219.68971pt x 219.68983pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 15--77
+$[]$
+ []
 
-[25] (./main.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--77
+
+ []
+
+
+
+[28 <./Images/SOBO-YM-Progression-STY.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1056,18 +1085,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26356 strings out of 473190
- 561585 string characters out of 5715801
- 1457441 words of memory out of 5000000
- 49017 multiletter control sequences out of 15000+600000
- 592409 words of font info for 275 fonts, out of 8000000 for 9000
+ 26401 strings out of 473190
+ 563006 string characters out of 5715801
+ 1457477 words of memory out of 5000000
+ 49055 multiletter control sequences out of 15000+600000
+ 592576 words of font info for 277 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,23n,79p,1113b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (25 pages, 2879817 bytes).
+Output written on main.pdf (28 pages, 3254856 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 270 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 70210 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 70225 words of extra memory for PDF output out of 74296 (max. 10000000)
 
