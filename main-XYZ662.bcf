@@ -2482,16 +2482,6 @@
     <bcf:citekey order="80" intorder="1">Martin2006</bcf:citekey>
     <bcf:citekey order="81" intorder="1">Horwood2023</bcf:citekey>
     <bcf:citekey order="82" intorder="1">Vaidya2018</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">Snoek2012</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">Stein1999</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">Ament2025</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">Crombecq2011</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">Garnett2023</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">Daulton2021</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">Daulton2021</bcf:citekey>
-    <bcf:citekey order="90" intorder="1">HojlundDodd2025</bcf:citekey>
-    <bcf:citekey order="91" intorder="1">Facebook2025</bcf:citekey>
-    <bcf:citekey order="92" intorder="1">MetaPytorch2025B</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
