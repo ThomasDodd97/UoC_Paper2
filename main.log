@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  30 OCT 2025 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.22)  4 NOV 2025 09:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,16 +868,16 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <Images//SimpleDMIReactionScheme.png, id=18, 846.16125pt x 180.675pt>
 File: Images//SimpleDMIReactionScheme.png Graphic file (type png)
 <use Images//SimpleDMIReactionScheme.png>
-Package pdftex.def Info: Images//SimpleDMIReactionScheme.png  used on input line 99.
-(pdftex.def)             Requested size: 452.96793pt x 96.71944pt.
+Package pdftex.def Info: Images//SimpleDMIReactionScheme.png  used on input line 100.
+(pdftex.def)             Requested size: 407.66837pt x 87.04556pt.
  [4]
 <Images//SynthesisRigDMI_Lettered.png, id=23, 418.56375pt x 735.74875pt>
 File: Images//SynthesisRigDMI_Lettered.png Graphic file (type png)
 <use Images//SynthesisRigDMI_Lettered.png>
-Package pdftex.def Info: Images//SynthesisRigDMI_Lettered.png  used on input line 140.
+Package pdftex.def Info: Images//SynthesisRigDMI_Lettered.png  used on input line 142.
 (pdftex.def)             Requested size: 219.68971pt x 386.1616pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--190
+Underfull \hbox (badness 10000) in paragraph at lines 129--192
 []$
  []
 
@@ -885,59 +885,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--190
 <Images//FTIRComparison.png, id=36, 520.94624pt x 520.94624pt>
 File: Images//FTIRComparison.png Graphic file (type png)
 <use Images//FTIRComparison.png>
-Package pdftex.def Info: Images//FTIRComparison.png  used on input line 276.
+Package pdftex.def Info: Images//FTIRComparison.png  used on input line 278.
 (pdftex.def)             Requested size: 219.68971pt x 219.68622pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--306
+Underfull \hbox (badness 10000) in paragraph at lines 257--308
 []$
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 310.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 312.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 310.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 312.
 <Images//SimpleUPReactionScheme.png, id=37, 902.87312pt x 180.675pt>
 File: Images//SimpleUPReactionScheme.png Graphic file (type png)
 <use Images//SimpleUPReactionScheme.png>
-Package pdftex.def Info: Images//SimpleUPReactionScheme.png  used on input line 337.
-(pdftex.def)             Requested size: 452.96793pt x 90.64604pt.
+Package pdftex.def Info: Images//SimpleUPReactionScheme.png  used on input line 340.
+(pdftex.def)             Requested size: 407.66837pt x 81.58144pt.
  [7 <./Images//FTIRComparison.png>]
 <Images//SynthesisRigUP_Lettered.png, id=46, 369.38pt x 662.475pt>
 File: Images//SynthesisRigUP_Lettered.png Graphic file (type png)
 <use Images//SynthesisRigUP_Lettered.png>
-Package pdftex.def Info: Images//SynthesisRigUP_Lettered.png  used on input line 378.
+Package pdftex.def Info: Images//SynthesisRigUP_Lettered.png  used on input line 382.
 (pdftex.def)             Requested size: 219.68971pt x 394.01073pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--411
+Underfull \hbox (badness 10000) in paragraph at lines 366--415
 []$
  []
 
 [8 <./Images//SimpleUPReactionScheme.png>] [9 <./Images//SynthesisRigUP_Lettered.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []\OT1/cmr/bx/n/14.4 (+20) Unsaturated Polyester
  []
 
 <Images//CompositePreparation.png, id=55, 385.1991pt x 572.73975pt>
 File: Images//CompositePreparation.png Graphic file (type png)
 <use Images//CompositePreparation.png>
-Package pdftex.def Info: Images//CompositePreparation.png  used on input line 509.
+Package pdftex.def Info: Images//CompositePreparation.png  used on input line 513.
 (pdftex.def)             Requested size: 219.68971pt x 326.6573pt.
 [10] [11{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images//CompositePreparation.png>]
 <Images//CorrectionalMethod.jpg, id=64, 275.22826pt x 206.57175pt>
 File: Images//CorrectionalMethod.jpg Graphic file (type jpg)
 <use Images//CorrectionalMethod.jpg>
-Package pdftex.def Info: Images//CorrectionalMethod.jpg  used on input line 614.
+Package pdftex.def Info: Images//CorrectionalMethod.jpg  used on input line 618.
 (pdftex.def)             Requested size: 219.68971pt x 164.89197pt.
  [12 <./Images//CorrectionalMethod.jpg>]
 <Images//AverageSmoothing.jpg, id=68, 288.47775pt x 268.00125pt>
 File: Images//AverageSmoothing.jpg Graphic file (type jpg)
 <use Images//AverageSmoothing.jpg>
-Package pdftex.def Info: Images//AverageSmoothing.jpg  used on input line 711.
+Package pdftex.def Info: Images//AverageSmoothing.jpg  used on input line 715.
 (pdftex.def)             Requested size: 219.68971pt x 204.10016pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--723
+Underfull \hbox (badness 10000) in paragraph at lines 709--727
 \OT1/cmr/m/n/12 (+20) the un-smoothed stress-strain dataset.
  []
 
@@ -945,20 +945,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--723
 <Images//DerivativeComparison.jpg, id=78, 299.9205pt x 268.00125pt>
 File: Images//DerivativeComparison.jpg Graphic file (type jpg)
 <use Images//DerivativeComparison.jpg>
-Package pdftex.def Info: Images//DerivativeComparison.jpg  used on input line 753.
+Package pdftex.def Info: Images//DerivativeComparison.jpg  used on input line 757.
 (pdftex.def)             Requested size: 219.68971pt x 196.31401pt.
 <Images//ExampleStressStrain.jpg, id=79, 274.626pt x 211.38976pt>
 File: Images//ExampleStressStrain.jpg Graphic file (type jpg)
 <use Images//ExampleStressStrain.jpg>
-Package pdftex.def Info: Images//ExampleStressStrain.jpg  used on input line 785.
+Package pdftex.def Info: Images//ExampleStressStrain.jpg  used on input line 789.
 (pdftex.def)             Requested size: 219.68971pt x 169.10234pt.
 
-Underfull \hbox (badness 6396) in paragraph at lines 779--797
+Underfull \hbox (badness 6396) in paragraph at lines 783--801
 \OT1/cmr/m/n/12 (+20) pro-por-tional limit's de-ter-mined strain
  []
 
 [14 <./Images//DerivativeComparison.jpg> <./Images//ExampleStressStrain.jpg>] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1152
 []\OT1/cmr/m/n/12 (+20) This work adopted Daulton's re-
  []
 
@@ -1080,7 +1080,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  58i,23n,79p,1113b,1730s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (28 pages, 3257111 bytes).
+Output written on main.pdf (28 pages, 3257124 bytes).
 PDF statistics:
  270 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
