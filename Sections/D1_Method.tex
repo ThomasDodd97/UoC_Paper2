@@ -963,10 +963,10 @@ Each iteration saw the use of a one-step lookahead sampling policy utilising
 Utility quantification of a putative sample \(\mathbf{x}_{p}\) was
  calculated by the ``expected improvement'' acquisition function
  \(\alpha_{EI}\) (Equation~\ref{eq:ExpectedImprovement}) which calculates
- the marginal gain in utility (\(u(\mathbb{D'})-u(\mathcal{D})\)) between
+ the marginal gain in utility (\(u(\mathcal{D'})-u(\mathcal{D})\)) between
  the incumbent best target value in the current dataset (\(\phi^{*}\)) and
  that of a new dataset containing the putative \(\mathbf{x}_{p}\) value
- (\(u(\mathbb{D'}\))).
+ (\(u(\mathcal{D'}\))).
 The second line of Equation~\ref{eq:ExpectedImprovement} clarifies how the
  calculation is one for the expected marginal gain, whilst the third
  presents reformulation for the noiseless case; this equation exemplifies
@@ -979,7 +979,7 @@ This work practically applied a more sophisticated logged noise-aware
 \footnotesize
 \begin{equation}\label{eq:ExpectedImprovement}
     \begin{split}
-        &\alpha_{EI}(\mathbf{x}_{p},\mathcal{D})=u(\mathbb{D'})-u(\mathcal{D})\\
+        &\alpha_{EI}(\mathbf{x}_{p},\mathcal{D})=u(\mathcal{D'})-u(\mathcal{D})\\
         &=\mathbb{E}[max\,m_{\mathcal{D}'}(\mathbf{X}')]-max\,m_{\mathcal{D}}(\mathbf{X})\\
         &=\int_{\phi^{*}}^{\infty}\phi\mathcal{N}(\mu,\sigma^{2})d\phi-\phi^{*}\int_{\phi^{*}}^{\infty}\mathcal{N}(\mu,\sigma^{2})d\phi\\
     \end{split}
