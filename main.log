@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  16 JUN 2026 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.4)  16 JUN 2026 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -969,13 +969,7 @@ File: Images/CorrectionalMethod.png Graphic file (type png)
 <use Images/CorrectionalMethod.png>
 Package pdftex.def Info: Images/CorrectionalMethod.png  used on input line 533.
 (pdftex.def)             Requested size: 219.68971pt x 166.4944pt.
- [10 <./Images/CompositePreparation.png>]
-<Images/AverageSmoothing.png, id=60, 292.15147pt x 271.46419pt>
-File: Images/AverageSmoothing.png Graphic file (type png)
-<use Images/AverageSmoothing.png>
-Package pdftex.def Info: Images/AverageSmoothing.png  used on input line 593.
-(pdftex.def)             Requested size: 219.68971pt x 204.14026pt.
- [11 <./Images/CorrectionalMethod.png> <./Images/AverageSmoothing.png>]
+ [10 <./Images/CompositePreparation.png>] [11 <./Images/CorrectionalMethod.png>]
 <Images/DerivativeComparison.png, id=64, 304.61806pt x 271.55452pt>
 File: Images/DerivativeComparison.png Graphic file (type png)
 <use Images/DerivativeComparison.png>
@@ -1002,183 +996,12 @@ Underfull \hbox (badness 5388) in paragraph at lines 8--8
  []
 
 [16]
-<Images/SOBO-YM-Progression.png, id=94, 279.23322pt x 274.53566pt>
+<Images/SOBO-YM-Progression.png, id=93, 279.23322pt x 274.53566pt>
 File: Images/SOBO-YM-Progression.png Graphic file (type png)
 <use Images/SOBO-YM-Progression.png>
 Package pdftex.def Info: Images/SOBO-YM-Progression.png  used on input line 56.
 (pdftex.def)             Requested size: 219.68971pt x 216.00107pt.
-<Images/SOBO-YS-Progression.png, id=95, 277.15546pt x 276.25208pt>
+<Images/SOBO-YS-Progression.png, id=94, 277.15546pt x 276.25208pt>
 File: Images/SOBO-YS-Progression.png Graphic file (type png)
 <use Images/SOBO-YS-Progression.png>
-Package pdftex.def Info: Images/SOBO-YS-Progression.png  used on input line 96.
-(pdftex.def)             Requested size: 219.68971pt x 218.98283pt.
- [17 <./Images/SOBO-YM-Progression.png>] [18 <./Images/SOBO-YS-Progression.png>]
-<Images/SOBO-YM-Progression-STY.png, id=102, 277.78781pt x 272.90959pt>
-File: Images/SOBO-YM-Progression-STY.png Graphic file (type png)
-<use Images/SOBO-YM-Progression-STY.png>
-Package pdftex.def Info: Images/SOBO-YM-Progression-STY.png  used on input line 174.
-(pdftex.def)             Requested size: 219.68971pt x 215.83357pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]\OT1/cmr/bx/n/14.4 (+20) Multi-Objective Ex-per-i-
- []
-
-[19 <./Images/SOBO-YM-Progression-STY.png>]
-<Images/MOBO-Progression.png, id=107, 278.05882pt x 274.89702pt>
-File: Images/MOBO-Progression.png Graphic file (type png)
-<use Images/MOBO-Progression.png>
-Package pdftex.def Info: Images/MOBO-Progression.png  used on input line 244.
-(pdftex.def)             Requested size: 219.68971pt x 217.19981pt.
-<Images/MOBO-SampleCompositions.png, id=108, 296.39734pt x 292.87418pt>
-File: Images/MOBO-SampleCompositions.png Graphic file (type png)
-<use Images/MOBO-SampleCompositions.png>
-Package pdftex.def Info: Images/MOBO-SampleCompositions.png  used on input line 275.
-(pdftex.def)             Requested size: 219.68971pt x 217.081pt.
-) (./Sections/F1_Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 273--1
-$[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--1
-
- []
-
-[20 <./Images/MOBO-Progression.png> <./Images/MOBO-SampleCompositions.png>]) (./Sections/G1_Bibliography.tex
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 7740) in paragraph at lines 2--2
-[]\OT1/cmr/m/n/12 (+20) Pickering, S. Re-cy-cling tech-nolo-
- []
-
-[21]
-Underfull \hbox (badness 5652) in paragraph at lines 2--2
-\OT1/cmr/m/n/12 (+20) of com-po-si-tional space for high-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[]\OT1/cmr/m/n/12 (+20) Leonard, E. \OT1/cmr/m/it/12 (+20) Vinyl and Di-ene
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-\OT1/cmr/m/it/12 (+20) and Polyester Plas-ti-cis-ers \OT1/cmr/m/n/12 (+20) (eds
- []
-
-
-Underfull \hbox (badness 5050) in paragraph at lines 2--2
-[]\OT1/cmr/m/n/12 (+20) Podzimek, S. \OT1/cmr/m/it/12 (+20) et al. \OT1/cmr/m/n/12 (+20) Gel per-me-
- []
-
-
-Underfull \hbox (badness 7379) in paragraph at lines 2--2
-\OT1/cmr/m/n/12 (+20) from maleic an-hy-dride and 1,6-
- []
-
-
-Underfull \hbox (badness 7379) in paragraph at lines 2--2
-\OT1/cmr/m/n/12 (+20) from maleic an-hy-dride and 1,5-
- []
-
-[24]) (./Sections/H1_Supporting.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/17.28 (+20) Supporting In-for-ma-
- []
-
-<Images/SynthesisRigDMI_Lettered.png, id=125, 190.58632pt x 361.35pt>
-File: Images/SynthesisRigDMI_Lettered.png Graphic file (type png)
-<use Images/SynthesisRigDMI_Lettered.png>
-Package pdftex.def Info: Images/SynthesisRigDMI_Lettered.png  used on input line 35.
-(pdftex.def)             Requested size: 219.68971pt x 416.54175pt.
-[25] [26 <./Images/SynthesisRigDMI_Lettered.png>]
-<Images/SynthesisRigUP_Lettered.png, id=134, 179.2296pt x 361.35pt>
-File: Images/SynthesisRigUP_Lettered.png Graphic file (type png)
-<use Images/SynthesisRigUP_Lettered.png>
-Package pdftex.def Info: Images/SynthesisRigUP_Lettered.png  used on input line 177.
-(pdftex.def)             Requested size: 219.68971pt x 442.9471pt.
- [27] [28 <./Images/SynthesisRigUP_Lettered.png>]
-<Images/Sample_PPSI.png, id=142, 334.32101pt x 281.78073pt>
-File: Images/Sample_PPSI.png Graphic file (type png)
-<use Images/Sample_PPSI.png>
-Package pdftex.def Info: Images/Sample_PPSI.png  used on input line 275.
-(pdftex.def)             Requested size: 219.68971pt x 185.16751pt.
-<Images/Deconvoluted.png, id=143, 405.515pt x 378.41376pt>
-File: Images/Deconvoluted.png Graphic file (type png)
-<use Images/Deconvoluted.png>
-Package pdftex.def Info: Images/Deconvoluted.png  used on input line 300.
-(pdftex.def)             Requested size: 219.68971pt x 205.01018pt.
- [29 <./Images/Sample_PPSI.png> <./Images/Deconvoluted.png>]
-<Images/RingClosureStringModel.png, id=149, 219.58035pt x 214.6419pt>
-File: Images/RingClosureStringModel.png Graphic file (type png)
-<use Images/RingClosureStringModel.png>
-Package pdftex.def Info: Images/RingClosureStringModel.png  used on input line 329.
-(pdftex.def)             Requested size: 219.68971pt x 214.74945pt.
-<Images/OrdeltStringModel.png, id=150, 281.25075pt x 268.8444pt>
-File: Images/OrdeltStringModel.png Graphic file (type png)
-<use Images/OrdeltStringModel.png>
-Package pdftex.def Info: Images/OrdeltStringModel.png  used on input line 358.
-(pdftex.def)             Requested size: 219.68971pt x 209.99725pt.
-<Images/VolumeRodSphereModel.png, id=151, 237.64784pt x 653.44125pt>
-File: Images/VolumeRodSphereModel.png Graphic file (type png)
-<use Images/VolumeRodSphereModel.png>
-Package pdftex.def Info: Images/VolumeRodSphereModel.png  used on input line 391.
-(pdftex.def)             Requested size: 219.68971pt x 604.07472pt.
- [30 <./Images/RingClosureStringModel.png> <./Images/OrdeltStringModel.png>] [31 <./Images/VolumeRodSphereModel.png>] [32]
-File: Images/AverageSmoothing.png Graphic file (type png)
-<use Images/AverageSmoothing.png>
-Package pdftex.def Info: Images/AverageSmoothing.png  used on input line 551.
-(pdftex.def)             Requested size: 219.68971pt x 204.14026pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--563
-\OT1/cmr/m/n/12 (+20) the un-smoothed stress-strain dataset.
- []
-
-File: Images/DerivativeComparison.png Graphic file (type png)
-<use Images/DerivativeComparison.png>
-Package pdftex.def Info: Images/DerivativeComparison.png  used on input line 599.
-(pdftex.def)             Requested size: 219.68971pt x 195.84644pt.
-[33]
-<Images/MOBO-ConditionalMatrix.png, id=168, 361.35pt x 179.31993pt>
-File: Images/MOBO-ConditionalMatrix.png Graphic file (type png)
-<use Images/MOBO-ConditionalMatrix.png>
-Package pdftex.def Info: Images/MOBO-ConditionalMatrix.png  used on input line 678.
-(pdftex.def)             Requested size: 452.96793pt x 224.78687pt.
-
-
-LaTeX Warning: Reference `fig:SliceGP' on page 34 undefined on input line 694.
-
-) [34]
-
-[35 <./Images/MOBO-ConditionalMatrix.png>] (./main.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2020/03/25>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 26787 strings out of 473190
- 573229 string characters out of 5715801
- 1468559 words of memory out of 5000000
- 49396 multiletter control sequences out of 15000+600000
- 595051 words of font info for 296 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 65i,24n,102p,1113b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (35 pages, 8712258 bytes).
-PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 68212 words of extra memory for PDF output out of 74296 (max. 10000000)
-
+Package pdftex.def Info: Images/
