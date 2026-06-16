@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{Gilbert2017}{inbook}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Gilbert2017}{inbook}{}{}
       \name{author}{1}{}{%
         {{hash=6a35bd397e0680cf1f3312ee6c312871}{%
            family={Gilbert},
@@ -36,13 +36,16 @@
       }
       \strng{namehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{fullhash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{fullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{bibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{authorbibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{authornamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{authorfullhash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{authorfullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{editorbibnamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{editornamehash}{6a35bd397e0680cf1f3312ee6c312871}
       \strng{editorfullhash}{6a35bd397e0680cf1f3312ee6c312871}
+      \strng{editorfullhashraw}{6a35bd397e0680cf1f3312ee6c312871}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -52,7 +55,7 @@
       \field{title}{Brydson's Plastics Materials}
       \field{year}{2017}
     \endentry
-    \entry{OWID202507121456}{misc}{}
+    \entry{OWID202507121456}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=fde445346ee01a6c2881aca3bbca7e18}{%
            family={Data)},
@@ -72,13 +75,16 @@
       }
       \strng{namehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{fullhash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{fullhashraw}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{bibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{authorbibnamehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{authornamehash}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{authorfullhash}{fde445346ee01a6c2881aca3bbca7e18}
+      \strng{authorfullhashraw}{fde445346ee01a6c2881aca3bbca7e18}
       \strng{editorbibnamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
       \strng{editornamehash}{c3342d04ac4f2f53e15e445f4ee591b5}
       \strng{editorfullhash}{c3342d04ac4f2f53e15e445f4ee591b5}
+      \strng{editorfullhashraw}{c3342d04ac4f2f53e15e445f4ee591b5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -93,7 +99,7 @@
       \verb https://ourworldindata.org/plastic-pollution
       \endverb
     \endentry
-    \entry{Eriksson2009}{article}{}
+    \entry{Eriksson2009}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -105,10 +111,12 @@
       }
       \strng{namehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{fullhash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{fullhashraw}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{bibnamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{authorbibnamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{authornamehash}{2babd2a9c80c85ec0cf20dceda9ae327}
       \strng{authorfullhash}{2babd2a9c80c85ec0cf20dceda9ae327}
+      \strng{authorfullhashraw}{2babd2a9c80c85ec0cf20dceda9ae327}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -120,7 +128,7 @@
       \field{pages}{907\bibrangedash 914}
       \range{pages}{8}
     \endentry
-    \entry{Jagadeesh2022}{article}{}
+    \entry{Jagadeesh2022}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -132,10 +140,12 @@
       }
       \strng{namehash}{46ae79ed77d4e3b899ac0423d025637b}
       \strng{fullhash}{46ae79ed77d4e3b899ac0423d025637b}
+      \strng{fullhashraw}{46ae79ed77d4e3b899ac0423d025637b}
       \strng{bibnamehash}{46ae79ed77d4e3b899ac0423d025637b}
       \strng{authorbibnamehash}{46ae79ed77d4e3b899ac0423d025637b}
       \strng{authornamehash}{46ae79ed77d4e3b899ac0423d025637b}
       \strng{authorfullhash}{46ae79ed77d4e3b899ac0423d025637b}
+      \strng{authorfullhashraw}{46ae79ed77d4e3b899ac0423d025637b}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -148,7 +158,7 @@
       \field{pages}{5831\bibrangedash 5862}
       \range{pages}{32}
     \endentry
-    \entry{Nafea2024}{article}{}
+    \entry{Nafea2024}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -160,10 +170,12 @@
       }
       \strng{namehash}{d03eb42be7ca947a2f32c9cd35736724}
       \strng{fullhash}{d03eb42be7ca947a2f32c9cd35736724}
+      \strng{fullhashraw}{d03eb42be7ca947a2f32c9cd35736724}
       \strng{bibnamehash}{d03eb42be7ca947a2f32c9cd35736724}
       \strng{authorbibnamehash}{d03eb42be7ca947a2f32c9cd35736724}
       \strng{authornamehash}{d03eb42be7ca947a2f32c9cd35736724}
       \strng{authorfullhash}{d03eb42be7ca947a2f32c9cd35736724}
+      \strng{authorfullhashraw}{d03eb42be7ca947a2f32c9cd35736724}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -176,7 +188,7 @@
       \field{pages}{1734\bibrangedash 1756}
       \range{pages}{23}
     \endentry
-    \entry{Moshood2022}{article}{}
+    \entry{Moshood2022}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -188,10 +200,12 @@
       }
       \strng{namehash}{9c75fb5518bbdbb9590a263ea306b917}
       \strng{fullhash}{9c75fb5518bbdbb9590a263ea306b917}
+      \strng{fullhashraw}{9c75fb5518bbdbb9590a263ea306b917}
       \strng{bibnamehash}{9c75fb5518bbdbb9590a263ea306b917}
       \strng{authorbibnamehash}{9c75fb5518bbdbb9590a263ea306b917}
       \strng{authornamehash}{9c75fb5518bbdbb9590a263ea306b917}
       \strng{authorfullhash}{9c75fb5518bbdbb9590a263ea306b917}
+      \strng{authorfullhashraw}{9c75fb5518bbdbb9590a263ea306b917}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -202,7 +216,7 @@
       \field{volume}{5}
       \field{year}{2022}
     \endentry
-    \entry{Liu2021}{article}{}
+    \entry{Liu2021}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -214,10 +228,12 @@
       }
       \strng{namehash}{5e0bf15b1022a1f5341ff172bb2d2b30}
       \strng{fullhash}{5e0bf15b1022a1f5341ff172bb2d2b30}
+      \strng{fullhashraw}{5e0bf15b1022a1f5341ff172bb2d2b30}
       \strng{bibnamehash}{5e0bf15b1022a1f5341ff172bb2d2b30}
       \strng{authorbibnamehash}{5e0bf15b1022a1f5341ff172bb2d2b30}
       \strng{authornamehash}{5e0bf15b1022a1f5341ff172bb2d2b30}
       \strng{authorfullhash}{5e0bf15b1022a1f5341ff172bb2d2b30}
+      \strng{authorfullhashraw}{5e0bf15b1022a1f5341ff172bb2d2b30}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
@@ -230,7 +246,7 @@
       \field{pages}{1474\bibrangedash 1490}
       \range{pages}{17}
     \endentry
-    \entry{Utekar2021}{article}{}
+    \entry{Utekar2021}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -242,10 +258,12 @@
       }
       \strng{namehash}{69d7fc29d5b3ea01304e4bcacaf5da3b}
       \strng{fullhash}{69d7fc29d5b3ea01304e4bcacaf5da3b}
+      \strng{fullhashraw}{69d7fc29d5b3ea01304e4bcacaf5da3b}
       \strng{bibnamehash}{69d7fc29d5b3ea01304e4bcacaf5da3b}
       \strng{authorbibnamehash}{69d7fc29d5b3ea01304e4bcacaf5da3b}
       \strng{authornamehash}{69d7fc29d5b3ea01304e4bcacaf5da3b}
       \strng{authorfullhash}{69d7fc29d5b3ea01304e4bcacaf5da3b}
+      \strng{authorfullhashraw}{69d7fc29d5b3ea01304e4bcacaf5da3b}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -256,7 +274,7 @@
       \field{volume}{207}
       \field{year}{2021}
     \endentry
-    \entry{Chen2023}{article}{}
+    \entry{Chen2023}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -268,10 +286,12 @@
       }
       \strng{namehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{fullhash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{fullhashraw}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{bibnamehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{authorbibnamehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{authornamehash}{2bb0b717a147f37eec7e72a34b17177a}
       \strng{authorfullhash}{2bb0b717a147f37eec7e72a34b17177a}
+      \strng{authorfullhashraw}{2bb0b717a147f37eec7e72a34b17177a}
       \field{extraname}{1}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
@@ -283,7 +303,7 @@
       \field{volume}{137}
       \field{year}{2023}
     \endentry
-    \entry{Topham2019}{article}{}
+    \entry{Topham2019}{article}{}{}
       \name{author}{1}{}{%
         {{hash=884702326938beeee943a7bee744a1f3}{%
            family={Topham},
@@ -293,10 +313,12 @@
       }
       \strng{namehash}{884702326938beeee943a7bee744a1f3}
       \strng{fullhash}{884702326938beeee943a7bee744a1f3}
+      \strng{fullhashraw}{884702326938beeee943a7bee744a1f3}
       \strng{bibnamehash}{884702326938beeee943a7bee744a1f3}
       \strng{authorbibnamehash}{884702326938beeee943a7bee744a1f3}
       \strng{authornamehash}{884702326938beeee943a7bee744a1f3}
       \strng{authorfullhash}{884702326938beeee943a7bee744a1f3}
+      \strng{authorfullhashraw}{884702326938beeee943a7bee744a1f3}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -308,7 +330,7 @@
       \field{pages}{698\bibrangedash 709}
       \range{pages}{12}
     \endentry
-    \entry{Pickering2006}{article}{}
+    \entry{Pickering2006}{article}{}{}
       \name{author}{1}{}{%
         {{hash=9b2cf7bb1b44f8677f8a5bd092524cf9}{%
            family={Pickering},
@@ -318,10 +340,12 @@
       }
       \strng{namehash}{9b2cf7bb1b44f8677f8a5bd092524cf9}
       \strng{fullhash}{9b2cf7bb1b44f8677f8a5bd092524cf9}
+      \strng{fullhashraw}{9b2cf7bb1b44f8677f8a5bd092524cf9}
       \strng{bibnamehash}{9b2cf7bb1b44f8677f8a5bd092524cf9}
       \strng{authorbibnamehash}{9b2cf7bb1b44f8677f8a5bd092524cf9}
       \strng{authornamehash}{9b2cf7bb1b44f8677f8a5bd092524cf9}
       \strng{authorfullhash}{9b2cf7bb1b44f8677f8a5bd092524cf9}
+      \strng{authorfullhashraw}{9b2cf7bb1b44f8677f8a5bd092524cf9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -334,7 +358,7 @@
       \field{pages}{1206\bibrangedash 1215}
       \range{pages}{10}
     \endentry
-    \entry{Levi2018}{article}{}
+    \entry{Levi2018}{article}{}{}
       \name{author}{2}{}{%
         {{hash=c1601a8346c07804c62a029d9003d12a}{%
            family={Levi},
@@ -349,10 +373,12 @@
       }
       \strng{namehash}{83a8b2d651d140ee02ea2442e0e14175}
       \strng{fullhash}{83a8b2d651d140ee02ea2442e0e14175}
+      \strng{fullhashraw}{83a8b2d651d140ee02ea2442e0e14175}
       \strng{bibnamehash}{83a8b2d651d140ee02ea2442e0e14175}
       \strng{authorbibnamehash}{83a8b2d651d140ee02ea2442e0e14175}
       \strng{authornamehash}{83a8b2d651d140ee02ea2442e0e14175}
       \strng{authorfullhash}{83a8b2d651d140ee02ea2442e0e14175}
+      \strng{authorfullhashraw}{83a8b2d651d140ee02ea2442e0e14175}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -363,7 +389,240 @@
       \field{volume}{52}
       \field{year}{2018}
     \endentry
-    \entry{Goodman1986}{book}{}
+    \entry{Minami2019}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a114d1603f330ce6b0cc98c9e44cf8bc}{%
+           family={Minami},
+           familyi={M\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{fullhash}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{fullhashraw}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{bibnamehash}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{authorbibnamehash}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{authornamehash}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{authorfullhash}{8de648f3a167d4db080ec2a038fc5592}
+      \strng{authorfullhashraw}{8de648f3a167d4db080ec2a038fc5592}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MRS Advances}
+      \field{title}{Prediction of repeat unit of optimal polymer by Bayesian optimization}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{1125\bibrangedash 1130}
+      \range{pages}{6}
+    \endentry
+    \entry{Takasuka2024}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=0224a0bef3872ddb12c21c89500debd1}{%
+           family={Takasuka},
+           familyi={T\bibinitperiod},
+           given={Shogo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec384951b17207d35ec6d59052624a5f}
+      \strng{fullhash}{ec384951b17207d35ec6d59052624a5f}
+      \strng{fullhashraw}{ec384951b17207d35ec6d59052624a5f}
+      \strng{bibnamehash}{ec384951b17207d35ec6d59052624a5f}
+      \strng{authorbibnamehash}{ec384951b17207d35ec6d59052624a5f}
+      \strng{authornamehash}{ec384951b17207d35ec6d59052624a5f}
+      \strng{authorfullhash}{ec384951b17207d35ec6d59052624a5f}
+      \strng{authorfullhashraw}{ec384951b17207d35ec6d59052624a5f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science and Technology of Advanced Materials- Methods}
+      \field{number}{1}
+      \field{title}{Bayesian optimization of radical polymerization reactions in a flow synthesis system}
+      \field{volume}{4}
+      \field{year}{2024}
+    \endentry
+    \entry{Lu2025}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f79ea9039575da329a15d8a355b421a2}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{fullhash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{fullhashraw}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{bibnamehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{authorbibnamehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{authornamehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{authorfullhash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \strng{authorfullhashraw}{28ce94ecf2f60c9e6f8fcf038ca3657b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Composites Part B- Engineering}
+      \field{number}{112863}
+      \field{title}{Ultrahigh performance benzoxazine/poly(silane arylacetylene) thermosetting composite materials based on smart molecular engineering and machine learning}
+      \field{volume}{307}
+      \field{year}{2025}
+    \endentry
+    \entry{Xu2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5d9378354768f3120de805b816955030}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xinyao},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{fullhash}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{fullhashraw}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{bibnamehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{authorbibnamehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{authornamehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{authorfullhash}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \strng{authorfullhashraw}{3f27df82ffbf8a4d14712eeb9e619a7c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Science}
+      \field{title}{Efficient exploration of compositional space for high-performance copolymers via Bayesian optimization}
+      \field{volume}{14}
+      \field{year}{2015}
+      \field{pages}{10203\bibrangedash 10211}
+      \range{pages}{9}
+    \endentry
+    \entry{Zhao2024}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5b0bad8655149da3c2fb0fb8ec407b9a}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Wenlin},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c9fc5722a927b00e663651787acc265}
+      \strng{fullhash}{6c9fc5722a927b00e663651787acc265}
+      \strng{fullhashraw}{6c9fc5722a927b00e663651787acc265}
+      \strng{bibnamehash}{6c9fc5722a927b00e663651787acc265}
+      \strng{authorbibnamehash}{6c9fc5722a927b00e663651787acc265}
+      \strng{authornamehash}{6c9fc5722a927b00e663651787acc265}
+      \strng{authorfullhash}{6c9fc5722a927b00e663651787acc265}
+      \strng{authorfullhashraw}{6c9fc5722a927b00e663651787acc265}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Composite Science and Technology}
+      \field{number}{110779}
+      \field{title}{Design of multicomponent thermosetting polymers with enhanced tensile properties through active learning}
+      \field{volume}{256}
+      \field{year}{2024}
+    \endentry
+    \entry{Albuquerque2024}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9a0f261fe9b8980fd3154bbfde8cbbd2}{%
+           family={Albuquerque},
+           familyi={A\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{fullhash}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{fullhashraw}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{bibnamehash}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{authorbibnamehash}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{authornamehash}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{authorfullhash}{ab266b4ffbecf9b947f0222ad9079f87}
+      \strng{authorfullhashraw}{ab266b4ffbecf9b947f0222ad9079f87}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MRS Bulletin}
+      \field{title}{Designing formulations of bio-based, multicomponent epoxy resin systems via machine learning}
+      \field{volume}{49}
+      \field{year}{2024}
+      \field{pages}{59\bibrangedash 70}
+      \range{pages}{12}
+    \endentry
+    \entry{Rothenhausler2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=28a49738976c3c495d5b1240a5dd814c}{%
+           family={Rothenhäusler},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8b5621279cb4fdb2d5570e9fa777ca70}{%
+           family={Ruckdaeschel},
+           familyi={R\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{048bf22400592ceaecda582350d9eac3}
+      \strng{fullhash}{048bf22400592ceaecda582350d9eac3}
+      \strng{fullhashraw}{048bf22400592ceaecda582350d9eac3}
+      \strng{bibnamehash}{048bf22400592ceaecda582350d9eac3}
+      \strng{authorbibnamehash}{048bf22400592ceaecda582350d9eac3}
+      \strng{authornamehash}{048bf22400592ceaecda582350d9eac3}
+      \strng{authorfullhash}{048bf22400592ceaecda582350d9eac3}
+      \strng{authorfullhashraw}{048bf22400592ceaecda582350d9eac3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Polymer Science}
+      \field{number}{21}
+      \field{title}{Strategies for the fast optimization of the glass transition temperature of sustainable epoxy resin systems via machine learning}
+      \field{volume}{141}
+      \field{year}{2024}
+    \endentry
+    \entry{Schoenholz2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fc3a19967e6c848015f9412ce346301b}{%
+           family={Schoenholz},
+           familyi={S\bibinitperiod},
+           given={Caleb},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d9130cb8ef7d925e92802be05d6cfb1d}{%
+           family={Zobeiry},
+           familyi={Z\bibinitperiod},
+           given={Navid},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{183628349143985a34550f54daae6f63}
+      \strng{fullhash}{183628349143985a34550f54daae6f63}
+      \strng{fullhashraw}{183628349143985a34550f54daae6f63}
+      \strng{bibnamehash}{183628349143985a34550f54daae6f63}
+      \strng{authorbibnamehash}{183628349143985a34550f54daae6f63}
+      \strng{authornamehash}{183628349143985a34550f54daae6f63}
+      \strng{authorfullhash}{183628349143985a34550f54daae6f63}
+      \strng{authorfullhashraw}{183628349143985a34550f54daae6f63}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Composites Part A- Applied Science and Manufacturing}
+      \field{number}{107842}
+      \field{title}{An accelerated process optimization method to minimize deformations in composites using theory-guided probabilistic machine learning}
+      \field{volume}{176}
+      \field{year}{2024}
+    \endentry
+    \entry{Goodman1986}{book}{}{}
       \name{author}{1}{}{%
         {{hash=4412abd08791f0eeca2639b467fcc3f5}{%
            family={Goodman},
@@ -383,22 +642,25 @@
       }
       \strng{namehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{fullhash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{fullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{bibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{authorbibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{authornamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{authorfullhash}{4412abd08791f0eeca2639b467fcc3f5}
+      \strng{authorfullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{editorbibnamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{editornamehash}{4412abd08791f0eeca2639b467fcc3f5}
       \strng{editorfullhash}{4412abd08791f0eeca2639b467fcc3f5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{editorfullhashraw}{4412abd08791f0eeca2639b467fcc3f5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1}
       \field{title}{Handbook of Thermoset Plastics}
       \field{year}{1986}
     \endentry
-    \entry{Aziz2005}{article}{}
+    \entry{Aziz2005}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -410,12 +672,14 @@
       }
       \strng{namehash}{c51379a38ceabce40d7ad9db44f902a4}
       \strng{fullhash}{c51379a38ceabce40d7ad9db44f902a4}
+      \strng{fullhashraw}{c51379a38ceabce40d7ad9db44f902a4}
       \strng{bibnamehash}{c51379a38ceabce40d7ad9db44f902a4}
       \strng{authorbibnamehash}{c51379a38ceabce40d7ad9db44f902a4}
       \strng{authornamehash}{c51379a38ceabce40d7ad9db44f902a4}
       \strng{authorfullhash}{c51379a38ceabce40d7ad9db44f902a4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{authorfullhashraw}{c51379a38ceabce40d7ad9db44f902a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Composites Science and Technology}
@@ -425,7 +689,7 @@
       \field{pages}{525\bibrangedash 535}
       \range{pages}{11}
     \endentry
-    \entry{Lawrence1960}{book}{}
+    \entry{Lawrence1960}{book}{}{}
       \name{author}{1}{}{%
         {{hash=8d7c1b012643137bbc0ebfd78aebe90c}{%
            family={Lawrence},
@@ -445,22 +709,25 @@
       }
       \strng{namehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{fullhash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{fullhashraw}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{bibnamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{authorbibnamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{authornamehash}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{authorfullhash}{8d7c1b012643137bbc0ebfd78aebe90c}
+      \strng{authorfullhashraw}{8d7c1b012643137bbc0ebfd78aebe90c}
       \strng{editorbibnamehash}{e20db0f8de509d56560eeb4ebbb84d0f}
       \strng{editornamehash}{e20db0f8de509d56560eeb4ebbb84d0f}
       \strng{editorfullhash}{e20db0f8de509d56560eeb4ebbb84d0f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{editorfullhashraw}{e20db0f8de509d56560eeb4ebbb84d0f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1}
       \field{title}{Polyester Resins}
       \field{year}{1960}
     \endentry
-    \entry{Ahamad2001}{article}{}
+    \entry{Ahamad2001}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -472,12 +739,14 @@
       }
       \strng{namehash}{0a4d8888531ad90b83697ad429b31575}
       \strng{fullhash}{0a4d8888531ad90b83697ad429b31575}
+      \strng{fullhashraw}{0a4d8888531ad90b83697ad429b31575}
       \strng{bibnamehash}{0a4d8888531ad90b83697ad429b31575}
       \strng{authorbibnamehash}{0a4d8888531ad90b83697ad429b31575}
       \strng{authornamehash}{0a4d8888531ad90b83697ad429b31575}
       \strng{authorfullhash}{0a4d8888531ad90b83697ad429b31575}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{authorfullhashraw}{0a4d8888531ad90b83697ad429b31575}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Designed Polymers and Monomers}
@@ -488,7 +757,7 @@
       \field{pages}{261\bibrangedash 268}
       \range{pages}{8}
     \endentry
-    \entry{Felthouse2001}{inbook}{}
+    \entry{Felthouse2001}{inbook}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -504,19 +773,21 @@
       }
       \strng{namehash}{8f311a5abca6894145ee6f7ed019e25b}
       \strng{fullhash}{8f311a5abca6894145ee6f7ed019e25b}
+      \strng{fullhashraw}{8f311a5abca6894145ee6f7ed019e25b}
       \strng{bibnamehash}{8f311a5abca6894145ee6f7ed019e25b}
       \strng{authorbibnamehash}{8f311a5abca6894145ee6f7ed019e25b}
       \strng{authornamehash}{8f311a5abca6894145ee6f7ed019e25b}
       \strng{authorfullhash}{8f311a5abca6894145ee6f7ed019e25b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{authorfullhashraw}{8f311a5abca6894145ee6f7ed019e25b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Kirk‐Othmer Encyclopedia of Chemical Technology}
       \field{title}{Maleic Anhydride, Maleic Acid, and Fumaric Acid}
       \field{year}{2001}
     \endentry
-    \entry{Kissin1987}{article}{}
+    \entry{Kissin1987}{article}{}{}
       \name{author}{1}{}{%
         {{hash=a67b2de213327aec25267043b08e4f45}{%
            family={Kissin},
@@ -526,12 +797,14 @@
       }
       \strng{namehash}{a67b2de213327aec25267043b08e4f45}
       \strng{fullhash}{a67b2de213327aec25267043b08e4f45}
+      \strng{fullhashraw}{a67b2de213327aec25267043b08e4f45}
       \strng{bibnamehash}{a67b2de213327aec25267043b08e4f45}
       \strng{authorbibnamehash}{a67b2de213327aec25267043b08e4f45}
       \strng{authornamehash}{a67b2de213327aec25267043b08e4f45}
       \strng{authorfullhash}{a67b2de213327aec25267043b08e4f45}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{authorfullhashraw}{a67b2de213327aec25267043b08e4f45}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geochimica et Cosmochimica Acta}
@@ -541,7 +814,7 @@
       \field{pages}{2445\bibrangedash 2457}
       \range{pages}{13}
     \endentry
-    \entry{Lee2008}{article}{}
+    \entry{Lee2008}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -553,12 +826,14 @@
       }
       \strng{namehash}{bb72954b17175c5846b4da39e1b62de0}
       \strng{fullhash}{bb72954b17175c5846b4da39e1b62de0}
+      \strng{fullhashraw}{bb72954b17175c5846b4da39e1b62de0}
       \strng{bibnamehash}{bb72954b17175c5846b4da39e1b62de0}
       \strng{authorbibnamehash}{bb72954b17175c5846b4da39e1b62de0}
       \strng{authornamehash}{bb72954b17175c5846b4da39e1b62de0}
       \strng{authorfullhash}{bb72954b17175c5846b4da39e1b62de0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{authorfullhashraw}{bb72954b17175c5846b4da39e1b62de0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Industrial and Engineering Chemistry Research}
@@ -567,117 +842,7 @@
       \field{volume}{47}
       \field{year}{2008}
     \endentry
-    \entry{Dasari2005}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=ad24c40a850f26d753868c32b274975b}{%
-           family={Dasari},
-           familyi={D\bibinitperiod},
-           given={Mohanprasad},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{227a628f29e237bfe7c9fa268a8b95a1}
-      \strng{fullhash}{227a628f29e237bfe7c9fa268a8b95a1}
-      \strng{bibnamehash}{227a628f29e237bfe7c9fa268a8b95a1}
-      \strng{authorbibnamehash}{227a628f29e237bfe7c9fa268a8b95a1}
-      \strng{authornamehash}{227a628f29e237bfe7c9fa268a8b95a1}
-      \strng{authorfullhash}{227a628f29e237bfe7c9fa268a8b95a1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Catalysis A- General}
-      \field{number}{1-2}
-      \field{title}{Low-pressure hydrogenolysis of glycerol to propylene glycol}
-      \field{volume}{281}
-      \field{year}{2005}
-      \field{pages}{225\bibrangedash 231}
-      \range{pages}{7}
-    \endentry
-    \entry{Ricciardi2017}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=137292f0f7309b9af7e094833e5740e9}{%
-           family={Ricciardi},
-           familyi={R\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
-      \strng{fullhash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
-      \strng{bibnamehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
-      \strng{authorbibnamehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
-      \strng{authornamehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
-      \strng{authorfullhash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sustainable Chemistry and Pharmacy}
-      \field{title}{Bio-propylene glycol as value-added product from Epicerol process}
-      \field{volume}{6}
-      \field{year}{2017}
-      \field{pages}{10\bibrangedash 13}
-      \range{pages}{4}
-    \endentry
-    \entry{Berlowska2015}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=308ed2431ec71352f4cfa104941316d6}{%
-           family={Berlowska},
-           familyi={B\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
-      \strng{fullhash}{8476377d89f2dd7b29d9fb932f4dc3d6}
-      \strng{bibnamehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
-      \strng{authorbibnamehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
-      \strng{authornamehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
-      \strng{authorfullhash}{8476377d89f2dd7b29d9fb932f4dc3d6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{RSC Advances}
-      \field{title}{A low-cost method for obtaining high-value bio-based propylene glycol from sugar beet pulp}
-      \field{volume}{5}
-      \field{year}{2015}
-      \field{pages}{2299\bibrangedash 2304}
-      \range{pages}{6}
-    \endentry
-    \entry{Xiao2015}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=ae58b9b813bb4e6495297d42d986c0d6}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Jiefeng},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
-      \strng{fullhash}{e8cdbe3aa45221b803940ed6f8f07e2f}
-      \strng{bibnamehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
-      \strng{authorbibnamehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
-      \strng{authornamehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
-      \strng{authorfullhash}{e8cdbe3aa45221b803940ed6f8f07e2f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Process Biochemistry}
-      \field{number}{5}
-      \field{title}{A novel approach for 1,2-propylene glycol production from biomass-derived lactic acid}
-      \field{volume}{50}
-      \field{year}{2015}
-      \field{pages}{793\bibrangedash 798}
-      \range{pages}{6}
-    \endentry
-    \entry{Pavarelli2015}{article}{}
+    \entry{Pavarelli2015}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -689,10 +854,12 @@
       }
       \strng{namehash}{a994f171ef054522a4935ddf30644cc8}
       \strng{fullhash}{a994f171ef054522a4935ddf30644cc8}
+      \strng{fullhashraw}{a994f171ef054522a4935ddf30644cc8}
       \strng{bibnamehash}{a994f171ef054522a4935ddf30644cc8}
       \strng{authorbibnamehash}{a994f171ef054522a4935ddf30644cc8}
       \strng{authornamehash}{a994f171ef054522a4935ddf30644cc8}
       \strng{authorfullhash}{a994f171ef054522a4935ddf30644cc8}
+      \strng{authorfullhashraw}{a994f171ef054522a4935ddf30644cc8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -705,7 +872,7 @@
       \field{pages}{2250\bibrangedash 2259}
       \range{pages}{10}
     \endentry
-    \entry{Li2016}{article}{}
+    \entry{Li2016}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -717,11 +884,12 @@
       }
       \strng{namehash}{ea540392df39488c14f95a8ee9d7ef07}
       \strng{fullhash}{ea540392df39488c14f95a8ee9d7ef07}
+      \strng{fullhashraw}{ea540392df39488c14f95a8ee9d7ef07}
       \strng{bibnamehash}{ea540392df39488c14f95a8ee9d7ef07}
       \strng{authorbibnamehash}{ea540392df39488c14f95a8ee9d7ef07}
       \strng{authornamehash}{ea540392df39488c14f95a8ee9d7ef07}
       \strng{authorfullhash}{ea540392df39488c14f95a8ee9d7ef07}
-      \field{extraname}{1}
+      \strng{authorfullhashraw}{ea540392df39488c14f95a8ee9d7ef07}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -733,7 +901,7 @@
       \field{pages}{2976\bibrangedash 2980}
       \range{pages}{5}
     \endentry
-    \entry{Teong2014}{article}{}
+    \entry{Teong2014}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -745,10 +913,12 @@
       }
       \strng{namehash}{9c89df9dfdd246dd85cd4771d5e09cd3}
       \strng{fullhash}{9c89df9dfdd246dd85cd4771d5e09cd3}
+      \strng{fullhashraw}{9c89df9dfdd246dd85cd4771d5e09cd3}
       \strng{bibnamehash}{9c89df9dfdd246dd85cd4771d5e09cd3}
       \strng{authorbibnamehash}{9c89df9dfdd246dd85cd4771d5e09cd3}
       \strng{authornamehash}{9c89df9dfdd246dd85cd4771d5e09cd3}
       \strng{authorfullhash}{9c89df9dfdd246dd85cd4771d5e09cd3}
+      \strng{authorfullhashraw}{9c89df9dfdd246dd85cd4771d5e09cd3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -760,7 +930,7 @@
       \field{pages}{2015\bibrangedash 2026}
       \range{pages}{12}
     \endentry
-    \entry{McKenna2011}{article}{}
+    \entry{McKenna2011}{article}{}{}
       \name{author}{2}{}{%
         {{hash=dcbbd26f6c054bc731fb07d8ae8f4930}{%
            family={McKenna},
@@ -775,10 +945,12 @@
       }
       \strng{namehash}{0fe7ad6762cb684289f0fa536e85cd89}
       \strng{fullhash}{0fe7ad6762cb684289f0fa536e85cd89}
+      \strng{fullhashraw}{0fe7ad6762cb684289f0fa536e85cd89}
       \strng{bibnamehash}{0fe7ad6762cb684289f0fa536e85cd89}
       \strng{authorbibnamehash}{0fe7ad6762cb684289f0fa536e85cd89}
       \strng{authornamehash}{0fe7ad6762cb684289f0fa536e85cd89}
       \strng{authorfullhash}{0fe7ad6762cb684289f0fa536e85cd89}
+      \strng{authorfullhashraw}{0fe7ad6762cb684289f0fa536e85cd89}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -791,7 +963,125 @@
       \field{pages}{544\bibrangedash 554}
       \range{pages}{11}
     \endentry
-    \entry{Bafana2017}{article}{}
+    \entry{Dasari2005}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ad24c40a850f26d753868c32b274975b}{%
+           family={Dasari},
+           familyi={D\bibinitperiod},
+           given={Mohanprasad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{fullhash}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{fullhashraw}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{bibnamehash}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{authorbibnamehash}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{authornamehash}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{authorfullhash}{227a628f29e237bfe7c9fa268a8b95a1}
+      \strng{authorfullhashraw}{227a628f29e237bfe7c9fa268a8b95a1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Catalysis A- General}
+      \field{number}{1-2}
+      \field{title}{Low-pressure hydrogenolysis of glycerol to propylene glycol}
+      \field{volume}{281}
+      \field{year}{2005}
+      \field{pages}{225\bibrangedash 231}
+      \range{pages}{7}
+    \endentry
+    \entry{Ricciardi2017}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=137292f0f7309b9af7e094833e5740e9}{%
+           family={Ricciardi},
+           familyi={R\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{fullhash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{fullhashraw}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{bibnamehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{authorbibnamehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{authornamehash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{authorfullhash}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \strng{authorfullhashraw}{e23e0f69cc7fa97b18bb415e5fbdccb8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainable Chemistry and Pharmacy}
+      \field{title}{Bio-propylene glycol as value-added product from Epicerol process}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{10\bibrangedash 13}
+      \range{pages}{4}
+    \endentry
+    \entry{Berlowska2015}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=308ed2431ec71352f4cfa104941316d6}{%
+           family={Berlowska},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{fullhash}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{fullhashraw}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{bibnamehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{authorbibnamehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{authornamehash}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{authorfullhash}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \strng{authorfullhashraw}{8476377d89f2dd7b29d9fb932f4dc3d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RSC Advances}
+      \field{title}{A low-cost method for obtaining high-value bio-based propylene glycol from sugar beet pulp}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{pages}{2299\bibrangedash 2304}
+      \range{pages}{6}
+    \endentry
+    \entry{Xiao2015}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ae58b9b813bb4e6495297d42d986c0d6}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jiefeng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{fullhash}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{fullhashraw}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{bibnamehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{authorbibnamehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{authornamehash}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{authorfullhash}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \strng{authorfullhashraw}{e8cdbe3aa45221b803940ed6f8f07e2f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Process Biochemistry}
+      \field{number}{5}
+      \field{title}{A novel approach for 1,2-propylene glycol production from biomass-derived lactic acid}
+      \field{volume}{50}
+      \field{year}{2015}
+      \field{pages}{793\bibrangedash 798}
+      \range{pages}{6}
+    \endentry
+    \entry{Bafana2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=f35cebe07fdfdf3154ad6acbb74eb041}{%
            family={Bafana},
@@ -806,12 +1096,14 @@
       }
       \strng{namehash}{88b12c4abfd1caf654de57ae27bf6cec}
       \strng{fullhash}{88b12c4abfd1caf654de57ae27bf6cec}
+      \strng{fullhashraw}{88b12c4abfd1caf654de57ae27bf6cec}
       \strng{bibnamehash}{88b12c4abfd1caf654de57ae27bf6cec}
       \strng{authorbibnamehash}{88b12c4abfd1caf654de57ae27bf6cec}
       \strng{authornamehash}{88b12c4abfd1caf654de57ae27bf6cec}
       \strng{authorfullhash}{88b12c4abfd1caf654de57ae27bf6cec}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{88b12c4abfd1caf654de57ae27bf6cec}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Critical Reviews in Biotechnology}
@@ -820,7 +1112,7 @@
       \field{volume}{38}
       \field{year}{2017}
     \endentry
-    \entry{Bamane2020}{article}{}
+    \entry{Bamane2020}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -832,12 +1124,14 @@
       }
       \strng{namehash}{cde66f906cc639e24ebdb0a84c5db8c2}
       \strng{fullhash}{cde66f906cc639e24ebdb0a84c5db8c2}
+      \strng{fullhashraw}{cde66f906cc639e24ebdb0a84c5db8c2}
       \strng{bibnamehash}{cde66f906cc639e24ebdb0a84c5db8c2}
       \strng{authorbibnamehash}{cde66f906cc639e24ebdb0a84c5db8c2}
       \strng{authornamehash}{cde66f906cc639e24ebdb0a84c5db8c2}
       \strng{authorfullhash}{cde66f906cc639e24ebdb0a84c5db8c2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{cde66f906cc639e24ebdb0a84c5db8c2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Progress in Organic Coatings}
@@ -846,7 +1140,7 @@
       \field{volume}{147}
       \field{year}{2020}
     \endentry
-    \entry{Sollka2020}{article}{}
+    \entry{Sollka2020}{article}{}{}
       \name{author}{2}{}{%
         {{hash=069239e2a6727fe2cf4bb1f0afe49155}{%
            family={Sollka},
@@ -861,12 +1155,14 @@
       }
       \strng{namehash}{9ee7c25081c1a25b6376254a9bfb5c74}
       \strng{fullhash}{9ee7c25081c1a25b6376254a9bfb5c74}
+      \strng{fullhashraw}{9ee7c25081c1a25b6376254a9bfb5c74}
       \strng{bibnamehash}{9ee7c25081c1a25b6376254a9bfb5c74}
       \strng{authorbibnamehash}{9ee7c25081c1a25b6376254a9bfb5c74}
       \strng{authornamehash}{9ee7c25081c1a25b6376254a9bfb5c74}
       \strng{authorfullhash}{9ee7c25081c1a25b6376254a9bfb5c74}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{9ee7c25081c1a25b6376254a9bfb5c74}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Macromolecular Rapid Communications}
@@ -875,7 +1171,7 @@
       \field{volume}{42}
       \field{year}{2020}
     \endentry
-    \entry{Schoon2017}{article}{}
+    \entry{Schoon2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -887,12 +1183,14 @@
       }
       \strng{namehash}{b7ee9f1e61c8d32d48b696999a382419}
       \strng{fullhash}{b7ee9f1e61c8d32d48b696999a382419}
+      \strng{fullhashraw}{b7ee9f1e61c8d32d48b696999a382419}
       \strng{bibnamehash}{b7ee9f1e61c8d32d48b696999a382419}
       \strng{authorbibnamehash}{b7ee9f1e61c8d32d48b696999a382419}
       \strng{authornamehash}{b7ee9f1e61c8d32d48b696999a382419}
       \strng{authorfullhash}{b7ee9f1e61c8d32d48b696999a382419}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{b7ee9f1e61c8d32d48b696999a382419}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymers}
@@ -901,7 +1199,7 @@
       \field{volume}{9}
       \field{year}{2017}
     \endentry
-    \entry{Costa2017}{article}{}
+    \entry{Costa2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -913,12 +1211,14 @@
       }
       \strng{namehash}{c51e30e95ef8e81c492d2fb1e91db38f}
       \strng{fullhash}{c51e30e95ef8e81c492d2fb1e91db38f}
+      \strng{fullhashraw}{c51e30e95ef8e81c492d2fb1e91db38f}
       \strng{bibnamehash}{c51e30e95ef8e81c492d2fb1e91db38f}
       \strng{authorbibnamehash}{c51e30e95ef8e81c492d2fb1e91db38f}
       \strng{authornamehash}{c51e30e95ef8e81c492d2fb1e91db38f}
       \strng{authorfullhash}{c51e30e95ef8e81c492d2fb1e91db38f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{c51e30e95ef8e81c492d2fb1e91db38f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{eXPRESS Polymer Letters}
@@ -929,7 +1229,7 @@
       \field{pages}{885\bibrangedash 898}
       \range{pages}{14}
     \endentry
-    \entry{Pantic2022}{article}{}
+    \entry{Pantic2022}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -941,12 +1241,14 @@
       }
       \strng{namehash}{3e4f259f2021a1aeacb5140b96ac2f70}
       \strng{fullhash}{3e4f259f2021a1aeacb5140b96ac2f70}
+      \strng{fullhashraw}{3e4f259f2021a1aeacb5140b96ac2f70}
       \strng{bibnamehash}{3e4f259f2021a1aeacb5140b96ac2f70}
       \strng{authorbibnamehash}{3e4f259f2021a1aeacb5140b96ac2f70}
       \strng{authornamehash}{3e4f259f2021a1aeacb5140b96ac2f70}
       \strng{authorfullhash}{3e4f259f2021a1aeacb5140b96ac2f70}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{3e4f259f2021a1aeacb5140b96ac2f70}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymers}
@@ -955,7 +1257,7 @@
       \field{volume}{14}
       \field{year}{2022}
     \endentry
-    \entry{Panic2017}{article}{}
+    \entry{Panic2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -967,12 +1269,14 @@
       }
       \strng{namehash}{548e4a87e88808480404c5af08b1644d}
       \strng{fullhash}{548e4a87e88808480404c5af08b1644d}
+      \strng{fullhashraw}{548e4a87e88808480404c5af08b1644d}
       \strng{bibnamehash}{548e4a87e88808480404c5af08b1644d}
       \strng{authorbibnamehash}{548e4a87e88808480404c5af08b1644d}
       \strng{authornamehash}{548e4a87e88808480404c5af08b1644d}
       \strng{authorfullhash}{548e4a87e88808480404c5af08b1644d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{authorfullhashraw}{548e4a87e88808480404c5af08b1644d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biomacromolecules}
@@ -982,7 +1286,7 @@
       \field{pages}{3881\bibrangedash 3891}
       \range{pages}{11}
     \endentry
-    \entry{Spasojevic2021}{article}{}
+    \entry{Spasojevic2021}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -994,10 +1298,12 @@
       }
       \strng{namehash}{3650c6213a976c55447df58438e7b65e}
       \strng{fullhash}{3650c6213a976c55447df58438e7b65e}
+      \strng{fullhashraw}{3650c6213a976c55447df58438e7b65e}
       \strng{bibnamehash}{3650c6213a976c55447df58438e7b65e}
       \strng{authorbibnamehash}{3650c6213a976c55447df58438e7b65e}
       \strng{authornamehash}{3650c6213a976c55447df58438e7b65e}
       \strng{authorfullhash}{3650c6213a976c55447df58438e7b65e}
+      \strng{authorfullhashraw}{3650c6213a976c55447df58438e7b65e}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -1008,7 +1314,7 @@
       \field{volume}{13}
       \field{year}{2021}
     \endentry
-    \entry{Dai2017}{article}{}
+    \entry{Dai2017}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1020,10 +1326,12 @@
       }
       \strng{namehash}{8b543f2823a6ca39ced22011fdb4235e}
       \strng{fullhash}{8b543f2823a6ca39ced22011fdb4235e}
+      \strng{fullhashraw}{8b543f2823a6ca39ced22011fdb4235e}
       \strng{bibnamehash}{8b543f2823a6ca39ced22011fdb4235e}
       \strng{authorbibnamehash}{8b543f2823a6ca39ced22011fdb4235e}
       \strng{authornamehash}{8b543f2823a6ca39ced22011fdb4235e}
       \strng{authorfullhash}{8b543f2823a6ca39ced22011fdb4235e}
+      \strng{authorfullhashraw}{8b543f2823a6ca39ced22011fdb4235e}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -1035,7 +1343,7 @@
       \field{pages}{2650\bibrangedash 2657}
       \range{pages}{8}
     \endentry
-    \entry{Nagai2001}{article}{}
+    \entry{Nagai2001}{article}{}{}
       \name{author}{1}{}{%
         {{hash=515e0504221f6962f05bca53a13f17b0}{%
            family={Nagai},
@@ -1045,10 +1353,12 @@
       }
       \strng{namehash}{515e0504221f6962f05bca53a13f17b0}
       \strng{fullhash}{515e0504221f6962f05bca53a13f17b0}
+      \strng{fullhashraw}{515e0504221f6962f05bca53a13f17b0}
       \strng{bibnamehash}{515e0504221f6962f05bca53a13f17b0}
       \strng{authorbibnamehash}{515e0504221f6962f05bca53a13f17b0}
       \strng{authornamehash}{515e0504221f6962f05bca53a13f17b0}
       \strng{authorfullhash}{515e0504221f6962f05bca53a13f17b0}
+      \strng{authorfullhashraw}{515e0504221f6962f05bca53a13f17b0}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -1061,7 +1371,7 @@
       \field{pages}{367\bibrangedash 377}
       \range{pages}{11}
     \endentry
-    \entry{Bohre2021}{article}{}
+    \entry{Bohre2021}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1073,10 +1383,12 @@
       }
       \strng{namehash}{1ef86bffd5dfd508aadb5d32e22471ec}
       \strng{fullhash}{1ef86bffd5dfd508aadb5d32e22471ec}
+      \strng{fullhashraw}{1ef86bffd5dfd508aadb5d32e22471ec}
       \strng{bibnamehash}{1ef86bffd5dfd508aadb5d32e22471ec}
       \strng{authorbibnamehash}{1ef86bffd5dfd508aadb5d32e22471ec}
       \strng{authornamehash}{1ef86bffd5dfd508aadb5d32e22471ec}
       \strng{authorfullhash}{1ef86bffd5dfd508aadb5d32e22471ec}
+      \strng{authorfullhashraw}{1ef86bffd5dfd508aadb5d32e22471ec}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -1087,7 +1399,7 @@
       \field{volume}{9}
       \field{year}{2021}
     \endentry
-    \entry{Leonard1970}{book}{}
+    \entry{Leonard1970}{book}{}{}
       \name{author}{1}{}{%
         {{hash=d9e39e473e56543b9bdd37f57fc778e9}{%
            family={Leonard},
@@ -1100,18 +1412,20 @@
       }
       \strng{namehash}{d9e39e473e56543b9bdd37f57fc778e9}
       \strng{fullhash}{d9e39e473e56543b9bdd37f57fc778e9}
+      \strng{fullhashraw}{d9e39e473e56543b9bdd37f57fc778e9}
       \strng{bibnamehash}{d9e39e473e56543b9bdd37f57fc778e9}
       \strng{authorbibnamehash}{d9e39e473e56543b9bdd37f57fc778e9}
       \strng{authornamehash}{d9e39e473e56543b9bdd37f57fc778e9}
       \strng{authorfullhash}{d9e39e473e56543b9bdd37f57fc778e9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{authorfullhashraw}{d9e39e473e56543b9bdd37f57fc778e9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Vinyl and Diene Monomers Part 1 (High Polymers XXIV) (Volume 24)}
       \field{year}{1970}
     \endentry
-    \entry{Trejbal2022}{article}{}
+    \entry{Trejbal2022}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1123,12 +1437,14 @@
       }
       \strng{namehash}{df80036393e8318d3bf9bcfd365c4ce8}
       \strng{fullhash}{df80036393e8318d3bf9bcfd365c4ce8}
+      \strng{fullhashraw}{df80036393e8318d3bf9bcfd365c4ce8}
       \strng{bibnamehash}{df80036393e8318d3bf9bcfd365c4ce8}
       \strng{authorbibnamehash}{df80036393e8318d3bf9bcfd365c4ce8}
       \strng{authornamehash}{df80036393e8318d3bf9bcfd365c4ce8}
       \strng{authorfullhash}{df80036393e8318d3bf9bcfd365c4ce8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{authorfullhashraw}{df80036393e8318d3bf9bcfd365c4ce8}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Thermophysics}
@@ -1137,396 +1453,7 @@
       \field{volume}{43}
       \field{year}{2022}
     \endentry
-    \entry{Frazier2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=2395ef596a2897c9dd06f57367b1b397}{%
-           family={Frazier},
-           familyi={F\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{2395ef596a2897c9dd06f57367b1b397}
-      \strng{fullhash}{2395ef596a2897c9dd06f57367b1b397}
-      \strng{bibnamehash}{2395ef596a2897c9dd06f57367b1b397}
-      \strng{authorbibnamehash}{2395ef596a2897c9dd06f57367b1b397}
-      \strng{authornamehash}{2395ef596a2897c9dd06f57367b1b397}
-      \strng{authorfullhash}{2395ef596a2897c9dd06f57367b1b397}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Retrieved 28th July 2025}
-      \field{title}{A Tutorial on Bayesian Optimization}
-      \field{year}{2018}
-      \verb{eprint}
-      \verb 1807.02811
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/1807.02811
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/1807.02811
-      \endverb
-    \endentry
-    \entry{Shields2021}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=5ed1e35c42952287909d225738989262}{%
-           family={Shields},
-           familyi={S\bibinitperiod},
-           given={Benjamin},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{882d46c45d9256a65d496acaea5619f9}
-      \strng{fullhash}{882d46c45d9256a65d496acaea5619f9}
-      \strng{bibnamehash}{882d46c45d9256a65d496acaea5619f9}
-      \strng{authorbibnamehash}{882d46c45d9256a65d496acaea5619f9}
-      \strng{authornamehash}{882d46c45d9256a65d496acaea5619f9}
-      \strng{authorfullhash}{882d46c45d9256a65d496acaea5619f9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{title}{Bayesian reaction optimization as a tool for chemical synthesis}
-      \field{volume}{590}
-      \field{year}{2021}
-      \field{pages}{89\bibrangedash 96}
-      \range{pages}{8}
-    \endentry
-    \entry{Tanaka2017}{article}{}
-      \name{author}{2}{}{%
-        {{hash=83a71f0daecbf841158f3806744a6cc9}{%
-           family={Tanaka},
-           familyi={T\bibinitperiod},
-           given={Ryokei},
-           giveni={R\bibinitperiod}}}%
-        {{hash=afa3c5e3af3ea95faaa4bc5042ce1a2b}{%
-           family={Iwata},
-           familyi={I\bibinitperiod},
-           given={Hiroyoshi},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{ff04caaea440389277fdb9a20a9257ee}
-      \strng{fullhash}{ff04caaea440389277fdb9a20a9257ee}
-      \strng{bibnamehash}{ff04caaea440389277fdb9a20a9257ee}
-      \strng{authorbibnamehash}{ff04caaea440389277fdb9a20a9257ee}
-      \strng{authornamehash}{ff04caaea440389277fdb9a20a9257ee}
-      \strng{authorfullhash}{ff04caaea440389277fdb9a20a9257ee}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Theoretical and Applied Genetics}
-      \field{title}{Bayesian optimization for genomic selection- a method for discovering the best genotype among a large number of candidates}
-      \field{volume}{131}
-      \field{year}{2017}
-      \field{pages}{95\bibrangedash 105}
-      \range{pages}{11}
-    \endentry
-    \entry{Li2017}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=0fa86ce76f38abb4293116ef56b787fa}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Cheng},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{c7dc15e960bc440cca051e4b5edbc6d6}
-      \strng{fullhash}{c7dc15e960bc440cca051e4b5edbc6d6}
-      \strng{bibnamehash}{c7dc15e960bc440cca051e4b5edbc6d6}
-      \strng{authorbibnamehash}{c7dc15e960bc440cca051e4b5edbc6d6}
-      \strng{authornamehash}{c7dc15e960bc440cca051e4b5edbc6d6}
-      \strng{authorfullhash}{c7dc15e960bc440cca051e4b5edbc6d6}
-      \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{5683}
-      \field{title}{Rapid Bayesian optimisation for synthesis of short polymer fibre materials}
-      \field{volume}{7}
-      \field{year}{2017}
-    \endentry
-    \entry{Minami2019}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=a114d1603f330ce6b0cc98c9e44cf8bc}{%
-           family={Minami},
-           familyi={M\bibinitperiod},
-           given={Takuya},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{8de648f3a167d4db080ec2a038fc5592}
-      \strng{fullhash}{8de648f3a167d4db080ec2a038fc5592}
-      \strng{bibnamehash}{8de648f3a167d4db080ec2a038fc5592}
-      \strng{authorbibnamehash}{8de648f3a167d4db080ec2a038fc5592}
-      \strng{authornamehash}{8de648f3a167d4db080ec2a038fc5592}
-      \strng{authorfullhash}{8de648f3a167d4db080ec2a038fc5592}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{MRS Advances}
-      \field{title}{Prediction of repeat unit of optimal polymer by Bayesian optimization}
-      \field{volume}{4}
-      \field{year}{2019}
-      \field{pages}{1125\bibrangedash 1130}
-      \range{pages}{6}
-    \endentry
-    \entry{Takasuka2024}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=0224a0bef3872ddb12c21c89500debd1}{%
-           family={Takasuka},
-           familyi={T\bibinitperiod},
-           given={Shogo},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{ec384951b17207d35ec6d59052624a5f}
-      \strng{fullhash}{ec384951b17207d35ec6d59052624a5f}
-      \strng{bibnamehash}{ec384951b17207d35ec6d59052624a5f}
-      \strng{authorbibnamehash}{ec384951b17207d35ec6d59052624a5f}
-      \strng{authornamehash}{ec384951b17207d35ec6d59052624a5f}
-      \strng{authorfullhash}{ec384951b17207d35ec6d59052624a5f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Science and Technology of Advanced Materials- Methods}
-      \field{number}{1}
-      \field{title}{Bayesian optimization of radical polymerization reactions in a flow synthesis system}
-      \field{volume}{4}
-      \field{year}{2024}
-    \endentry
-    \entry{Lu2025}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=f79ea9039575da329a15d8a355b421a2}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Yin},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
-      \strng{fullhash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
-      \strng{bibnamehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
-      \strng{authorbibnamehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
-      \strng{authornamehash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
-      \strng{authorfullhash}{28ce94ecf2f60c9e6f8fcf038ca3657b}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Composites Part B- Engineering}
-      \field{number}{112863}
-      \field{title}{Ultrahigh performance benzoxazine/poly(silane arylacetylene) thermosetting composite materials based on smart molecular engineering and machine learning}
-      \field{volume}{307}
-      \field{year}{2025}
-    \endentry
-    \entry{Xu2023}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=5d9378354768f3120de805b816955030}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Xinyao},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
-      \strng{fullhash}{3f27df82ffbf8a4d14712eeb9e619a7c}
-      \strng{bibnamehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
-      \strng{authorbibnamehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
-      \strng{authornamehash}{3f27df82ffbf8a4d14712eeb9e619a7c}
-      \strng{authorfullhash}{3f27df82ffbf8a4d14712eeb9e619a7c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Chemical Science}
-      \field{title}{Efficient exploration of compositional space for high-performance copolymers via Bayesian optimization}
-      \field{volume}{14}
-      \field{year}{2015}
-      \field{pages}{10203\bibrangedash 10211}
-      \range{pages}{9}
-    \endentry
-    \entry{Zhao2024}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=5b0bad8655149da3c2fb0fb8ec407b9a}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Wenlin},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{6c9fc5722a927b00e663651787acc265}
-      \strng{fullhash}{6c9fc5722a927b00e663651787acc265}
-      \strng{bibnamehash}{6c9fc5722a927b00e663651787acc265}
-      \strng{authorbibnamehash}{6c9fc5722a927b00e663651787acc265}
-      \strng{authornamehash}{6c9fc5722a927b00e663651787acc265}
-      \strng{authorfullhash}{6c9fc5722a927b00e663651787acc265}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Composite Science and Technology}
-      \field{number}{110779}
-      \field{title}{Design of multicomponent thermosetting polymers with enhanced tensile properties through active learning}
-      \field{volume}{256}
-      \field{year}{2024}
-    \endentry
-    \entry{Albuquerque2024}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=9a0f261fe9b8980fd3154bbfde8cbbd2}{%
-           family={Albuquerque},
-           familyi={A\bibinitperiod},
-           given={Rodrigo},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{ab266b4ffbecf9b947f0222ad9079f87}
-      \strng{fullhash}{ab266b4ffbecf9b947f0222ad9079f87}
-      \strng{bibnamehash}{ab266b4ffbecf9b947f0222ad9079f87}
-      \strng{authorbibnamehash}{ab266b4ffbecf9b947f0222ad9079f87}
-      \strng{authornamehash}{ab266b4ffbecf9b947f0222ad9079f87}
-      \strng{authorfullhash}{ab266b4ffbecf9b947f0222ad9079f87}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{MRS Bulletin}
-      \field{title}{Designing formulations of bio-based, multicomponent epoxy resin systems via machine learning}
-      \field{volume}{49}
-      \field{year}{2024}
-      \field{pages}{59\bibrangedash 70}
-      \range{pages}{12}
-    \endentry
-    \entry{Rothenhausler2024}{article}{}
-      \name{author}{2}{}{%
-        {{hash=28a49738976c3c495d5b1240a5dd814c}{%
-           family={Rothenhäusler},
-           familyi={R\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=8b5621279cb4fdb2d5570e9fa777ca70}{%
-           family={Ruckdaeschel},
-           familyi={R\bibinitperiod},
-           given={Holger},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{048bf22400592ceaecda582350d9eac3}
-      \strng{fullhash}{048bf22400592ceaecda582350d9eac3}
-      \strng{bibnamehash}{048bf22400592ceaecda582350d9eac3}
-      \strng{authorbibnamehash}{048bf22400592ceaecda582350d9eac3}
-      \strng{authornamehash}{048bf22400592ceaecda582350d9eac3}
-      \strng{authorfullhash}{048bf22400592ceaecda582350d9eac3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Polymer Science}
-      \field{number}{21}
-      \field{title}{Strategies for the fast optimization of the glass transition temperature of sustainable epoxy resin systems via machine learning}
-      \field{volume}{141}
-      \field{year}{2024}
-    \endentry
-    \entry{Schoenholz2024}{article}{}
-      \name{author}{2}{}{%
-        {{hash=fc3a19967e6c848015f9412ce346301b}{%
-           family={Schoenholz},
-           familyi={S\bibinitperiod},
-           given={Caleb},
-           giveni={C\bibinitperiod}}}%
-        {{hash=d9130cb8ef7d925e92802be05d6cfb1d}{%
-           family={Zobeiry},
-           familyi={Z\bibinitperiod},
-           given={Navid},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{183628349143985a34550f54daae6f63}
-      \strng{fullhash}{183628349143985a34550f54daae6f63}
-      \strng{bibnamehash}{183628349143985a34550f54daae6f63}
-      \strng{authorbibnamehash}{183628349143985a34550f54daae6f63}
-      \strng{authornamehash}{183628349143985a34550f54daae6f63}
-      \strng{authorfullhash}{183628349143985a34550f54daae6f63}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Composites Part A- Applied Science and Manufacturing}
-      \field{number}{107842}
-      \field{title}{An accelerated process optimization method to minimize deformations in composites using theory-guided probabilistic machine learning}
-      \field{volume}{176}
-      \field{year}{2024}
-    \endentry
-    \entry{Seraji2022}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=b5b7389f6500f4f1276d74cf44b4a51f}{%
-           family={Seraji},
-           familyi={S\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2144b5ed1f5373101631a6625599268e}
-      \strng{fullhash}{2144b5ed1f5373101631a6625599268e}
-      \strng{bibnamehash}{2144b5ed1f5373101631a6625599268e}
-      \strng{authorbibnamehash}{2144b5ed1f5373101631a6625599268e}
-      \strng{authornamehash}{2144b5ed1f5373101631a6625599268e}
-      \strng{authorfullhash}{2144b5ed1f5373101631a6625599268e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Chemical Engineering Journal}
-      \field{number}{5443}
-      \field{title}{Fire-retardant unsaturated polyester thermosets- The state-of-the-art, challenges and opportunities}
-      \field{volume}{430}
-      \field{year}{2022}
-    \endentry
-    \entry{Chen2015}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=38241eaee18102cab15a125b0654c7da}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{009ae0939de2e2902cbc6c9fa114de64}
-      \strng{fullhash}{009ae0939de2e2902cbc6c9fa114de64}
-      \strng{bibnamehash}{009ae0939de2e2902cbc6c9fa114de64}
-      \strng{authorbibnamehash}{009ae0939de2e2902cbc6c9fa114de64}
-      \strng{authornamehash}{009ae0939de2e2902cbc6c9fa114de64}
-      \strng{authorfullhash}{009ae0939de2e2902cbc6c9fa114de64}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ACS Sustainable Chemistry and Engineering}
-      \field{title}{Synthesis and application of polyepoxide cardanol glycidyl ether as biobased polyepoxide reactive diluent for epoxy resin}
-      \field{volume}{3}
-      \field{year}{2015}
-      \field{pages}{1164\bibrangedash 71}
-      \range{pages}{8}
-    \endentry
-    \entry{Kharas1997}{article}{}
+    \entry{Kharas1997}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1538,12 +1465,14 @@
       }
       \strng{namehash}{41112c9c782067b48cb4fa6eff6c17f5}
       \strng{fullhash}{41112c9c782067b48cb4fa6eff6c17f5}
+      \strng{fullhashraw}{41112c9c782067b48cb4fa6eff6c17f5}
       \strng{bibnamehash}{41112c9c782067b48cb4fa6eff6c17f5}
       \strng{authorbibnamehash}{41112c9c782067b48cb4fa6eff6c17f5}
       \strng{authornamehash}{41112c9c782067b48cb4fa6eff6c17f5}
       \strng{authorfullhash}{41112c9c782067b48cb4fa6eff6c17f5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{authorfullhashraw}{41112c9c782067b48cb4fa6eff6c17f5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Polymer Science}
@@ -1553,7 +1482,65 @@
       \field{pages}{1123\bibrangedash 1137}
       \range{pages}{15}
     \endentry
-    \entry{Cowie1979}{article}{}
+    \entry{Seraji2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b5b7389f6500f4f1276d74cf44b4a51f}{%
+           family={Seraji},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2144b5ed1f5373101631a6625599268e}
+      \strng{fullhash}{2144b5ed1f5373101631a6625599268e}
+      \strng{fullhashraw}{2144b5ed1f5373101631a6625599268e}
+      \strng{bibnamehash}{2144b5ed1f5373101631a6625599268e}
+      \strng{authorbibnamehash}{2144b5ed1f5373101631a6625599268e}
+      \strng{authornamehash}{2144b5ed1f5373101631a6625599268e}
+      \strng{authorfullhash}{2144b5ed1f5373101631a6625599268e}
+      \strng{authorfullhashraw}{2144b5ed1f5373101631a6625599268e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Journal}
+      \field{number}{5443}
+      \field{title}{Fire-retardant unsaturated polyester thermosets- The state-of-the-art, challenges and opportunities}
+      \field{volume}{430}
+      \field{year}{2022}
+    \endentry
+    \entry{Chen2015}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=38241eaee18102cab15a125b0654c7da}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{fullhash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{fullhashraw}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{bibnamehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authorbibnamehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authornamehash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authorfullhash}{009ae0939de2e2902cbc6c9fa114de64}
+      \strng{authorfullhashraw}{009ae0939de2e2902cbc6c9fa114de64}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Sustainable Chemistry and Engineering}
+      \field{title}{Synthesis and application of polyepoxide cardanol glycidyl ether as biobased polyepoxide reactive diluent for epoxy resin}
+      \field{volume}{3}
+      \field{year}{2015}
+      \field{pages}{1164\bibrangedash 71}
+      \range{pages}{8}
+    \endentry
+    \entry{Cowie1979}{article}{}{}
       \name{author}{1}{}{%
         {{hash=e98fba2171a1c8a16912d7136a33ecaf}{%
            family={Cowie},
@@ -1563,12 +1550,14 @@
       }
       \strng{namehash}{e98fba2171a1c8a16912d7136a33ecaf}
       \strng{fullhash}{e98fba2171a1c8a16912d7136a33ecaf}
+      \strng{fullhashraw}{e98fba2171a1c8a16912d7136a33ecaf}
       \strng{bibnamehash}{e98fba2171a1c8a16912d7136a33ecaf}
       \strng{authorbibnamehash}{e98fba2171a1c8a16912d7136a33ecaf}
       \strng{authornamehash}{e98fba2171a1c8a16912d7136a33ecaf}
       \strng{authorfullhash}{e98fba2171a1c8a16912d7136a33ecaf}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{authorfullhashraw}{e98fba2171a1c8a16912d7136a33ecaf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Pure and Applied Chemistry}
@@ -1578,7 +1567,7 @@
       \field{pages}{2331\bibrangedash 2343}
       \range{pages}{13}
     \endentry
-    \entry{Cowie1977}{article}{}
+    \entry{Cowie1977}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1590,12 +1579,14 @@
       }
       \strng{namehash}{21f2a00c7ea98d9518c1573cb754fe10}
       \strng{fullhash}{21f2a00c7ea98d9518c1573cb754fe10}
+      \strng{fullhashraw}{21f2a00c7ea98d9518c1573cb754fe10}
       \strng{bibnamehash}{21f2a00c7ea98d9518c1573cb754fe10}
       \strng{authorbibnamehash}{21f2a00c7ea98d9518c1573cb754fe10}
       \strng{authornamehash}{21f2a00c7ea98d9518c1573cb754fe10}
       \strng{authorfullhash}{21f2a00c7ea98d9518c1573cb754fe10}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{authorfullhashraw}{21f2a00c7ea98d9518c1573cb754fe10}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymer}
@@ -1605,33 +1596,7 @@
       \field{pages}{612\bibrangedash 616}
       \range{pages}{5}
     \endentry
-    \entry{Ettre1993}{article}{}
-      \name{author}{1}{}{%
-        {{hash=dbfef28888baf4af6bba21f2cdf245b8}{%
-           family={Ettre},
-           familyi={E\bibinitperiod},
-           given={L},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{dbfef28888baf4af6bba21f2cdf245b8}
-      \strng{fullhash}{dbfef28888baf4af6bba21f2cdf245b8}
-      \strng{bibnamehash}{dbfef28888baf4af6bba21f2cdf245b8}
-      \strng{authorbibnamehash}{dbfef28888baf4af6bba21f2cdf245b8}
-      \strng{authornamehash}{dbfef28888baf4af6bba21f2cdf245b8}
-      \strng{authorfullhash}{dbfef28888baf4af6bba21f2cdf245b8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pure and Applied Chemistry}
-      \field{number}{4}
-      \field{title}{Nomenclature for chromatography}
-      \field{volume}{65}
-      \field{year}{1993}
-      \field{pages}{819\bibrangedash 872}
-      \range{pages}{54}
-    \endentry
-    \entry{Parkyn1967}{book}{}
+    \entry{Parkyn1967}{book}{}{}
       \name{author}{2}{}{%
         {{hash=831c6b517588e618caf5330c49b311a2}{%
            family={Parkyn},
@@ -1661,13 +1626,16 @@
       }
       \strng{namehash}{75b53535c85ac9134538514fa6c5993c}
       \strng{fullhash}{75b53535c85ac9134538514fa6c5993c}
+      \strng{fullhashraw}{75b53535c85ac9134538514fa6c5993c}
       \strng{bibnamehash}{75b53535c85ac9134538514fa6c5993c}
       \strng{authorbibnamehash}{75b53535c85ac9134538514fa6c5993c}
       \strng{authornamehash}{75b53535c85ac9134538514fa6c5993c}
       \strng{authorfullhash}{75b53535c85ac9134538514fa6c5993c}
+      \strng{authorfullhashraw}{75b53535c85ac9134538514fa6c5993c}
       \strng{editorbibnamehash}{e4e911a2991af5a2753f3b356b0e4691}
       \strng{editornamehash}{e4e911a2991af5a2753f3b356b0e4691}
       \strng{editorfullhash}{e4e911a2991af5a2753f3b356b0e4691}
+      \strng{editorfullhashraw}{e4e911a2991af5a2753f3b356b0e4691}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -1675,59 +1643,7 @@
       \field{title}{Polyesters: Volume 2 - Unsaturated Polyesters and Polyester Plasticisers}
       \field{year}{1967}
     \endentry
-    \entry{Korbar1993}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=9ee4d96eee0ac49a77c38cfa48e452ae}{%
-           family={Korbar},
-           familyi={K\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{7a7d37cec8022230b66f456902ee1971}
-      \strng{fullhash}{7a7d37cec8022230b66f456902ee1971}
-      \strng{bibnamehash}{7a7d37cec8022230b66f456902ee1971}
-      \strng{authorbibnamehash}{7a7d37cec8022230b66f456902ee1971}
-      \strng{authornamehash}{7a7d37cec8022230b66f456902ee1971}
-      \strng{authorfullhash}{7a7d37cec8022230b66f456902ee1971}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Polymer Engineering and Science}
-      \field{number}{18}
-      \field{title}{Process of unsaturated polyester resin synthesis on a laboratory scale}
-      \field{volume}{33}
-      \field{year}{1993}
-      \field{pages}{1212\bibrangedash 1216}
-      \range{pages}{5}
-    \endentry
-    \entry{Bodnar1990}{patent}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=6c17d99681aef88cccd313bd16e2a95a}{%
-           family={Bodnar},
-           familyi={B\bibinitperiod},
-           given={Akos},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{678bbe281d5ac2cac08ec305286996b1}
-      \strng{fullhash}{678bbe281d5ac2cac08ec305286996b1}
-      \strng{bibnamehash}{678bbe281d5ac2cac08ec305286996b1}
-      \strng{authorbibnamehash}{678bbe281d5ac2cac08ec305286996b1}
-      \strng{authornamehash}{678bbe281d5ac2cac08ec305286996b1}
-      \strng{authorfullhash}{678bbe281d5ac2cac08ec305286996b1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{4902773}
-      \field{title}{Method of Preparation of Unsaturated Polyester Resins from Maleic Acid or Anhydride}
-      \field{year}{1990}
-    \endentry
-    \entry{Cherian2004}{article}{}
+    \entry{Cherian2004}{article}{}{}
       \name{author}{2}{}{%
         {{hash=498bc4d6e1f5851e8c88f649507bc3bc}{%
            family={Cherian},
@@ -1742,12 +1658,14 @@
       }
       \strng{namehash}{c6ae84927ecdf6d9dff58b8e92803654}
       \strng{fullhash}{c6ae84927ecdf6d9dff58b8e92803654}
+      \strng{fullhashraw}{c6ae84927ecdf6d9dff58b8e92803654}
       \strng{bibnamehash}{c6ae84927ecdf6d9dff58b8e92803654}
       \strng{authorbibnamehash}{c6ae84927ecdf6d9dff58b8e92803654}
       \strng{authornamehash}{c6ae84927ecdf6d9dff58b8e92803654}
       \strng{authorfullhash}{c6ae84927ecdf6d9dff58b8e92803654}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{authorfullhashraw}{c6ae84927ecdf6d9dff58b8e92803654}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Polymeric Materials}
@@ -1757,7 +1675,33 @@
       \field{pages}{829\bibrangedash 845}
       \range{pages}{17}
     \endentry
-    \entry{Podzimek1994}{article}{}
+    \entry{Bodnar1990}{patent}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=6c17d99681aef88cccd313bd16e2a95a}{%
+           family={Bodnar},
+           familyi={B\bibinitperiod},
+           given={Akos},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{fullhash}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{fullhashraw}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{bibnamehash}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{authorbibnamehash}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{authornamehash}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{authorfullhash}{678bbe281d5ac2cac08ec305286996b1}
+      \strng{authorfullhashraw}{678bbe281d5ac2cac08ec305286996b1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{4902773}
+      \field{title}{Method of Preparation of Unsaturated Polyester Resins from Maleic Acid or Anhydride}
+      \field{year}{1990}
+    \endentry
+    \entry{Podzimek1994}{article}{}{}
       \name{author}{2}{}{%
         {{hash=3cb335ce83729d0b0b26faa6b0ffdf75}{%
            family={Podzimek},
@@ -1772,12 +1716,14 @@
       }
       \strng{namehash}{87dd36b38e185e2d5cb8b6a54e595699}
       \strng{fullhash}{87dd36b38e185e2d5cb8b6a54e595699}
+      \strng{fullhashraw}{87dd36b38e185e2d5cb8b6a54e595699}
       \strng{bibnamehash}{87dd36b38e185e2d5cb8b6a54e595699}
       \strng{authorbibnamehash}{87dd36b38e185e2d5cb8b6a54e595699}
       \strng{authornamehash}{87dd36b38e185e2d5cb8b6a54e595699}
       \strng{authorfullhash}{87dd36b38e185e2d5cb8b6a54e595699}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{authorfullhashraw}{87dd36b38e185e2d5cb8b6a54e595699}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Polymer Science}
@@ -1787,7 +1733,7 @@
       \field{pages}{1351\bibrangedash 1356}
       \range{pages}{6}
     \endentry
-    \entry{Podzimek1990}{article}{}
+    \entry{Podzimek1990}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1799,12 +1745,14 @@
       }
       \strng{namehash}{b96403afffa604dea887984621ae7624}
       \strng{fullhash}{b96403afffa604dea887984621ae7624}
+      \strng{fullhashraw}{b96403afffa604dea887984621ae7624}
       \strng{bibnamehash}{b96403afffa604dea887984621ae7624}
       \strng{authorbibnamehash}{b96403afffa604dea887984621ae7624}
       \strng{authornamehash}{b96403afffa604dea887984621ae7624}
       \strng{authorfullhash}{b96403afffa604dea887984621ae7624}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{authorfullhashraw}{b96403afffa604dea887984621ae7624}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Liquid Chromatography}
@@ -1815,7 +1763,106 @@
       \field{pages}{1809\bibrangedash 1824}
       \range{pages}{16}
     \endentry
-    \entry{Molina2020}{article}{}
+    \entry{Cristobal1989}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3697af1def466898490a89a344156a35}{%
+           family={Cristobal},
+           familyi={C\bibinitperiod},
+           given={Larez},
+           giveni={L\bibinitperiod}}}%
+        {{hash=72221235ca8e724ed1fc601cdb10479b}{%
+           family={Perdomo\bibnamedelima Mendoza},
+           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{fullhash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{fullhashraw}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{bibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorbibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authornamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorfullhash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorfullhashraw}{6040adf4a14311b4c8b86bf663ec9f52}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymer Bulletins}
+      \field{title}{Unsaturated polyesters 1. Polyester from maleic anhydride and ethylene glycol}
+      \field{volume}{22}
+      \field{year}{1989}
+      \field{pages}{513\bibrangedash 519}
+      \range{pages}{7}
+    \endentry
+    \entry{Cristobal1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3697af1def466898490a89a344156a35}{%
+           family={Cristobal},
+           familyi={C\bibinitperiod},
+           given={Larez},
+           giveni={L\bibinitperiod}}}%
+        {{hash=72221235ca8e724ed1fc601cdb10479b}{%
+           family={Perdomo\bibnamedelima Mendoza},
+           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{fullhash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{fullhashraw}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{bibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorbibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authornamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorfullhash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorfullhashraw}{6040adf4a14311b4c8b86bf663ec9f52}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Polymer Science}
+      \field{title}{Unsaturated polyesters. V. Polyester from maleic anhydride and 1,6-hexanediol}
+      \field{volume}{47}
+      \field{year}{1993}
+      \field{pages}{121\bibrangedash 124}
+      \range{pages}{4}
+    \endentry
+    \entry{Cristobal1991b}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3697af1def466898490a89a344156a35}{%
+           family={Cristobal},
+           familyi={C\bibinitperiod},
+           given={Larez},
+           giveni={L\bibinitperiod}}}%
+        {{hash=72221235ca8e724ed1fc601cdb10479b}{%
+           family={Perdomo\bibnamedelima Mendoza},
+           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{fullhash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{fullhashraw}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{bibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorbibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authornamehash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorfullhash}{6040adf4a14311b4c8b86bf663ec9f52}
+      \strng{authorfullhashraw}{6040adf4a14311b4c8b86bf663ec9f52}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymer Bulletin}
+      \field{title}{Unsaturated polyesters. 4. Polyester from maleic anhydride and 1,5-pentanediol}
+      \field{volume}{26}
+      \field{year}{1991}
+      \field{pages}{313\bibrangedash 317}
+      \range{pages}{5}
+    \endentry
+    \entry{Molina2020}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1827,12 +1874,14 @@
       }
       \strng{namehash}{8ad57fb66cd6ca0b029e2d7dd0e52398}
       \strng{fullhash}{8ad57fb66cd6ca0b029e2d7dd0e52398}
+      \strng{fullhashraw}{8ad57fb66cd6ca0b029e2d7dd0e52398}
       \strng{bibnamehash}{8ad57fb66cd6ca0b029e2d7dd0e52398}
       \strng{authorbibnamehash}{8ad57fb66cd6ca0b029e2d7dd0e52398}
       \strng{authornamehash}{8ad57fb66cd6ca0b029e2d7dd0e52398}
       \strng{authorfullhash}{8ad57fb66cd6ca0b029e2d7dd0e52398}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{authorfullhashraw}{8ad57fb66cd6ca0b029e2d7dd0e52398}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymer International}
@@ -1842,69 +1891,7 @@
       \field{pages}{1140\bibrangedash 1151}
       \range{pages}{12}
     \endentry
-    \entry{Cristobal1993}{article}{}
-      \name{author}{2}{}{%
-        {{hash=3697af1def466898490a89a344156a35}{%
-           family={Cristobal},
-           familyi={C\bibinitperiod},
-           given={Larez},
-           giveni={L\bibinitperiod}}}%
-        {{hash=72221235ca8e724ed1fc601cdb10479b}{%
-           family={Perdomo\bibnamedelima Mendoza},
-           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Gilberto},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{fullhash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{bibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{authorbibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{authornamehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{authorfullhash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Polymer Science}
-      \field{title}{Unsaturated polyesters. V. Polyester from maleic anhydride and 1,6-hexanediol}
-      \field{volume}{47}
-      \field{year}{1993}
-      \field{pages}{121\bibrangedash 124}
-      \range{pages}{4}
-    \endentry
-    \entry{Cristobal1991b}{article}{}
-      \name{author}{2}{}{%
-        {{hash=3697af1def466898490a89a344156a35}{%
-           family={Cristobal},
-           familyi={C\bibinitperiod},
-           given={Larez},
-           giveni={L\bibinitperiod}}}%
-        {{hash=72221235ca8e724ed1fc601cdb10479b}{%
-           family={Perdomo\bibnamedelima Mendoza},
-           familyi={P\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Gilberto},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{fullhash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{bibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{authorbibnamehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{authornamehash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \strng{authorfullhash}{6040adf4a14311b4c8b86bf663ec9f52}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Polymer Bulletin}
-      \field{title}{Unsaturated polyesters. 4. Polyester from maleic anhydride and 1,5-pentanediol}
-      \field{volume}{26}
-      \field{year}{1991}
-      \field{pages}{313\bibrangedash 317}
-      \range{pages}{5}
-    \endentry
-    \entry{Euler1744}{book}{}
+    \entry{Euler1744}{book}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1927,48 +1914,25 @@
       }
       \strng{namehash}{843b67f0f6c7dedebf5c024cef5814ff}
       \strng{fullhash}{843b67f0f6c7dedebf5c024cef5814ff}
+      \strng{fullhashraw}{843b67f0f6c7dedebf5c024cef5814ff}
       \strng{bibnamehash}{843b67f0f6c7dedebf5c024cef5814ff}
       \strng{authorbibnamehash}{843b67f0f6c7dedebf5c024cef5814ff}
       \strng{authornamehash}{843b67f0f6c7dedebf5c024cef5814ff}
       \strng{authorfullhash}{843b67f0f6c7dedebf5c024cef5814ff}
+      \strng{authorfullhashraw}{843b67f0f6c7dedebf5c024cef5814ff}
       \strng{editorbibnamehash}{f57a8c3746c4afcfc0cce86966aff75f}
       \strng{editornamehash}{f57a8c3746c4afcfc0cce86966aff75f}
       \strng{editorfullhash}{f57a8c3746c4afcfc0cce86966aff75f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{editorfullhashraw}{f57a8c3746c4afcfc0cce86966aff75f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1}
       \field{title}{Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes, sive, Solutio problematis isoperimetrici latissimo sensu accepti}
       \field{year}{1744}
     \endentry
-    \entry{AISC1989}{book}{}
-      \name{author}{1}{}{%
-        {{hash=cd4f47208e9bd0b9e3ff61ba102ba9f9}{%
-           family={Steel\bibnamedelima Construction},
-           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={American\bibnamedelima Institute},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
-           prefix={of},
-           prefixi={o\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Institute of Steel Construction}%
-      }
-      \strng{namehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
-      \strng{fullhash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
-      \strng{bibnamehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
-      \strng{authorbibnamehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
-      \strng{authornamehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
-      \strng{authorfullhash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Manual of Steel Construction- Allowable Stress Design}
-      \field{year}{1989}
-    \endentry
-    \entry{Martin2006}{inbook}{}
+    \entry{Martin2006}{inbook}{}{}
       \name{author}{1}{}{%
         {{hash=a527309fef5c1d42f6ca3e8a384305c2}{%
            family={Martin},
@@ -1985,15 +1949,18 @@
       }
       \strng{namehash}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{fullhash}{a527309fef5c1d42f6ca3e8a384305c2}
+      \strng{fullhashraw}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{bibnamehash}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{authorbibnamehash}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{authornamehash}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{authorfullhash}{a527309fef5c1d42f6ca3e8a384305c2}
+      \strng{authorfullhashraw}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{editorbibnamehash}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{editornamehash}{a527309fef5c1d42f6ca3e8a384305c2}
       \strng{editorfullhash}{a527309fef5c1d42f6ca3e8a384305c2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{editorfullhashraw}{a527309fef5c1d42f6ca3e8a384305c2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{chapter}{2}
@@ -2001,7 +1968,7 @@
       \field{title}{Materials for Engineering}
       \field{year}{2006}
     \endentry
-    \entry{Horwood2023}{inbook}{}
+    \entry{Horwood2023}{inbook}{}{}
       \name{author}{2}{}{%
         {{hash=880923acf4561a083c1b6e645af08869}{%
            family={Horwood},
@@ -2028,15 +1995,18 @@
       }
       \strng{namehash}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{fullhash}{a19d35481d1400a4e8b1f9a647a5c88b}
+      \strng{fullhashraw}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{bibnamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{authorbibnamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{authornamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{authorfullhash}{a19d35481d1400a4e8b1f9a647a5c88b}
+      \strng{authorfullhashraw}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{editorbibnamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{editornamehash}{a19d35481d1400a4e8b1f9a647a5c88b}
       \strng{editorfullhash}{a19d35481d1400a4e8b1f9a647a5c88b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{editorfullhashraw}{a19d35481d1400a4e8b1f9a647a5c88b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{chapter}{2}
@@ -2044,7 +2014,7 @@
       \field{title}{Clinical Biomechanics in Human Locomotion}
       \field{year}{2023}
     \endentry
-    \entry{Snoek2012}{misc}{}
+    \entry{Snoek2012}{misc}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -2056,12 +2026,14 @@
       }
       \strng{namehash}{ed6793cb5ec5e5b336b96236df5b354f}
       \strng{fullhash}{ed6793cb5ec5e5b336b96236df5b354f}
+      \strng{fullhashraw}{ed6793cb5ec5e5b336b96236df5b354f}
       \strng{bibnamehash}{ed6793cb5ec5e5b336b96236df5b354f}
       \strng{authorbibnamehash}{ed6793cb5ec5e5b336b96236df5b354f}
       \strng{authornamehash}{ed6793cb5ec5e5b336b96236df5b354f}
       \strng{authorfullhash}{ed6793cb5ec5e5b336b96236df5b354f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{ed6793cb5ec5e5b336b96236df5b354f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{eprintclass}{stat.ML}
       \field{eprinttype}{arXiv}
@@ -2076,7 +2048,7 @@
       \verb https://arxiv.org/abs/1206.2944
       \endverb
     \endentry
-    \entry{Stein1999}{book}{}
+    \entry{Stein1999}{book}{}{}
       \name{author}{1}{}{%
         {{hash=f64d55d91346ce867701b1ed2c823d74}{%
            family={Stein},
@@ -2096,22 +2068,25 @@
       }
       \strng{namehash}{f64d55d91346ce867701b1ed2c823d74}
       \strng{fullhash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{fullhashraw}{f64d55d91346ce867701b1ed2c823d74}
       \strng{bibnamehash}{f64d55d91346ce867701b1ed2c823d74}
       \strng{authorbibnamehash}{f64d55d91346ce867701b1ed2c823d74}
       \strng{authornamehash}{f64d55d91346ce867701b1ed2c823d74}
       \strng{authorfullhash}{f64d55d91346ce867701b1ed2c823d74}
+      \strng{authorfullhashraw}{f64d55d91346ce867701b1ed2c823d74}
       \strng{editorbibnamehash}{f64d55d91346ce867701b1ed2c823d74}
       \strng{editornamehash}{f64d55d91346ce867701b1ed2c823d74}
       \strng{editorfullhash}{f64d55d91346ce867701b1ed2c823d74}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{editorfullhashraw}{f64d55d91346ce867701b1ed2c823d74}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1}
       \field{title}{Interpolation of Spatial Data}
       \field{year}{1999}
     \endentry
-    \entry{Ament2025}{misc}{}
+    \entry{Ament2025}{misc}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -2123,12 +2098,14 @@
       }
       \strng{namehash}{ea99d5178d186f7517842d0aff517712}
       \strng{fullhash}{ea99d5178d186f7517842d0aff517712}
+      \strng{fullhashraw}{ea99d5178d186f7517842d0aff517712}
       \strng{bibnamehash}{ea99d5178d186f7517842d0aff517712}
       \strng{authorbibnamehash}{ea99d5178d186f7517842d0aff517712}
       \strng{authornamehash}{ea99d5178d186f7517842d0aff517712}
       \strng{authorfullhash}{ea99d5178d186f7517842d0aff517712}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{ea99d5178d186f7517842d0aff517712}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -2144,7 +2121,7 @@
       \verb https://arxiv.org/abs/2310.20708
       \endverb
     \endentry
-    \entry{Crombecq2011}{article}{}
+    \entry{Crombecq2011}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -2156,12 +2133,14 @@
       }
       \strng{namehash}{58e50b00d2930f6d031fb9c197717660}
       \strng{fullhash}{58e50b00d2930f6d031fb9c197717660}
+      \strng{fullhashraw}{58e50b00d2930f6d031fb9c197717660}
       \strng{bibnamehash}{58e50b00d2930f6d031fb9c197717660}
       \strng{authorbibnamehash}{58e50b00d2930f6d031fb9c197717660}
       \strng{authornamehash}{58e50b00d2930f6d031fb9c197717660}
       \strng{authorfullhash}{58e50b00d2930f6d031fb9c197717660}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{58e50b00d2930f6d031fb9c197717660}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{European Journal of Operational Research}
@@ -2171,7 +2150,7 @@
       \field{pages}{683\bibrangedash 696}
       \range{pages}{14}
     \endentry
-    \entry{Garnett2023}{book}{}
+    \entry{Garnett2023}{book}{}{}
       \name{author}{1}{}{%
         {{hash=eaf84e3fe4f887967dc3d793d28b9e94}{%
            family={Garnett},
@@ -2184,18 +2163,20 @@
       }
       \strng{namehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{fullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \strng{fullhashraw}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{bibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authorbibnamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authornamehash}{eaf84e3fe4f887967dc3d793d28b9e94}
       \strng{authorfullhash}{eaf84e3fe4f887967dc3d793d28b9e94}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{eaf84e3fe4f887967dc3d793d28b9e94}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bayesian Optimization}
       \field{year}{2023}
     \endentry
-    \entry{Daulton2021}{misc}{}
+    \entry{Daulton2021}{misc}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -2210,12 +2191,14 @@
       }
       \strng{namehash}{73c95a343a113414b5c2c797b30fca52}
       \strng{fullhash}{73c95a343a113414b5c2c797b30fca52}
+      \strng{fullhashraw}{73c95a343a113414b5c2c797b30fca52}
       \strng{bibnamehash}{73c95a343a113414b5c2c797b30fca52}
       \strng{authorbibnamehash}{73c95a343a113414b5c2c797b30fca52}
       \strng{authornamehash}{73c95a343a113414b5c2c797b30fca52}
       \strng{authorfullhash}{73c95a343a113414b5c2c797b30fca52}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{73c95a343a113414b5c2c797b30fca52}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Retrieved 1st October 2025}
@@ -2231,7 +2214,7 @@
       \verb https://arxiv.org/abs/2105.08195
       \endverb
     \endentry
-    \entry{HojlundDodd2025}{software}{}
+    \entry{HojlundDodd2025}{software}{}{}
       \name{author}{1}{}{%
         {{hash=37869c8d000b76d8a5494d7fcad1aca5}{%
            family={Højlund-Dodd},
@@ -2241,12 +2224,14 @@
       }
       \strng{namehash}{37869c8d000b76d8a5494d7fcad1aca5}
       \strng{fullhash}{37869c8d000b76d8a5494d7fcad1aca5}
+      \strng{fullhashraw}{37869c8d000b76d8a5494d7fcad1aca5}
       \strng{bibnamehash}{37869c8d000b76d8a5494d7fcad1aca5}
       \strng{authorbibnamehash}{37869c8d000b76d8a5494d7fcad1aca5}
       \strng{authornamehash}{37869c8d000b76d8a5494d7fcad1aca5}
       \strng{authorfullhash}{37869c8d000b76d8a5494d7fcad1aca5}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{37869c8d000b76d8a5494d7fcad1aca5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{27}
@@ -2262,7 +2247,7 @@
       \verb https://github.com/ThomasDodd97/BO4ACST_Ax1
       \endverb
     \endentry
-    \entry{Facebook2025}{software}{}
+    \entry{Facebook2025}{software}{}{}
       \name{author}{1}{}{%
         {{hash=d85544fce402c7a2a96a48078edaf203}{%
            family={Facebook},
@@ -2270,12 +2255,14 @@
       }
       \strng{namehash}{d85544fce402c7a2a96a48078edaf203}
       \strng{fullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhashraw}{d85544fce402c7a2a96a48078edaf203}
       \strng{bibnamehash}{d85544fce402c7a2a96a48078edaf203}
       \strng{authorbibnamehash}{d85544fce402c7a2a96a48078edaf203}
       \strng{authornamehash}{d85544fce402c7a2a96a48078edaf203}
       \strng{authorfullhash}{d85544fce402c7a2a96a48078edaf203}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{d85544fce402c7a2a96a48078edaf203}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{27}
@@ -2291,7 +2278,7 @@
       \verb https://github.com/facebook/Ax
       \endverb
     \endentry
-    \entry{MetaPytorch2025B}{software}{}
+    \entry{MetaPytorch2025B}{software}{}{}
       \name{author}{1}{}{%
         {{hash=5fcaf3c3b8731cecd235cd8ba5221d9b}{%
            family={PyTorch},
@@ -2301,12 +2288,14 @@
       }
       \strng{namehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
       \strng{fullhash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \strng{fullhashraw}{5fcaf3c3b8731cecd235cd8ba5221d9b}
       \strng{bibnamehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
       \strng{authorbibnamehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
       \strng{authornamehash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
       \strng{authorfullhash}{5fcaf3c3b8731cecd235cd8ba5221d9b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{authorfullhashraw}{5fcaf3c3b8731cecd235cd8ba5221d9b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{5}
@@ -2321,6 +2310,121 @@
       \verb{url}
       \verb https://github.com/meta-pytorch/botorch
       \endverb
+    \endentry
+    \entry{Ettre1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dbfef28888baf4af6bba21f2cdf245b8}{%
+           family={Ettre},
+           familyi={E\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{fullhash}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{fullhashraw}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{bibnamehash}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{authorbibnamehash}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{authornamehash}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{authorfullhash}{dbfef28888baf4af6bba21f2cdf245b8}
+      \strng{authorfullhashraw}{dbfef28888baf4af6bba21f2cdf245b8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pure and Applied Chemistry}
+      \field{number}{4}
+      \field{title}{Nomenclature for chromatography}
+      \field{volume}{65}
+      \field{year}{1993}
+      \field{pages}{819\bibrangedash 872}
+      \range{pages}{54}
+    \endentry
+    \entry{Korbar1993}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9ee4d96eee0ac49a77c38cfa48e452ae}{%
+           family={Korbar},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a7d37cec8022230b66f456902ee1971}
+      \strng{fullhash}{7a7d37cec8022230b66f456902ee1971}
+      \strng{fullhashraw}{7a7d37cec8022230b66f456902ee1971}
+      \strng{bibnamehash}{7a7d37cec8022230b66f456902ee1971}
+      \strng{authorbibnamehash}{7a7d37cec8022230b66f456902ee1971}
+      \strng{authornamehash}{7a7d37cec8022230b66f456902ee1971}
+      \strng{authorfullhash}{7a7d37cec8022230b66f456902ee1971}
+      \strng{authorfullhashraw}{7a7d37cec8022230b66f456902ee1971}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymer Engineering and Science}
+      \field{number}{18}
+      \field{title}{Process of unsaturated polyester resin synthesis on a laboratory scale}
+      \field{volume}{33}
+      \field{year}{1993}
+      \field{pages}{1212\bibrangedash 1216}
+      \range{pages}{5}
+    \endentry
+    \entry{Ahjopalo2000}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=e1db263a0e64c8e5a037af7335918069}{%
+           family={Ahjopalo},
+           familyi={A\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{fullhash}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{fullhashraw}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{bibnamehash}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{authorbibnamehash}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{authornamehash}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{authorfullhash}{7d9f105a5b720f32ace9d3252a7406ab}
+      \strng{authorfullhashraw}{7d9f105a5b720f32ace9d3252a7406ab}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymer}
+      \field{title}{Cyclic oligomers in saturated polyesters}
+      \field{volume}{41}
+      \field{year}{2000}
+      \field{pages}{8283\bibrangedash 8290}
+      \range{pages}{8}
+    \endentry
+    \entry{AISC1989}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=cd4f47208e9bd0b9e3ff61ba102ba9f9}{%
+           family={Steel\bibnamedelima Construction},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={American\bibnamedelima Institute},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Steel Construction}%
+      }
+      \strng{namehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{fullhash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{fullhashraw}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{bibnamehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{authorbibnamehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{authornamehash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{authorfullhash}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \strng{authorfullhashraw}{cd4f47208e9bd0b9e3ff61ba102ba9f9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manual of Steel Construction- Allowable Stress Design}
+      \field{year}{1989}
     \endentry
   \enddatalist
 \endrefsection

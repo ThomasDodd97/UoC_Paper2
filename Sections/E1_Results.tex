@@ -2,7 +2,7 @@
 All results stem from the datasets generated during the practical-application
  of Bayesian optimisation in the domain of thermoset composite property
  development.
-Practical experimental results were split into those derived from the two
+Practical experimental results were split into those derived from the
  single-objective experiments and the singular multi-objective optimisation.
 
 \subsection{Single-Objective Experiments}
@@ -30,8 +30,7 @@ Given its objective-naivety, purely exploratory nature, and the fact that
 The resulting dataset could be directly compared with both the single- 
  and multi-objective Bayesian sequential routines (see Section~\ref{subsec:MultiObjRes}).
 
-\subsubsection{Young's Modulus Experiment}
-\label{subsubsec:YMExp}
+\paragraph{Young's Modulus Experiment}
 Figure~\ref{fig:OptProgYM} compares the single-objective optimisation 
  progression of both Bayesian and exploratory sequential routines in the 
  maximisation of Young's modulus.
@@ -51,6 +50,7 @@ The exploratory sampling routine was the first to locate a sample improving
 Subsequently, at sample 17, the Bayesian single-objective routine
  discovered the experiment's highest Young's modulus of
  5012~\unit{\mega\pascal}.
+
 \noindent
 \begin{minipage}{0.485\textwidth}
     \includegraphics[width=\textwidth]{SOBO-YM-Progression.png}
@@ -67,12 +67,8 @@ Subsequently, at sample 17, the Bayesian single-objective routine
     }
     \label{fig:OptProgYM}
 \end{minipage}
-It is notable that this represented 69\% the Young's modulus exhibited by
- this materials conventional counterpart (styrene-based unsaturated polyester
- resin) optimised under the exact same conditions
- (see Fig.~\ref{fig:OptProgYSwSTY}).
 
-\subsubsection{Yield Point Experiment}
+\paragraph{Yield Point Experiment}
 Figure~\ref{fig:OptProgYS} compares optimisation progression of both the
  Bayesian single-objective and exploratory sequential routines with respect 
  to the maximisation of the yield point.
@@ -112,7 +108,7 @@ Subsequently, the Bayesian sequential technique improves upon the maximum
     \label{fig:OptProgYS}
 \end{minipage}
 
-\subsubsection{Comparison of Bayesian and MIPT Techniques}
+\paragraph{Comparison of Bayesian and MIPT Techniques}
 In both single-objective optimisation experiments, the Bayesian sequential
  routines outperformed the exploratory sampling routine in terms of
  discovery of samples approaching an experimental global maximum within the 
@@ -127,6 +123,7 @@ These results support the hypothesis that the Bayesian sampling
  was slim they remain significant.
 Further support may be garnered from repeat experiments of either a physical 
  or computational nature.
+
 
 However, in both experiments, the exploratory sampling routine 
  outperformed the Bayesian single-objective technique in terms of sample 
@@ -151,26 +148,10 @@ A hypothesis that the exploratory sampler more efficiently improves upon
  computational domain would aid in the supporting or negating this
  conjecture.
 
-% The fact that this occurred on the 15\textsuperscript{th} sample for both
-%  experiments is trivially explained since this was the same exploratory
-%  routine being performed (i.e. the same samples being evaluated upon
-%  different target variables) and the especially well-performing
-%  15\textsuperscript{th} sample was simply displaying it's evaluated
-%  properties in both experimental progressions; these circumstances almost
-%  come to pass a second time with respect to the 20\textsuperscript{th}
-%  sample drawn by the exploratory sampler.
-% A hypothesis that the exploratory sampler more efficiently improves upon
-%  the baseline maximum than the Bayesian routine would be weakly supported
-%  by the above findings given that both circumstances were precipitated from
-%  the same data point, but further repeat studies in the physical or
-%  computational domain would aid in the supporting or negating this
-%  conjecture.
-
-\subsubsection{Styrenated Young' Modulus Experiment}
+\paragraph{Styrenated Young's Modulus Experiment}
 An experiment identical to that of the single-objective Bayesian optimisation
- for Young's modulus (see Section~\ref{subsubsec:YMExp}) was carried out with 
- the conventional reactive diluent styrene in place of the bio-based dimethyl 
- itaconate.
+ for Young's modulus was carried out with the conventional reactive diluent
+ styrene in place of the bio-based dimethyl itaconate.
 Figure~\ref{fig:OptProgYSwSTY} shows an optimisation progression plot for
  the styrene-based system.
 The single-objective Bayesian optimisation technique shows strong
@@ -179,6 +160,14 @@ The single-objective Bayesian optimisation technique shows strong
 On conclusion of this sequential optimisation, the putative global
  optimum (sample 18) exhibited a compressive Young's modulus of
  7,271~MPa.
+Interestingly, the analogous bio-based experiment produced a sample
+ (sample 17 in Fig.~\ref{fig:OptProgYM}) exhibiting 69\% the Young's
+ modulus of this styrenated putative global optimum.
+Furthermore, when the relative crosslink densities between diitaconate
+ and styrene based resins of 73\unit{\percent} reported by Panic et al.
+ are considered \autocite{Panic2017}, it becomes apparent that this
+ short bout of optimisation has resulted in samples approaching the
+ currently known bounds of mechanical performance.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -214,7 +203,7 @@ This prior-forming dataset \(\mathcal{D}\) yielded an initial Pareto front
  as maxima by Bayesian sequential routines in their two respective
  single-objective experiments with yield strength (sample 37) an
  Young's modulus (sample 49) as their objectives.
-whilst the third (sample 15) was derived from the exploratory technique as a
+Whilst the third (sample 15) was derived from the exploratory technique as a
  point which performed well in both objectives of interest.
 With an ultimate sample limit of 72 and a single sample drawn per Bayesian
  iteration, the sequential multi-objective Bayesian routine proceeded to
@@ -245,6 +234,10 @@ Finally, the sample 68 dominated sample 66
  \(\sigma_{y}=62\)~\unit{\mega\pascal}) and 25\textsuperscript{th} 
  (\(E=813\)~\unit{\mega\pascal} and \(\sigma_{y}=105\)~\unit{\mega\pascal})
  samples.
+How the acquisition function likely navigated the parameter space and came
+ to the samples it discovered has been reviewed from the
+ perspective of the final Gaussian processes developed and is appended in
+ the supporting information.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -266,73 +259,6 @@ Finally, the sample 68 dominated sample 66
     \label{fig:OptMO}
 \end{minipage}
 
-Figure~\ref{fig:SliceGP} presents a matrix of slice plots involving the two
- Gaussian processes as they existed at the culmination of the multi-objective
- experiment.
-Every plot holds \nicefrac{2}{3} predictors constant whilst the column
- dictates which of the three predictors is varied.
-Each row of the matrix conditions the Gaussian process \(\mathcal{GP}\) on a
- different set of predictor constants, these are derived from either the 
- 14\textsuperscript{th} sample (\(\mathbf{x}^{i=14}\)), the
- 68\textsuperscript{th} sample (\(\mathbf{x}^{i=68}\)), or the
- mean of all samples' predictors (\(\mathbf{x}^{\mu}\)).
-The graphs are further annotated with vertical lines representing sample
- predictor values (\(\{x_{1},x_{2},x_{3}\}\)):
- \(\mathbf{x}^{i=14}=\{0.98,0.5,0.93\}\)
- \(\mathbf{x}^{i=68}=\{0.72,0.4,0.5\}\)
- \(\mathbf{x}^{\mu}=\{0.71,0.64,0.64\}\).
-
-Row B of Figure~\ref{fig:SliceGP} describes the processes as conditioned
- upon the experimental mean of sample predictors
- (\(\mathcal{GP}|\mathbf{x}^{\mu}\)); these graphs provide rough
- intuition with respect to the objective topography of the parameter space
- but naturally fail to account for why specific combinations of
- predictor values (e.g. sample 68 or 14) exhibit higher or lower performance
- in both the metrics of interest.
-
-In Figure~\ref{fig:SliceGP}A we see the processes conditioned on the
- 68\textsuperscript{th} sample's predictors
- \(\mathcal{GP}|\mathbf{x}^{i=68}\): in the case of predictor \(x_{3}\)'s
- yield strength process (Fig.\ref{fig:SliceGP}:A3) we see a topographical
- deviation from the mean conditioned process (Fig.\ref{fig:SliceGP}:B3).
-This deviation was a flattening in the region where \(x_{3}=[0.5,0.65]\)
- which shifted the local optimum toward \(x_{3}=0.5\): this resulted in an
- alignment of both local optima of the two processes, which partly explains
- why marginalisation of UPR content by sample 68 leads to improved
- performance in both objective metrics.
-
-Although the troughs apparent in the mean processes with respect to \(x_{1}\)
- and \(x_3\) (Fig.\ref{fig:SliceGP}:B1\&B2) hinted at why the
- 14\textsuperscript{th} sample's predictor value combination produced
- suboptimal performance in both the objective metrics, the \(x_{2}\)
- topography failed to do so.
-On examination of the \(x_{2}\) topography of the processes conditioned on
- the 14\textsuperscript{th} sample's predictors
- \(\mathcal{GP}|\mathbf{x}^{i=14}\) we find large deviations from the mean
- processes: both the topographies have fallen noticably, the Young's modulus
- process has flattened, and the yield strength process inverted such that
- the local optimum shifted from \(x_{3}=0.4\) to \(x_{3}=1\).
-Furthemore, this inversion presented a local trough in the vicinity of the
- 14\textsuperscript{th} sample explaining further why this sample behaved
- suboptimally.
-
-\begin{figure*}[htb]
-    \captionsetup{format=custom,width=0.8\textwidth,skip=0pt}
-    \includegraphics[width=\textwidth]{MOBO-ConditionalMatrix.png}
-    \captionof{figure}{
-            Slice plot of the Gaussian processes developed by the
-            multi-objective experiment with mean function and a
-            95\% confidence interval (\(1.96\sigma\)) presented.
-            UP, Unsaturated polyester.
-            RD, Reactive diluent.
-            DBP, Dibenzoyl peroxide.
-            CS, Calcium sulphate.
-            UPR, Unsaturated polyester resin.
-            IA, Initiating agent.
-    }
-    \label{fig:SliceGP}
-\end{figure*}
-
 Figure~\ref{fig:MOBOSampleComp} presents the strong relation between
  initiating agent content maximisation and improvements to sample optimality:
  the average content is 13\% for the anti-Pareto front, 44\% for the initial
@@ -343,27 +269,6 @@ Furthermore, the initiating agent's composition also described a somewhat
  for the putative global optimum sample.
 No analagously clear trend existed with respect to the unsaturated polyester
  resin composition.
-These three observations are respectively reflected in the Gaussian
- process topographies presented in Figure~\ref{fig:SliceGP}: when considering
- predictor \(x_{3}\) (column 3: controlling balance of unsaturated polyester
- resin to initiating agent) we see that Gaussian processes clearly describe
- a negative correlation between \(x_{3}\) and optimality in all three slice
- plots (A3,B3,C3).
-These strong correlations and coinciding local optima
- between \(\mathcal{GP}\)'s would explain why there is a clear global link
- between the balance of unsaturated polyester resin and initiating agent and
- sample optimality,
-With respect to \(x_{2}\) (column 2: controlling initiating agent composition)
- the \(\mathcal{GP}\)'s display a negative correlation between \(x_{2}\) and
- optimality in two of the slice plots (A2,B2), but this relation disappears
- and is replaced with a flattened and lowered process in at least one region
- of the parameter space (C2).
-In the case of \(x_{1}\) (column 1: controlling unsaturated polyester resin
- composition) we can see that the \(\mathcal{GP}\)'s display a function shape 
- with singular peaks at varying positions in all the different slice plots
- (A1,B1,C1); this added optimisation complexity explains well why there is
- not obvious global trend relating the unsaturated polyester resin content
- with sample optimality.
 
 \noindent
 \begin{minipage}{0.485\textwidth}

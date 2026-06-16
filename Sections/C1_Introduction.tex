@@ -1,5 +1,4 @@
 \section{Introduction}
-
 Thermoset composites underpin structural applications ranging from
  construction panels to transport components due to their high stiffness,
  dimensional stability and chemical resistance \autocite{Gilbert2017}.
@@ -36,10 +35,47 @@ As the majority of thermoset plastics are derived from fossil-based
  sequestered carbon into the atmosphere, resulting in a net addition
  of CO\textsubscript{2} into the short-term carbon cycle 
  \autocite{Levi2018}.
-This research aims to address this challenge by replacing the 
- fossil-derived monomers which form these thermosets with bio-based
- alternatives.
+The present work addresses this challenge by initially identifying a
+ suitable bio-based thermoset chemistry, whereafter it seeks to
+ sample efficiently formulate these for maximal cured strength by a
+ procedure involving Bayesian optimisation.
 
+\paragraph{Bayesian Optimisation of Thermosets}
+In polymer science, Bayesian optimisation has been deployed in
+ both purely computational domains (e.g. optimisation of thermoplastic
+ repeat units for improved glass transition temperatures in a simulated
+ parameter space \autocite{Minami2019}) as well as in applied practice
+ (e.g. improving compositional homogeneity during co-polymerisation
+ of styrene and methyl methacrylate \autocite{Takasuka2024}).
+Various thermosets have been practically optimised using 
+ Bayesian optimisation: Benzoxazine-based thermosets have been optimised
+ with respect to six thermomechanical properties \autocite{Lu2025},
+ polycyanurates have had three thermal/mechanical/hygroscopic properties
+ improved upon \autocite{Xu2023}, and epoxy thermosets based on amine curing
+ agents have been optimised with respect to a trio of mechanical
+ properties using a dual-driver method \autocite{Zhao2024}.
+In the more specific domain of practical Bayesian optimisation of
+ bio-based thermosets, literature has been dominated by epoxy-based
+ chemistries; Albuquerque et al. successfully improved glass transition
+ temperatures in bio-based epoxy thermosets derived from amino acid based
+ resin systems \autocite{Albuquerque2024}, whilst Rothenh\"{a}usler et al.
+ explored this class of thermosets further by taking into account both cost
+ and bio-based content \autocite{Rothenhausler2024}.
+
+Bayesian optimisation has seen practical application in the development
+ of thermoset composites with a paper by Schoenholz et al. considering
+ unidirectional carbon fibre prepreg based on epoxy resin; here, both the
+ layup and curing cycle variables were optimised to reduce the 
+ process-induced deformation in final composite parts \autocite{Schoenholz2024}.
+Despite this, relatively little literature exists concerning the practical
+ application of Bayesian optimisation in the development of properties in
+ polyester-based thermosets, their bio-based analogues, or their derived
+ composites.
+In applying Bayesian optimisation for the development of strength in
+ simple composites derived from bio-based thermoset chemistries, 
+ this paper addresses this gap in the literature.
+
+\paragraph{Bio-Based Thermoset Chemistry}
 Thermosets are formed from a wide range of different chemistries
  including (but not limited to): phenolic resins, unsaturated polyester
  resins, epoxy resins, and polyurethanes \autocite{Goodman1986}.
@@ -66,27 +102,15 @@ And styrene is produced from the dehydrogenation of
  benzene and ethylene, both of which are fossil-fuel derived
  feedstocks \autocite{Lee2008,Levi2018}.
 
-Recently, various studies have explored the development of bio-based
- synthesis of these monomers; it has been shown that propylene
- glycol can be synthesised from the biodiesel-manufacturing
- byproduct glycerol via hydrogenolysis
- \autocite{Dasari2005,Ricciardi2017}, or from the hydrogenation
- of the sugar-fermentation derived product lactic acid
- \autocite{Berlowska2015,Xiao2015}.
-Meanwhile, bio-based maleic anhydride
- can be synthesised from either oxidehydration of n-butanol
- (from biomass fermentation of C5 and C6 sugars)
- \autocite{Pavarelli2015} or catalytic oxidation of furfural
- (from the dehydration of C6 sugars) \autocite{Li2016,Teong2014}.
-Even bio-based styrene has been successfully manufactured
- via a biosynthetic route from glucose \autocite{McKenna2011}.
-Since only bio-derived propylene glycol has seen apparent success in
- scale-up and commercialisation (in contrast to both bio-derived
- maleic anhydride and styrene) we retained this monomer
- in the present work.
-
-This paper focuses upon bio-based unsaturated polyester
- resins based on itaconic acid, a simple bio-based
+Although literature describes numerous attempts at synthesising the
+ aforementioned conventional monomers from bio-based feedstocks
+ (e.g. maleic anhydride \autocite{Pavarelli2015,Li2016,Teong2014} and
+ styrene \autocite{McKenna2011}) only research into propylene glycol
+ \autocite{Dasari2005,Ricciardi2017,Berlowska2015,Xiao2015} has
+ achieved apparent success in scale-up and commercialisation, so
+ we retained this monomer in the present work.
+Also incorporated into this works polyester synthesis was
+ itaconic acid, a simple bio-based
  difunctional carboxylic acid manufactured by fungal
  fermentation of sugars by fungi such as 
  \textit{Aspergillus terreus} \autocite{Bafana2017}.
@@ -101,25 +125,21 @@ Furthermore, itaconic acid can be synthesised into a
  homopolymerisation and a low viscosity), allowing
  them to replace styrene in an eventual unsaturated
  polyester resin \autocite{Sollka2020}.
-Bio-based itaconic acid has the advantage of being more
- directly synthesised from sugars than maleic acid, whilst
- diitaconates are a less volatile, less harmful and less
- flammable alternative reactive diluent to bio-based
- styrene.
 
-Literature has explored the catalytic influence on polycondensation
- of itaconic acid within eventual unsaturated polyesters
+Itaconic acid's potential is clear in the literature, where
+ subjects including the catalytic influence on polycondensation
+ of itaconic acid within eventual unsaturated polyesters 
  \autocite{Schoon2017}, synthesis of partially bio-based resins
  incorporating itaconic-acid-based unsaturated polyester but
  retaining styrene as the reactive diluent \autocite{Costa2017},
  as well as fully bio-based resins using itaconic-acid-based
  unsaturated polyester in tandem with diitaconates as
- reactive diluents \autocite{Pantic2022,Panic2017}.
-As an aside, literature has also considered partially bio-based
+ reactive diluents \autocite{Pantic2022,Panic2017} have been
+ disseminated.
+Furthermore, previous studies have considered partially bio-based
  resins incorporating itaconic-acid-based unsaturated polyesters
  together with the cross-linking compatible methacrylate class
  of reactive diluents \autocite{Spasojevic2021,Dai2017}.
-
 Although traditionally fossil-fuel derived, recent work has seen
  bio-based methyl methacrylate synthesised from
  itaconic acid, which would unlock fully bio-based resins based
@@ -132,46 +152,60 @@ Despite inferior homopolymerisation rates \autocite{Sollka2020} and viscosity
  (lower toxicity and flammability) \autocite{Leonard1970}, and 
  environmentally-benign nature as a non-volatile organic compound 
  \autocite{Spasojevic2021,Trejbal2022}.
-To facilitate the navigation of a complex experimental parameter space,
- the sample-efficient technique of Bayesian optimisation was deployed to
- aid in the development of strength in these bio-based materials
- \autocite{Frazier2018}.
-Literature describes how this technique has been used to successfully
- accelerate optimisation in a variety of domains: improving synthesis 
- efficiency in organic chemistry \autocite{Shields2021}, reducing 
- phenotyping costs during crop breeding in plant science
- \autocite{Tanaka2017}, and tuning microfluidic device setup for polymer
- fibre synthesis in materials science \autocite{Li2017}.
 
-In polymer science, Bayesian optimisation has been deployed in
- both purely computational domains (e.g. optimisation of thermoplastic
- repeat units for improved glass transition temperatures in a simulated
- parameter space \autocite{Minami2019}) as well as in applied practice
- (e.g. improving compositional homogeneity during co-polymerisation
- of styrene and methyl methacrylate \autocite{Takasuka2024}).
-Various thermosets have been practically optimised using 
- Bayesian optimisation: Benzoxazine-based thermosets have been optimised
- with respect to six thermomechanical properties \autocite{Lu2025},
- polycyanurates have had three thermal/mechanical/hygroscopic properties
- improved upon \autocite{Xu2023}, and epoxy thermosets based on amine curing
- agents have been optimised with respect to a trio of mechanical
- properties using a dual-driver method \autocite{Zhao2024}.
-In the more specific domain of practical Bayesian optimisation of
- bio-based thermosets, literature has been dominated by epoxy-based
- chemistries; Albuquerque et al. successfully improved glass transition
- temperatures in bio-based epoxy thermosets derived from amino acid based
- resin systems \autocite{Albuquerque2024}, whilst Rothenh\"{a}usler et al.
- explored this class of thermosets further by taking into account both cost
- and bio-based content \autocite{Rothenhausler2024}.
-Bayesian optimisation has seen practical application in the development
- of thermoset composites with a paper by Schoenholz et al. considering
- unidirectional carbon fibre prepreg based on epoxy resin; here, both the
- layup and curing cycle variables were optimised to reduce the 
- process-induced deformation in final composite parts \autocite{Schoenholz2024}.
-Despite this, relatively little literature exists concerning the practical
- application of Bayesian optimisation in the development of properties in
- polyester-based thermosets, their bio-based analogues, or their derived
- composites.
-In applying Bayesian optimisation for the development of strength in
- simple composites derived from itaconate-based thermoset chemistries, 
- this paper addresses this gap in the literature.
+\paragraph{A Thermoset Particulate Composite}
+In 1997, Kharas et al. prepared several samples of bioresorbable bone
+ cement composites using both polyester-based thermosets in combination
+ with particulate calcium sulphate, where the latter's content was
+ found to effect the final thermosets' strength and modulus
+ \autocite{Kharas1997}.
+The sensitivity of mechanical properties toward this variable inspired
+ the present work's adoption of anhydrous calcium sulphate as a
+ particulate reinforcing element during the preparation of 
+ simple particulate composites based on a fully bio-derived
+ unsaturated polyester resin.
+
+Counterparting this particulate reinforcing, the
+ thermosetting matrix was based on a cross-linked unsaturated
+ polyester system; these being reliant upon a combination of
+ both condensation and addition polymer.
+The condensation polymer is typically an unsaturated linear polyester
+ formed from the copolymerisation of diols and diacids, with at least one
+ monomer having an unsaturated double bond in its structure which is
+ retained after copolymerisation- this copolymer is referred to as an
+ unsaturated polyester \autocite{Seraji2022}.
+Whilst the addition polymer is typically generated through a radical-addition
+ homopolymerisation reaction, where a monomer which had been acting as
+ an unsaturated polyester solvent reacts and crosslinks individual 
+ unsaturated polyester chains- these monomers are therefore referred to as
+ reactive diluents \autocite{Chen2015}.
+The combination of unsaturated polyester and reactive diluent is known
+ as an unsaturated polyester resin; a viscous liquid, which, on addition
+ of radical-initiating chemicals, can rapidly form a rigid thermoset
+ material (i.e. the composite's thermoset matrix).
+Previous work by Panic et al. found dimethyl itaconate to be the strongest
+ contender of the diitaconates as a bio-based replacement for styrene
+ in unsaturated polyester resins, given that resultant cured thermosets
+ exhibited relatively higher crosslink densities (73\unit{\percent} the
+ density of a styrene-based thermoset) \autocite{Panic2017}.
+This work therefore sought to replicate these unsaturated polyester resins,
+ where the reactive diluent was pure dimethyl itaconate and the unsaturated
+ polyester was poly(propylene itaconate).
+
+Having both described the particular material considered in the present
+ work and provided a thorough review of Bayesian optimisation's utility
+ in the sample-efficient formulation of thermoset materials, the paper
+ will subsequently take the following form:
+Initially, a detailed description of experimental methods will be
+ provided spanning feedstock synthesis, bio-derived
+ unsaturated polyester resin cooking, and particulate composite
+ preparation.
+Furthermore, this method section provides details of the various
+ optimisation procedures implemented.
+Subsequently, a results and discussion section disseminates findings
+ arising from both the single-objective and dual-objective routines
+ undertaken, as well as cross-comparing the optimisation of a 
+ model conventional resin based on styrene.
+Finally, a conclusions section notes the more salient findings
+ such as the successful single-objective Bayesian optimisation of
+ these materials to strengths approaching those of styrene analogues.
