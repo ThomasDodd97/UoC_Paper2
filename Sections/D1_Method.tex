@@ -246,20 +246,28 @@ Polyester samples were diluted to 5~\unit{\milli\gram\per\milli\litre}
  and filtered through an Agilent 0.45~\unit{\micro\meter} 
  polytetrafluoroethylene membrane before entry into the GPC columns
  at an injection volume of 100~\unit{\micro\litre}.
-Five replicate injections were undertaken with the data presented in
+Five replicate injections were undertaken 
+ \textcolor{red}{at a flow rate of 1~\unit{\milli\litre\per\minute}}
+ with the data presented in
  Figure~\ref{fig:SampleGPC} representing one of these experiments.
 
 Although viscometry and light-scattering signals were recorded,
  molar-mass distributions were calculated using the conventional 
- refractive index based method with polystyrene calibration; the viscometer 
- and  light-scattering traces were used qualitatively to assess the presence 
- of large species.
-All molar masses reported are therefore polystyrene-equivalent apparent 
+ refractive index based method with polystyrene calibration.
+\textcolor{red}{This being necessitated by a combination of factors
+ including the absence of a known refractive index increment value,
+ the heterogeneity of the polyester samples handled (obfuscating
+ signal responses across detectors), and the extremely broad elution
+ range.}
+Instead the viscometer and  light-scattering traces were used 
+ qualitatively to assess the presence of large species.
+All molar masses reported are polystyrene-equivalent apparent 
  values, as deduced using Agilent EasiVial PS-H calibration samples.
-This relative calibration method has previously been shown to successfully 
- approximate the number average molecular weight of polyesters, with
- values obtained from either vapour pressure osmometry or end group analysis
- being within 15\% of GPC values \autocite{Podzimek1990}.
+This universal calibration method has previously been shown to 
+ successfully approximate the number average molecular weight of 
+ polyesters, with values obtained from either vapour pressure 
+ osmometry or end group analysis being within 15\% of GPC 
+ values \autocite{Podzimek1990}.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -293,8 +301,13 @@ Peaks I and II are caused by total permeation and exclusion respectively,
  with both being expected to be unphysical as they occur
  outside the of the styrene-standard calibration bounds, rendering
  molecular weights estimated here uncertain extrapolations.
-Approximately 15\% of the integrated RI response was associated with the 
- early-eluting feature at or near the column-exclusion limit.
+\textcolor{red}{If an arbitrary set point of 
+ \(10^{5}\)~\unit{\gram\per\mole} is taken as the boundary separating
+ the early eluting fraction from the rest of the trace, then 
+ approximately 15\% of the cumulative weight fraction is associated 
+ with the early-eluting feature at or near the column-exclusion limit.} 
+\sout{Approximately 15\% of the integrated RI response was associated with 
+ the early-eluting feature at or near the column-exclusion limit.}
 Its accompanying viscometry and light-scattering responses are consistent
  with species of unusually large hydrodynamic volume (in excess of the upper
  calibration bound, \(MW>3.9\times10^{6}\)~\unit{\gram\per\mole}), which may 
@@ -306,7 +319,7 @@ Consequently, calculation of number \(M_{\text{n}}\) and weight
  which might be expected for either conventional maleic-based
  (709 \& 3,382~\unit{\gram\per\mole}) or similar itaconate-based polyesters
  (600 \& 3,657~\unit{\gram\per\mole}) \autocite{Bamane2020}.
-An hypothetical reconstruction of the trace excluding the early-eluting
+A hypothetical reconstruction of the trace excluding the early-eluting
  feature (see the supporting information in Sec.~\ref{subsec:NoOnGePeCh})
  was plotted (red dashed line, Fig.~\ref{fig:SampleGPC}).
 This hypothetical trace displayed a 15\% reduction in its summed weight
@@ -315,8 +328,41 @@ This hypothetical trace displayed a 15\% reduction in its summed weight
  \& 3,006~\unit{\gram\per\mole}) not dissimilar to those detailed in
  literature for similar itaconate based polyesters.
 
+% \small
+% \begin{center}
+%     \begin{tblr}{
+%         column{even} = {r},
+%         column{1} = {c},
+%         column{3} = {r},
+%         cell{1}{2} = {c},
+%         cell{1}{3} = {c},
+%         cell{1}{4} = {c},
+%         vline{2} = {-}{},
+%         hline{2} = {1-4}{},
+%         hline{4} = {1-4}{dashed},
+%         }
+%         Distribution  & {\(M_{\text{n}}\)}  & {\(M_{\text{w}}\)} & {\(\text{\DJ}\)}        &  \\
+%         Apparent      & 952   & 1,559,183 & 1,638.00 &  \\
+%         Hypothetical & 606   & 3006      & 4.96     &  \\
+%         A             & 165   & 168       & 1.02     &  \\
+%         B             & 837   & 872       & 1.04     &  \\
+%         C             & 1,727 & 9,711     & 5.62     &  
+%     \end{tblr}
+%     \captionof{table}{
+%             \footnotesize{
+%                 Summary of molecular weights and dispersity values
+%                  for the apparent trace, the hypothetical reconstructed
+%                  trace, and the deconvoluted (A/B/C) distributions
+%                  obtained from the GPC of the polyester resin.
+%             }
+%         }
+%     \label{tab:SummaryOfGPC}
+% \end{center}
+% \normalsize
+
 \small
-\begin{center}
+\begin{figure*}[htb]
+    \begin{center}
     \begin{tblr}{
         column{even} = {r},
         column{1} = {c},
@@ -326,25 +372,29 @@ This hypothetical trace displayed a 15\% reduction in its summed weight
         cell{1}{4} = {c},
         vline{2} = {-}{},
         hline{2} = {1-4}{},
-        hline{4} = {1-4}{dashed},
+        hline{5} = {1-4}{dashed},
         }
-        Distribution  & {\(M_{\text{n}}\)}  & {\(M_{\text{w}}\)} & {\(\text{\DJ}\)}        &  \\
-        Apparent      & 952   & 1,559,183 & 1,638.00 &  \\
-        Hypothetical & 606   & 3006      & 4.96     &  \\
-        A             & 165   & 168       & 1.02     &  \\
-        B             & 837   & 872       & 1.04     &  \\
-        C             & 1,727 & 9,711     & 5.62     &  
+        Distribution  & {\(M_{\text{n}} \pm 1\sigma\)\\(\unit{\gram\per\mole})}  & {\(M_{\text{w}} \pm 1\sigma\)\\(\unit{\gram\per\mole})}    & {\(\text{\DJ} \pm 1\sigma\)\\(\unit{\gram\per\mole})}  &  \\
+        Averaged      & 673\(\pm\)19                                             & 971,273\(\pm\)16,834                                      & 1,513\(\pm\)43                                        &  \\
+        Apparent      & 952                                                      & 1,559,183                                                 & 1,638.00                                              &  \\
+        Hypothetical  & 606                                                      & 3006                                                      & 4.96                                                  &  \\
+        A             & 165                                                      & 168                                                       & 1.02                                                  &  \\
+        B             & 837                                                      & 872                                                       & 1.04                                                  &  \\
+        C             & 1,727                                                    & 9,711                                                     & 5.62                                                  &  
     \end{tblr}
     \captionof{table}{
             \footnotesize{
                 Summary of molecular weights and dispersity values
-                 for the apparent trace, the hypothetical reconstructed
-                 trace, and the deconvoluted (A/B/C) distributions
-                 obtained from the GPC of the polyester resin.
+                 for the average trace (averaged across the five 
+                 injections), for the apparent trace analysed, the 
+                 hypothetical reconstructed trace, and the deconvoluted 
+                 (A/B/C) distributions obtained from the GPC of the 
+                 polyester resin.
             }
         }
     \label{tab:SummaryOfGPC}
-\end{center}
+    \end{center}
+\end{figure*}
 \normalsize
 
 By discerning the existence of three separate peak structures 
@@ -374,6 +424,8 @@ Literature presents the occurence of these peaks in GPC analyses for
  the more recent work of Molina et al. further considers the possibility of
  substantial cyclisation in itaconate-based unsaturated polyesters
  \autocite{Molina2020}.
+\textcolor{red}{Note that we could not rule out the contemporaneous
+ elution of solvent or additive peaks within the trace.}
 
 % ========================================================================
 \subsection{Composite Preparation}
