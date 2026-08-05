@@ -224,16 +224,18 @@ As a predictor variable which was to be used during optimisation, the
     \end{center}
 \end{figure*}
 
-Gel permeation chromatography (GPC) was used to separate species according
- to hydrodynamic volume in solution, this allowed us to obtain estimates
- for both number and weight average molecular weights as well as 
- polydispersity of the synthesised unsaturated polyesters.
+Conventional gel permeation chromatography (GPC) was used to characterise
+ the distribution of hydrodynamic volumes in solution and to estimate
+ polystyrene-equivalent apparent number- and weight-average molar masses
+ (\(M_{\text{n,app}}\), \(M_{\text{w,app}}\)) and dispersity 
+ (\(\text{\DJ}=M_{\text{w}}/M_{\text{n}}\)).
 Testing was undertaken using a Viscotec system (manufactured by Malvern
  Panalytical) consisting of both a GPCmax autosampling module as well as
  the TDA305 triple-detection module (providing a concentration detector,
  viscometer, and light scattering detector).
 The column set employed consisted of a guard column followed by two
- Agilent PLgel 5~\unit{\micro\meter} MIXED-D analytical columns, with
+ Agilent PLgel 5~\unit{\micro\meter} MIXED-D analytical columns
+ (all being held at 35\unit{\degreeCelsius}), with
  these providing high-molecular weight resolution typically necessary
  for the study of resins.
 Consistent with previous GPC work on unsaturated polyesters we used
@@ -242,22 +244,22 @@ Consistent with previous GPC work on unsaturated polyesters we used
  reactor \autocite{Podzimek1994}.
 Polyester samples were diluted to 5~\unit{\milli\gram\per\milli\litre}
  and filtered through an Agilent 0.45~\unit{\micro\meter} 
- polytetrafluoroethylene membrane before entry into the GPC columns.
+ polytetrafluoroethylene membrane before entry into the GPC columns
+ at an injection volume of 100~\unit{\micro\litre}.
+Five replicate injections were undertaken with the data presented in
+ Figure~\ref{fig:SampleGPC} representing one of these experiments.
 
-Unfortunately, solvated polyester's hydrodynamic viscosity depends upon
- various factors other than molecular weight (e.g. extent of branching
- or chemical composition) preventing a universal calibration of the GPC 
- columns \autocite{Podzimek1990}.
-Alternatively, a conventional generic calibration was performed by running
- a series of polystyrene samples (Agilent EasiVial PS-H) of known molecular 
- weights on the columns.
-Subsequently, a 3\textsuperscript{rd} degree polynomial was fit and used
- convert a sample's retention volume to a polystyrene-equivalent molecular
- weight.
+Although viscometry and light-scattering signals were recorded,
+ molar-mass distributions were calculated using the conventional 
+ refractive index based method with polystyrene calibration; the viscometer 
+ and  light-scattering traces were used qualitatively to assess the presence 
+ of large species.
+All molar masses reported are therefore polystyrene-equivalent apparent 
+ values, as deduced using Agilent EasiVial PS-H calibration samples.
 This relative calibration method has previously been shown to successfully 
  approximate the number average molecular weight of polyesters, with
- values being in fairly good agreement with those obtained from either
- vapour pressure osmometry or end group analysis \autocite{Podzimek1990}.
+ values obtained from either vapour pressure osmometry or end group analysis
+ being within 15\% of GPC values \autocite{Podzimek1990}.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -266,11 +268,14 @@ This relative calibration method has previously been shown to successfully
     \captionof{figure}{
         \footnotesize{
             A graph depicting the distribution of mass across various
-            polymer chain lengths for the polyester sample tested using
-            GPC. The dashed red line describes a hypothetical 
-            deviation from the apparent distribution.
-            I/II: Unphysical peaks from total permeation and exclusion.
-            A/B/C: Identifiable peaks.
+             polymer chain lengths for the polyester sample tested using
+             GPC. 
+            The dashed red line is an hypothetical reconstruction as
+             presented in the supporting information's
+             section~\ref{subsec:NoOnGePeCh}.
+            I/II: Signals outside the calibrated range (total 
+             permeation/exclusion).
+            A/B/C: Fitted components.
         }
     }
     \label{fig:SampleGPC}
@@ -285,31 +290,30 @@ The apparent distribution is multi-modal with two peaks occurring outside
  identifiable within (Fig.~\ref{fig:SampleGPC}A/B/C).
 
 Peaks I and II are caused by total permeation and exclusion respectively,
- with both being reasonably expected to be unphysical as they occur
+ with both being expected to be unphysical as they occur
  outside the of the styrene-standard calibration bounds, rendering
  molecular weights estimated here uncertain extrapolations.
-Despite this, weight fraction associated with peak II remained physical,
- and it may be estimated that around 15\% of the polyester mass in the
- sample exhibited a molecular weight in excess of the upper calibration
- bound of \(3.9 \times 10^{6}\)~\unit{\gram\per\mole}.
-It is posited that this mass fraction is associated with network polymer
- species formed by unwanted premature crosslinking between branched 
- polyester structures.
+Approximately 15\% of the integrated RI response was associated with the 
+ early-eluting feature at or near the column-exclusion limit.
+Its accompanying viscometry and light-scattering responses are consistent
+ with species of unusually large hydrodynamic volume (in excess of the upper
+ calibration bound, \(MW>3.9\times10^{6}\)~\unit{\gram\per\mole}), which may 
+ include highly branched species, soluble microgels or aggregates.
 Consequently, calculation of number \(M_{\text{n}}\) and weight
  \(M_{\text{w}}\) average molecular weights directly from the apparent
- distribution proffers values 
+ distribution exhibit values 
  (952 \& 1.6\(\times 10^{6}\)~\unit{\gram\per\mole}) far in excess of that 
  which might be expected for either conventional maleic-based
- (709 \& 3,382) or similar itaconate-based polyesters
+ (709 \& 3,382~\unit{\gram\per\mole}) or similar itaconate-based polyesters
  (600 \& 3,657~\unit{\gram\per\mole}) \autocite{Bamane2020}.
-By ignoring the mass fraction which had undergone premature crosslinking
- (see Sec.~\ref{subsec:NoOnGePeCh}) a hypothetically uncrosslinked 
- distribution was plotted (red dashed line, Fig.~\ref{fig:SampleGPC}).
-Not only did this distribution display a 15\% reduction in its summed
- weight fraction relative to the apparent distribution, it also presented
+An hypothetical reconstruction of the trace excluding the early-eluting
+ feature (see the supporting information in Sec.~\ref{subsec:NoOnGePeCh})
+ was plotted (red dashed line, Fig.~\ref{fig:SampleGPC}).
+This hypothetical trace displayed a 15\% reduction in its summed weight
+ fraction relative to the apparent distribution and presented  
  \(M_{\text{n}}\) and \(M_{\text{w}}\) values (606
- \& 3,006~\unit{\gram\per\mole}) similar to those detailed in the
- literature \autocite{Bamane2020}.
+ \& 3,006~\unit{\gram\per\mole}) not dissimilar to those detailed in
+ literature for similar itaconate based polyesters.
 
 \small
 \begin{center}
@@ -324,18 +328,18 @@ Not only did this distribution display a 15\% reduction in its summed
         hline{2} = {1-4}{},
         hline{4} = {1-4}{dashed},
         }
-        Distribution  & {\(M_{\text{n}}\)}  & {\(M_{\text{w}}\)} & {\(D\)}        &  \\
-        Crosslinked   & 952   & 1,559,183 & 1,638.00 &  \\
-        Uncrosslinked & 606   & 3006      & 4.96     &  \\
+        Distribution  & {\(M_{\text{n}}\)}  & {\(M_{\text{w}}\)} & {\(\text{\DJ}\)}        &  \\
+        Apparent      & 952   & 1,559,183 & 1,638.00 &  \\
+        Hypothetical & 606   & 3006      & 4.96     &  \\
         A             & 165   & 168       & 1.02     &  \\
         B             & 837   & 872       & 1.04     &  \\
         C             & 1,727 & 9,711     & 5.62     &  
     \end{tblr}
     \captionof{table}{
             \footnotesize{
-                Summary of molecular weights and polydispersity values
-                 for both the apparently crosslinked, hypothetically
-                 uncrosslinked, and deconvoluted (A/B/C) distributions
+                Summary of molecular weights and dispersity values
+                 for the apparent trace, the hypothetical reconstructed
+                 trace, and the deconvoluted (A/B/C) distributions
                  obtained from the GPC of the polyester resin.
             }
         }
@@ -348,11 +352,11 @@ By discerning the existence of three separate peak structures
  (see Sec.~\ref{subsec:NoOnGePeCh}) to split apart the apparent
  distribution into three log normal distributions allowing the estimation
  of \(M_{\text{n}}\), \(M_{\text{w}}\), weight fraction, and
- polydispersity \(D\) as summarised in Table~\ref{tab:SummaryOfGPC}.
+ dispersity \(\text{\DJ}\) as summarised in Table~\ref{tab:SummaryOfGPC}.
 Distribution C represented the largest weight fraction of the modelled 
- distributions, and exhibited a polydispersity (\(D=5.62\)) not unlike
+ distributions, and exhibited a dispersity (\(\text{\DJ}=5.62\)) not unlike
  that which has been reported for similar itaconate-based polyester resins
- (\(D=6.0\)) \autocite{Bamane2020}.
+ (\(\text{\DJ}=6.0\)) \autocite{Bamane2020}.
 Such dispersity values were likely the result of an extended reaction
  time (the outcome of eschewing catalysts) coupled with the lack of
  radical inhibiting agent, which would have facilitated a high degree of
@@ -360,53 +364,16 @@ Such dispersity values were likely the result of an extended reaction
 Contrastingly, the modelled distributions A/B presented low dispersity
  values.
 These two peaks were consistent with a proportion of the linear polyester
- species undergoing intramolecular cyclisation.
-
-Cyclised species present as a separate peak of lower molecular weight as
- their more compact conformation has a lower hydrodynamic volume 
+ species undergoing intramolecular cyclisation, on the basis that
+ cyclised species would present as a separate peak of lower molecular 
+ weight as their more compact conformation has a lower hydrodynamic volume 
  relative to a linear species of the same molecular mass.
-Traditionally, polyesters were known to either undergo `ring closing' or
- `back biting' cyclisation, where respectively an end carboxyl
-  group would react with either an end hydroxyl group or a mid-molecule
-  ester group (see Figure~\ref{fig:CyclisTypes}).
-Literature presents this occurrence in GPC analyses for a variety of
- unsaturated polyester resins based on maleic and phthalic anhydride
- \autocite{Cristobal1993,Podzimek1990,Cristobal1991b}.
-It is also the case that intramolecular cyclisation may take place by
- an `Ordelt' reaction, whereby an end hydroxyl group may react with a
- mid-molecule unsaturated group to form an ether linkage
- (see Figure~\ref{fig:CyclisTypes}).
-Species produced by the Ordelt mechanism differ from the previous two
- in that they retain a `molecular tail' which ensures a relatively higher
- hydrodynamic volume given the same molecular weight species
- (see Sec.~\ref{subsec:NoOnGePeCh}).
-Given hydrodynamic volume's impact upon elution time and therewith
- estimated molecular weights presented in Figure~\ref{fig:SampleGPC},
- we believe that peaks B and A would be associated with those cyclised
- species produce via the Ordelt and traditional mechanisms respectively.
-Interestingly, when weight fractions modelled by the log normal
- distributions are considered (and crosslinked material therefore
- disregarded), it becomes apparent that 94~\% of the sample mass
- was linear or branched (peak C), 5\% was Ordelt cyclised (peak B),
- and 1\% was traditionally cyclised (peak A).
-Narrow polydispersities associated with the two cyclised peaks may be
- due to narrow windows of stability associated with these conformations.
-For example, smaller cycles are known to have their stability negatively
- impacted by relatively higher cycle stress \autocite{Molina2020}.
-
-\noindent
-\begin{minipage}{0.485\textwidth}
-    \includegraphics[width=\textwidth]{CyclisationTypes.png}
-    \captionsetup{format=custom,width=\textwidth,skip=0pt}
-    \captionof{figure}{
-        \footnotesize{
-            An illustration of the three mechanisms by which
-            intramolecular cyclisation may be expected to occur
-            in unsaturated polyester.
-        }
-    }
-    \label{fig:CyclisTypes}
-\end{minipage}
+Literature presents the occurence of these peaks in GPC analyses for 
+ a variety of unsaturated polyester resins based on maleic and phthalic
+ anhydride \autocite{Cristobal1993,Podzimek1990,Cristobal1991b}, whilst
+ the more recent work of Molina et al. further considers the possibility of
+ substantial cyclisation in itaconate-based unsaturated polyesters
+ \autocite{Molina2020}.
 
 % ========================================================================
 \subsection{Composite Preparation}
@@ -485,12 +452,16 @@ All cured thermoset samples were machined to the same dimensions
 % ========================================================================
 \subsection{Composite Characterisation}
 In order to quantify the mechanical performance of thermoset polymers 
- created using Bayesian optimisation, their elastic modulus and yield 
- strength were characterised using compressive testing.
+ created using Bayesian optimisation, their apparent compressive modulus 
+ (\(E_{\text{app}}\)) and peak compressive stress (\(\sigma_{\text{max}}\)) 
+ were characterised using compressive testing.
 Compressive testing was chosen based on both the simplicity with which 
  a curing regime could be devised for the manufacture of samples of the 
  requisite dimensions and the low mass of material required for carrying
  out tests.
+The operational metrics were chosen as stress-strain curves consistently
+ failed to exhibit conventional initial linear regions or a distinct yield 
+ or break point.
 An American Society for Testing and Materials standard was employed 
  (``ASTM D695-23'') in the devising of method, with a cylindrical test
  sample diameter of 12.7~\unit{\milli\metre} height 12.7~\unit{\milli\metre},
@@ -586,33 +557,16 @@ Downsampling was achieved using a windowed averaging technique, whereby
  the unsmoothed dataset was split  into a number of windows along
  the strain-axis by electing a suitable number of points per
  window.
-% Figure~\ref{fig:AverageSmoothing} demonstrates the efficacy of this
-%  technique in removing noise from the unsmoothed stress-strain dataset.
-% \noindent
-% \begin{minipage}{0.485\textwidth}
-%     \includegraphics[width=\textwidth]{AverageSmoothing.png}
-%     \captionsetup{format=custom,width=\textwidth,skip=0pt}
-%     \captionof{figure}{
-%         \footnotesize{
-%             Multi-scale depiction of the stress-strain dataset before
-%             and after downscaling.
-%             (A) Overview line plot.
-%             (B) Zoomed scatter plot.
-%         }
-%     }
-%     \label{fig:AverageSmoothing}
-% \end{minipage}
 
 \paragraph{Derivative Analysis}
-The proportional limit is defined as the stress at which a material
- ceases to obey Hooke's law (i.e. stress no longer increases proportionally
- with strain).
-The gradient of the preceding elastic region of deformation
- is generally defined as the the Young's modulus.
-However, given that the stress-strain curves did not consistently exhibit
- a linear region, the limit of proportionality was equated to the
- point at which the stress-strain curve began to level off (i.e. the first
- point of inflection).
+Because the stress-strain curves did not consistently exhibit a distinct initial
+ linear region, a conventional Young's modulus could not be determined robustly.
+An operational apparent compressive modulus, \(E_{\text{app}}\), was therefore
+ estimated from the maximum absolute local slope of the smoothed engineering 
+ stress-strain curve.
+The corresponding strain was located as the first inflection point of the
+ stress-strain curve (equivalently, the minimum tangent modulus under the 
+ adopted compression sign convention).
 To find this inflection point, the first derivative of stress with respect
  to strain (i.e. tangent modulus \(E_{\mathrm{t}}\) in \unit{\mega\pascal}) was calculated
  from the smoothed stress-strain dataset by
@@ -674,8 +628,8 @@ By re-considering the smoothed stress-strain dataset, the point with the
     \captionsetup{format=custom,width=\textwidth,skip=0pt}
     \captionof{figure}{
         \footnotesize{
-            Automatic detection of Young's modulus and yield point 
-            from an archetypical stress-strain dataset.
+            Automatic determination of apparent compressive modulus and peak
+             compressive stress.
             (A) First inflection point.
             (B) Second inflection point.
         }
@@ -683,30 +637,26 @@ By re-considering the smoothed stress-strain dataset, the point with the
     \label{fig:ExampleStressStrain}
 \end{minipage}
 
-As shown in Figure~\ref{fig:ExampleStressStrain}, a 1\textsuperscript{st} 
- degree polynomial was fit to the ten points preceding the proportional 
- limit; allowing approximation of Young's modulus (\(E\) in 
- \unit{\mega\pascal}) from the change in stress
- (Fig.~\ref{fig:ExampleStressStrain}: \(\Delta \sigma _{\mathrm{eng}}^{A}\)) and strain
- (Fig\ref{fig:ExampleStressStrain}: \(\Delta \epsilon _{\mathrm{eng}}^{A}\)) in
- accordance with Equation~\ref{eq:YoungsModulusCalculation}
- \autocite{Horwood2023}.
+As shown in Figure~\ref{fig:ExampleStressStrain}, a linear regression was
+ undertaken to identify the apparent compressive modulus \(E_{\text{app}}\)
+ in accordance with Equation~\ref{eq:YoungsModulusCalculation}.
+The point nearest the identified strain was used to define the endpoint of a local
+ fitting window.
+A linear regression was fitted to the ten preceding smoothed points, and
+ \(E_{\text{app}}\) was taken as the absolute value of the fitted slope.
 Since the data were obtained in compression, the fitted gradients were
  negative; reported modulus values are given as absolute magnitudes.
- 
+
 \begin{equation}\label{eq:YoungsModulusCalculation}
-    E = \biggl| \frac{\sigma_{\mathrm{eng}}}{\epsilon_{\mathrm{eng}}} \biggr| = \biggl| \frac{\Delta \sigma^{A}_{\mathrm{eng}}} {\Delta \epsilon^{A}_{\mathrm{eng}}} \biggr|
+    E_{\text{app}} = |(\Delta \sigma_{\text{eng}} / \Delta \epsilon_{\text{eng}})_{\text{fit}}|
 \end{equation}
 
-The stress associated with the onset of non-linear deformation \(\sigma_{y}\) 
- was used as an operational measure of compressive yield strength.
-In this work, this was identified as the engineering stress at the second
- inflection point of the stress-strain curve, shown as \(\sigma_{\mathrm{eng}}^{B}\)
- in Figure~\ref{fig:ExampleStressStrain}.
-
-\begin{equation}\label{eq:YieldStrengthDefinition}
-    \sigma_{y}=\sigma_{\mathrm{eng}}^{B}
-\end{equation}
+Peak compressive stress, \(\sigma_{\text{max}}\), was defined as the maximum
+ engineering stress recorded during the test: 
+ \(\sigma_{\text{max}}=\text{max}(\sigma_{\text{eng}})\).
+For these curves, the second-inflection-point routine located this maximum
+ reproducibly, but the quantity should not be described as yield strength or the
+ onset of plasticity.
 
 For the stress-strain curves obtained in this study, this point coincided
  with the maximum engineering stress and could therefore be identified
@@ -722,8 +672,8 @@ These three predictors and their ranges formed a \textit{d}-dimensional
 (\(d=3\)) parameter space (\(\mathcal{X}\)) which is a subset of the entire 
  real coordinate space (\(\mathcal{X}\subseteq \mathbb{R}^{d}\)).
 This parameter space was explored by the sequential optimisation techniques,
- with the objective variables including Young's modulus (\(E\)) and yield
- strength (\(\sigma_{\mathrm{y}}\)).
+ with the objective variables including apparent compressive modulus
+ (\(E_{\text{app}}\)) and peak compressive stress (\(\sigma_{\text{max}}\)).
 
 Three different optimisation procedures were carried out from the same
  initial prior dataset: two were single-objective Bayesian routines with
@@ -744,6 +694,9 @@ Equation~\ref{eq:GoverningOptimisation} describes optimisation as the
  values (\(\mathbf{x}=[x_{1},x_{2},x_{3}]\)) such that the global optimum
  set of predictors (\(\mathbf{x}^{*}=[x_{1}^{*},x_{2}^{*},x_{3}^{*}]\)) is
  sought.
+The finite experimental campaign cannot establish the global maximiser; subsequent
+ results are therefore described in terms of the best observed formulation within
+ the sampled design space and sample budget.
 
 \begin{equation}\label{eq:GoverningOptimisation}
     \mathbf{x}^{*}=\argmaxA_{\mathbf{x}\in\mathcal{X}} f([x_{1},x_{2},x_{3}])
@@ -752,13 +705,13 @@ Equation~\ref{eq:GoverningOptimisation} describes optimisation as the
 Equation~\ref{eq:SOBOProblems} describes the two black-box functions which
  were separately maximised during the course of the single-objective
  optimisations; the former \(f_{\mathrm{E}}\) and latter \(f_{\sigma}\) considering
- Young's modulus \(E\) and yield strength \(\sigma_{\mathrm{y}}\) as target variables
- respectively.
+ apparent compressive modulus \(E_{\text{app}}\) and peak compressive stress
+ \(\sigma_{\text{max}}\) as target variables respectively.
 
 \begin{equation}\label{eq:SOBOProblems}
     \begin{split}
-        &E=f_{\mathrm{E}}(\mathbf{x})\\
-        &\sigma_{y}=f_{\sigma}(\mathbf{x})
+        &E_{\text{app}}=f_{\mathrm{E}}(\mathbf{x})\\
+        &\sigma_{\text{max}}=f_{\sigma}(\mathbf{x})
     \end{split}
 \end{equation}
 
@@ -775,8 +728,9 @@ Eight vectors of predictor variables, each corresponding to a sample (\(i\)),
 \end{equation}
 
 Evaluation of all the vectors of the predictor matrix (\(f_{E}(\mathbf{X})\)
- or \(f_{\sigma}(\mathbf{X})\)) generated a vector of targets (\(\mathbf{E}\) or
- \(\bm{\sigma_{\mathrm{y}}}\)).
+ or \(f_{\sigma}(\mathbf{X})\)) generated a vector of targets 
+ (\(\mathbf{E_{\text{app}}}\) or
+ \(\bm{\sigma_{\text{max}}}\)).
 Combination of the initial predictor matrix \(\mathbf{X}\) and the
  corresponding targets \(f(\mathbf{X})\) produced an initial dataset
  (\(\mathcal{D}=[\mathbf{X},f(\mathbf{X})]\)) with which sequential
@@ -902,24 +856,26 @@ The \(d_{\mathrm{m}}\) is dependent upon the number of previous samples \(n\) an
 \normalsize
 
 \paragraph{Multi-Objective Experiment}
-Given the desirability of both Young's modulus and yield strength in a
- thermoset composite, a dual-objective Bayesian optimisation experiment was
- attempted, with the \textit{a posteriori} goal of sample-efficiently
- identifying the Pareto front (\(\mathcal{P}\)) \autocite{Garnett2023}.
+Given the desirability of both apparent compressive modulus and 
+ peak compressive stress in a thermoset composite, a dual-objective Bayesian
+ optimisation experiment was attempted, with the \textit{a posteriori} goal of 
+ sample-efficiently identifying the Pareto front (\(\mathcal{P}\)) 
+ \autocite{Garnett2023}.
 The Pareto front consists of all samples which remain unsurpassed (by any
  other sample evaluated) in terms of at least one of their target variables
- (\(E\) or \(\sigma_{\mathrm{y}}\)).
+ (\(E_{\text{app}}\) or \(\sigma_{\text{max}}\)).
 This Pareto front allows a rational agent to make subjective yet informed
  decisions about material composition in light of expected trade-offs in
  end properties.
 Equation~\ref{eq:MOBOProblem} frames the multi-objective optimisation
  problem in terms of a dual-objective function \(\mathbf{f}\) (comprised of
  the single-objective functions \(f_{\mathrm{E}}\) and \(f_{\sigma}\)) which returns
- a vector \(\mathbf{\mathrm{y}}\) of the two targets (\(E\) and \(\sigma_{\mathrm{y}}\)).
+ a vector \(\mathbf{\mathrm{y}}\) of the two targets (\(E_{\text{app}}\) and 
+ \(\sigma_{\text{max}}\)).
 \begin{equation}\label{eq:MOBOProblem}
     \begin{split}
         \mathbf{y}&=\mathbf{f}(\mathbf{x})\\
-        \{E,\sigma_{\mathrm{y}}\}&=\{f_{\mathrm{E}}(\mathbf{x}),f_{\sigma}(\mathbf{x})\}\\
+        \{E_{\text{app}},\sigma_{\text{max}}\}&=\{f_{\mathrm{E}}(\mathbf{x}),f_{\sigma}(\mathbf{x})\}\\
     \end{split}
 \end{equation}
 
@@ -950,9 +906,9 @@ By retrieving all the raw mechanical test data associated with the samples
  evaluated in the three sequential experiments and their common prior, a
  56-sample dataset \(\mathcal{D}\) was generated comprised of a matrix of
  sampled predictors \(\mathbf{X}\) and a matrix of their respective
- targets \(\mathbf{Y}\) (\(\mathbf{E}\) and \(\bm{\sigma_{\mathrm{y}}}\)).
-Having conditioned two separate Gaussian processes on \(\mathbf{E}\) and
- \(\bm{\sigma_{\mathrm{y}}}\) we obtained two separate posterior processes
+ targets \(\mathbf{Y}\) (\(\mathbf{E_{\text{app}}}\) and \(\bm{\sigma_{\mathrm{max}}}\)).
+Having conditioned two separate Gaussian processes on \(\mathbf{E_{\text{app}}}\) and
+ \(\bm{\sigma_{\text{max}}}\) we obtained two separate posterior processes
  (\(\mathcal{GP}_{\mathrm{E}}\) and \(\mathcal{GP}_{\sigma}\)); these
  provided initial prior processes for all subsequent sequential optimisation.
 The pair of resulting processes were respectively described mathematically

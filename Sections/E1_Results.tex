@@ -8,8 +8,8 @@ Practical experimental results were split into those derived from the
 \subsection{Single-Objective Experiments}
 \label{subsec:UniObjRes}
 Two single-objective Bayesian optimisation experiments were performed, each
- using a different objective variable for sequential sampling: Young's 
- modulus \(E\) or yield strength \(\sigma_{\mathrm{y}}\).
+ using a different objective variable for sequential sampling: apparent compressive
+ modulus \(E_{\text{app}}\) or peak compressive stress \(\sigma_{\text{max}}\).
 Initial Gaussian process priors developed for both experiments were trained
  on the same eight quasirandomly sampled (Sobol) points \(\mathbf{X}\) (from
  across the parameter space \(\mathcal{X}\)) and their evaluations
@@ -30,26 +30,26 @@ Given its objective-naivety, purely exploratory nature, and the fact that
 The resulting dataset could be directly compared with both the single- 
  and multi-objective Bayesian sequential routines (see Section~\ref{subsec:MultiObjRes}).
 
-\paragraph{Young's Modulus Experiment}
+\paragraph{Apparent Compressive Modulus Experiment}
 Figure~\ref{fig:OptProgYM} compares the single-objective optimisation 
  progression of both Bayesian and exploratory sequential routines in the 
- maximisation of Young's modulus.
+ maximisation of apparent compressive modulus.
 The one-shot quasirandomly-sampled initial dataset provided a baseline
- maximum of 4274~\unit{\mega\pascal} and a mean of 3052~\unit{\mega\pascal}.
+ maximum of 4,274~\unit{\mega\pascal} and a mean of 3,052~\unit{\mega\pascal}.
 On reaching the sample limit, the single-objective Bayesian technique had 
- exceeded both these baselines (max 5012~\unit{\mega\pascal}, mean 
- 3396~\unit{\mega\pascal}) whilst the exploratory sampler only exceeded the 
- maximum baseline (max 4851~\unit{\mega\pascal}, mean 3046~\unit{\mega\pascal}).
+ exceeded both these baselines (max 5,012~\unit{\mega\pascal}, mean 
+ 3,396~\unit{\mega\pascal}) whilst the exploratory sampler only exceeded the 
+ maximum baseline (max 4,851~\unit{\mega\pascal}, mean 3,046~\unit{\mega\pascal}).
 Although the single-objective Bayesian routine ultimately discovered a sample exhibiting the
- highest Young's modulus within this experiment, it is interesting that the
+ highest apparent compressive modulus within this experiment, it is interesting that the
  exploratory routine discovered a greater number of points surpassing the
  baseline maximum set by the initial dataset.
 The exploratory sampling routine was the first to locate a sample improving
- upon the baseline maximum: sample 15 with a Young's modulus of 
- 4851~\unit{\mega\pascal}.
+ upon the baseline maximum: sample 15 with an apparent compressive modulus of 
+ 4,851~\unit{\mega\pascal}.
 Subsequently, at sample 17, the Bayesian single-objective routine
- discovered the experiment's highest Young's modulus of
- 5012~\unit{\mega\pascal}.
+ discovered the experiment's highest apparent compressive modulus of
+ 5,012~\unit{\mega\pascal}.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -58,7 +58,7 @@ Subsequently, at sample 17, the Bayesian single-objective routine
     \captionof{figure}{
         \footnotesize{
             Progression of a the sequential optimisation experiment concerning
-            the maximisation of Young's modulus.
+            the maximisation of apparent compressive modulus.
             Initial one-shot samples drawn quasirandomly are presented
              separately from the two sequential techniques which they prime.
             These two sequential techiques are either objective-naive (MIPT)
@@ -68,28 +68,29 @@ Subsequently, at sample 17, the Bayesian single-objective routine
     \label{fig:OptProgYM}
 \end{minipage}
 
-\paragraph{Yield Point Experiment}
+\paragraph{Peak Compressive Stress Experiment}
 Figure~\ref{fig:OptProgYS} compares optimisation progression of both the
  Bayesian single-objective and exploratory sequential routines with respect 
- to the maximisation of the yield point.
+ to the maximisation of the peak compressive stress.
 The one-shot quasirandomly-sampled initial dataset provided a baseline
- maximum yield point of 137~\unit{\mega\pascal} and a mean of 123~\unit{\mega\pascal}.
+ maximum peak compressive stress of 137~\unit{\mega\pascal} and a mean of
+ 123~\unit{\mega\pascal}.
 On reaching the sample limit, the Bayesian technique had surpassed the
  baseline maximum (143~\unit{\mega\pascal}) and remained level with respect
  to the mean (123~\unit{\mega\pascal}), whilst the exploratory routine
  had surpassed the baseline maximum (140~\unit{\mega\pascal}) and failed to
  improve upon the baseline mean (118~\unit{\mega\pascal}).
-In this experiment both the Bayesian single-objective and exploratory routines discovered the
- same number of points surpassing the baseline maximum, although the
- Bayesian technique ultimately uncovered the sample with the highest yield
- strength.
+In this experiment both the Bayesian single-objective and exploratory routines
+ discovered the same number of points surpassing the baseline maximum, although the
+ Bayesian technique ultimately uncovered the sample with the highest peak
+ compressive stress.
 The exploratory sampling technique was the first to discover a point
  improving upon the maximum baseline; with this happening on sample 15,
- with a yield strength of 140~\unit{\mega\pascal}.
+ with a peak compressive stress of 140~\unit{\mega\pascal}.
 Subsequently, the Bayesian sequential technique improves upon the maximum
  baseline on sample 18 (140~\unit{\mega\pascal})
- and surpasses the exploratory routine on sample 21, with a final yield 
- strength of 143~\unit{\mega\pascal}.
+ and surpasses the exploratory routine on sample 21, with a final peak compressive
+ stress of 143~\unit{\mega\pascal}.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -98,7 +99,7 @@ Subsequently, the Bayesian sequential technique improves upon the maximum
     \captionof{figure}{
         \footnotesize{
             Progression of a sequential optimisation experiment concerning
-            the maximisation of yield strength.
+            the maximisation of peak compressive stress.
             Initial one-shot samples drawn quasirandomly are presented
              separately from the two sequential techniques which they prime.
             These two sequential techiques are either objective-naive (MIPT)
@@ -109,28 +110,25 @@ Subsequently, the Bayesian sequential technique improves upon the maximum
 \end{minipage}
 
 \paragraph{Comparison of Bayesian and MIPT Techniques}
-In both single-objective optimisation experiments, the Bayesian sequential
- routines outperformed the exploratory sampling routine in terms of
- discovery of samples approaching an experimental global maximum within the 
- alotted sample limit.
+In this single experimental realisation, the Bayesian routines identified the
+ highest observed value for each objective within the 24-sample budget, whereas 
+ MIPT identified near-best formulations earlier.
 Bayesian techniques benefit from adaptive sampling based on the
  balancing of both exploitative and exploratory behaviour, the former 
  exhibited clearly in the non-decreasing trends shown by the Bayesian 
  running means seen in both Figures~\ref{fig:OptProgYM}\&\ref{fig:OptProgYS}.
-These results support the hypothesis that the Bayesian sampling
- routine was more effective in maximising the objective property during the
- course of a sequential optimisation, and although the margin of improvement
- was slim they remain significant.
-Further support may be garnered from repeat experiments of either a physical 
- or computational nature.
-
+The margins over MIPT were modest: 3.3\% for \(E_{\text{app}}\) (5,012 versus 
+ 4851~\unit{\mega\pascal}) and 2.1\% for \(\sigma_{\text{max}}\) (143 versus 
+ 140~\unit{\mega\pascal}).
+Independently replicated manufacture/testing or repeated optimisation trajectories 
+ would be required to describe these differences as statistically significant.
 
 However, in both experiments, the exploratory sampling routine 
  outperformed the Bayesian single-objective technique in terms of sample 
  efficiency: the exploratory technique improved upon the baseline maxima 
- (\(E=4274\)~\unit{\mega\pascal} and \(\sigma_{y}=137\)~\unit{\mega\pascal}) 
- of both experiments on drawing sample 15 for evaluation (\(E=4851\) and
- \(\sigma_{y}=140\)).
+ (\(E_{\text{app}}=4274\)~\unit{\mega\pascal} and \(\sigma_{\text{max}}=137\)~\unit{\mega\pascal}) 
+ of both experiments on drawing sample 15 for evaluation (\(E_{\text{app}}=4851\) and
+ \(\sigma_{\text{max}}=140\)).
 The fact that this occurred on the 15\textsuperscript{th} sample for both
  experiments is trivially explained by the fact that this was the same 
  exploratory routine being performed.
@@ -148,26 +146,22 @@ A hypothesis that the exploratory sampler more efficiently improves upon
  computational domain would aid in the supporting or negating this
  conjecture.
 
-\paragraph{Styrenated Young's Modulus Experiment}
+\paragraph{Styrenated Apparent Compressive Modulus Experiment}
 An experiment identical to that of the single-objective Bayesian optimisation
- for Young's modulus was carried out with the conventional reactive diluent
- styrene in place of the bio-based dimethyl itaconate.
+ for apparent compressive modulus was carried out with the conventional reactive
+ diluent styrene in place of the dimethyl itaconate.
 Figure~\ref{fig:OptProgYSwSTY} shows an optimisation progression plot for
  the styrene-based system.
 The single-objective Bayesian optimisation technique shows strong
  performance in terms of both sample efficiency and scale of improvement
  above the baseline.
-On conclusion of this sequential optimisation, the putative global
- optimum (sample 18) exhibited a compressive Young's modulus of
- 7,271~MPa.
-Interestingly, the analogous bio-based experiment produced a sample
- (sample 17 in Fig.~\ref{fig:OptProgYM}) exhibiting 69\% the Young's
- modulus of this styrenated putative global optimum.
-Furthermore, when the relative crosslink densities between diitaconate
- and styrene based resins of 73\unit{\percent} reported by Panic et al.
- are considered \autocite{Panic2017}, it becomes apparent that this
- short bout of optimisation has resulted in samples approaching the
- currently known bounds of mechanical performance.
+On conclusion of this sequential optimisation, the best observed
+ styrene-diluted formulation (sample 18) exhibited an apparent compressive 
+ modulus of 7,271~\unit{\mega\pascal}.
+Interestingly, the corresponding bio-sourceable-resin formulation
+ experiment produced a sample (sample 17 in Fig.~\ref{fig:OptProgYM}) 
+ exhibiting 69\% the apparent compressive modulus of the best observed 
+ styrene-diluted formulation.
 
 \noindent
 \begin{minipage}{0.485\textwidth}
@@ -176,8 +170,8 @@ Furthermore, when the relative crosslink densities between diitaconate
     \captionof{figure}{
         \footnotesize{
             Progression of a sequential optimisation experiment concerning
-            the maximisation of Young's modulus with a styrene-based
-            thermoset.
+            the maximisation of apparent compressive modulus with a 
+            styrene-based thermoset.
         }
     }
     \label{fig:OptProgYSwSTY}
@@ -188,7 +182,8 @@ Furthermore, when the relative crosslink densities between diitaconate
 In the multi-objective setting, a Bayesian sequential routine was performed
  which made use of the noisy expected hypervolume improvement acquisition
  function to sample-efficiently identify the Pareto front within an objective
- space comprised of both Young's modulus and yield strength.
+ space comprised of both apparent compressive modulus and peak compressive
+ stress.
 This dual-objective optimisation was facilitated by two separate Gaussian
  processes modelling the two different objective variables.
 Both were trained on 56 samples concatenated from the re-analysed raw data 
@@ -196,13 +191,13 @@ Both were trained on 56 samples concatenated from the re-analysed raw data
 The order of concatenation (and re-indexing of sample numbers) was as
  follows: one-shot objective-naive quasirandom sampler (samples 1-8),
  sequential exploratory objective-naive routine (9-24), sequential Bayesian
- yield strength maximising routine (25-40), and the sequential Bayesian
- Young's modulus maximising routine (41-56).
+ peak compressive stress maximising routine (25-40), and the sequential Bayesian
+ apparent compressive modulus maximising routine (41-56).
 This prior-forming dataset \(\mathcal{D}\) yielded an initial Pareto front
  \(\mathcal{P}\) comprised of three samples: two having been discovered
  as maxima by Bayesian sequential routines in their two respective
- single-objective experiments with yield strength (sample 37) an
- Young's modulus (sample 49) as their objectives.
+ single-objective experiments with peak compressive stress (sample 37) and
+ apparent compressive modulus (sample 49) as their objectives.
 Whilst the third (sample 15) was derived from the exploratory technique as a
  point which performed well in both objectives of interest.
 With an ultimate sample limit of 72 and a single sample drawn per Bayesian
@@ -221,18 +216,19 @@ Under progression of the multi-objective routine, the first novel pareto
  sample which dominated the 37\textsuperscript{th} sample shifting the
  boundaries of the developing Pareto front (Fig.\ref{fig:OptMO}B).
 Subsequently, the sample 66 evaluated
- (\(E=5043\)~\unit{\mega\pascal} and \(\sigma_{y}=153\)~\unit{\mega\pascal})
- presented a marginal improvement upon both the Young's modulus of
- sample 49 (\(E=5012\)~\unit{\mega\pascal}) and the yield strength of sample
- 62 (\(\sigma_{y}=150\)~\unit{\mega\pascal}), collapsing the Pareto front to
- a single Pareto optimal point.
-Finally, the sample 68 dominated sample 66
- producing the putative globally Pareto optimal solution 
- (\(E=5458\)~\unit{\mega\pascal} and \(\sigma_{y}=165\)~\unit{\mega\pascal}),
- which may be contrasted starkly with the anti-Pareto front comprised of
- the 14\textsuperscript{th} (\(E=1114\)~\unit{\mega\pascal} and
- \(\sigma_{y}=62\)~\unit{\mega\pascal}) and 25\textsuperscript{th} 
- (\(E=813\)~\unit{\mega\pascal} and \(\sigma_{y}=105\)~\unit{\mega\pascal})
+ (\(E_{\text{app}}=5,043\)~\unit{\mega\pascal} and \(\sigma_{\text{max}}=153\)~\unit{\mega\pascal})
+ presented a marginal improvement upon both the apparent compressive modulus of
+ sample 49 (\(E_{\text{app}}=5,012\)~\unit{\mega\pascal}) and the peak compressive
+ stress of sample 62 (\(\sigma_{\text{max}}=150\)~\unit{\mega\pascal}), collapsing 
+ the Pareto front to a single Pareto optimal point.
+At culmination, sample 68 was the single non-dominated formulation among the 
+ samples evaluated (exhibiting \(E_{\text{app}}=\)5,458~\unit{\mega\pascal} and 
+ \(\sigma_{\text{max}}=\)165~\unit{\mega\pascal}), marking a simultaneous
+ improvement upon the previous Pareto front.
+This final result contrasts sharply with the anti-Pareto front comprised of
+ the 14\textsuperscript{th} (\(E_{\text{app}}=1,114\)~\unit{\mega\pascal} and
+ \(\sigma_{\text{max}}=62\)~\unit{\mega\pascal}) and 25\textsuperscript{th} 
+ (\(E_{\text{app}}=813\)~\unit{\mega\pascal} and \(\sigma_{\text{max}}=105\)~\unit{\mega\pascal})
  samples.
 How the acquisition function likely navigated the parameter space and came
  to the samples it discovered has been reviewed from the
@@ -245,13 +241,14 @@ How the acquisition function likely navigated the parameter space and came
     \captionsetup{format=custom,width=\textwidth,skip=0pt}
     \captionof{figure}{
         \footnotesize{
-            Results from a multi-Objective Bayesian optimisation routine.
+            Results from a multi-objective Bayesian optimisation routine.
             Bayesian confidence intervals were a single standard
-            deviation and sampled from the final Gaussian processes.
-            (A) Initial Pareto front as a dashed black line.
-            (B) Pareto front improvement as a dashed green line.
-            YS, Yield strength.
-            YM, Young's modulus.
+             deviation and sampled from the posterior Gaussian processes
+             on conclusion of the multi-objective routine.
+            (A) Initially observed Pareto front as a dashed black line.
+            (B) Observed Pareto front improvement as a dashed green line.
+            PCS, Peak Compressive Stress.
+            ACM, Apparent Compressive modulus.
             SOBO, Single-objective Bayesian optimisation.
             MOBO, Multi-objective Bayesian optimisation.
         }

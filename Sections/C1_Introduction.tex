@@ -39,6 +39,11 @@ The present work addresses this challenge by initially identifying a
  suitable bio-based thermoset chemistry, whereafter it seeks to
  sample efficiently formulate these for maximal cured strength by a
  procedure involving Bayesian optimisation.
+Here, fully bio-sourceable denotes a resin whose organic constituents
+ can all be produced from biogenic feedstocks using established or
+ scalable routes.
+In this study, the commercial reagent batches were not independently
+ certified as biogenic.
 
 \paragraph{Bayesian Optimisation of Thermosets}
 In polymer science, Bayesian optimisation has been deployed in
@@ -47,6 +52,10 @@ In polymer science, Bayesian optimisation has been deployed in
  parameter space \autocite{Minami2019}) as well as in applied practice
  (e.g. improving compositional homogeneity during co-polymerisation
  of styrene and methyl methacrylate \autocite{Takasuka2024}).
+Knox et al. applied autonomous multi-objective Bayesian optimisation to RAFT
+ polymerisation, coupling a flow reactor with online NMR and at-line GPC to 
+ map the Pareto trade-off between monomer conversion and molar-mass 
+ dispersity \autocite{Knox2022}.
 Various thermosets have been practically optimised using 
  Bayesian optimisation: Benzoxazine-based thermosets have been optimised
  with respect to six thermomechanical properties \autocite{Lu2025},
@@ -72,7 +81,7 @@ Despite this, relatively little literature exists concerning the practical
  polyester-based thermosets, their bio-based analogues, or their derived
  composites.
 In applying Bayesian optimisation for the development of strength in
- simple composites derived from bio-based thermoset chemistries, 
+ simple composites based on itaconate-derived thermoset chemistries, 
  this paper addresses this gap in the literature.
 
 \paragraph{Bio-Based Thermoset Chemistry}
@@ -88,9 +97,8 @@ An archetypical unsaturated polyester resin is the mixture of
  poly(propylene glycol fumarate) copolymer (polymerised 
  from propylene glycol and maleic anhydride) with a styrene reactive 
  diluent \autocite{Ahamad2001}.
-Unfortunately this would not be suitable as a substrate for bio-based
- composites, since all monomers associated with conventional unsaturated
- polyester resins are fossil-derived products.
+This conventional formulation is currently manufactured from fossil
+ feedstocks.
 For example, propylene glycol is industrially manufactured from
  propylene oxide- a downstream chemical product of propane extracted
  from natural gas \autocite{Levi2018}.
@@ -162,7 +170,7 @@ In 1997, Kharas et al. prepared several samples of bioresorbable bone
 The sensitivity of mechanical properties toward this variable inspired
  the present work's adoption of anhydrous calcium sulphate as a
  particulate reinforcing element during the preparation of 
- simple particulate composites based on a fully bio-derived
+ simple particulate composites based on a fully bio-sourceable
  unsaturated polyester resin.
 
 Counterparting this particulate reinforcing, the
@@ -197,9 +205,8 @@ Having both described the particular material considered in the present
  in the sample-efficient formulation of thermoset materials, the paper
  will subsequently take the following form:
 Initially, a detailed description of experimental methods will be
- provided spanning feedstock synthesis, bio-derived
- unsaturated polyester resin cooking, and particulate composite
- preparation.
+ provided spanning feedstock synthesis, bio-sourceable unsaturated
+ polyester resin synthesis, and particulate composite preparation.
 Furthermore, this method section provides details of the various
  optimisation procedures implemented.
 Subsequently, a results and discussion section disseminates findings
@@ -209,3 +216,8 @@ Subsequently, a results and discussion section disseminates findings
 Finally, a conclusions section notes the more salient findings
  such as the successful single-objective Bayesian optimisation of
  these materials to strengths approaching those of styrene analogues.
+Note that commercially available reagents were used throughout.
+Their individual carbon provenance was not independently verified;
+ references to a fully bio-sourceable resin describe the availability
+ of biogenic production routes for all organic constituents, rather 
+ than the certified origin of the specific reagent batches used.

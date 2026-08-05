@@ -249,6 +249,9 @@ Following introduction and homogenisation of inhibiting agent into
 
 \subsection{Notes on Gel Permeation Chromatography}
 \label{subsec:NoOnGePeCh}
+The following reconstruction and deconvolutions are
+ exploratory sensitivity analyses only; they are not used to report measured 
+ molar-mass averages or to establish molecular structures.
 In a separate experimental series (not considered in the context of the
  present work), a similar polyester was synthesised with a reduced content
  of itaconate moieties in its backbone.
@@ -259,8 +262,9 @@ Figure~\ref{fig:AppendixAlternativeSampleGPC} depicts the GPC results obtained
  on analysing this alternative formulation.
 On comparison with the GPC results obtained for poly(propylene glycol
  itaconate) as detailed in the present work it becomes apparent that
- this alternative formulation exhibits little if any premature crosslinking
- and associated network polymers.
+ this alternative formulation lacked the prominent early-eluting
+ high-hydrodynamic-volume feature seen for the present poly(propylene 
+ glycol itaconate) samples.
 As the closest approximation to the distribution associated a
  poly(propylene glycol itaconate) polyester that didn't suffer 
  network polymer genesis, we re-scaled the tail section of
@@ -307,98 +311,6 @@ Figure~\ref{fig:DeconvGPC} shows the three deconvoluted peaks and their fit
     }
     \label{fig:DeconvGPC}
 \end{minipage}
-
-Having deconvoluted the three peaks and mused on the possibility of
- cyclisation as the mechanism behind the existence of the two smaller
- peaks, we investigated various cyclisation mechanisms.
-Common to all polyesters are the ring closure and back biting
- mechnanisms \autocite{Ahjopalo2000} whilst Ordelt reactions have been
- identified as particularly possible in the case of unsaturated polyesters
- incorporating itaconate moieties \autocite{Molina2020}.
-Since back biting and ring closure both result in the same structure we
- only modelled the latter.
-Figure~\ref{fig:RCCM} visualises ring closure: Fig~\ref{fig:RCCM}A
- shows a linear section of polymer with a start length \(L_{0}\) of 1,
- Fig~\ref{fig:RCCM}B shows a perfectly circular loop with a maximum
- length \(L_{1}\) of 0.32, whilst Fig~\ref{fig:RCCM}C considers the
- extreme scenario in which the loop flattens entirely producing a 
- maximum length \(L_{1}\) of 0.5.
-
-\noindent
-\begin{minipage}{0.485\textwidth}
-    \includegraphics[width=\textwidth]{RingClosureStringModel.png}
-    \captionsetup{format=custom,width=\textwidth,skip=0pt}
-    \captionof{figure}{
-        \footnotesize{
-            A schematic describing the model employed when considering
-            the ring-closure cyclisation mechanism.
-        }
-    }
-    \label{fig:RCCM}
-\end{minipage}
-
-Figure~\ref{fig:ORDM} visualises Ordelt-based cyclisation:
- Fig~\ref{fig:ORDM}A shows the linear section of polymer with an initial
- length of \(L_{0}=1\), whilst an annotation below indicates the random
- nature by which an end hydroxyl group might react with an itaconate
- unsaturation anywhere along the polymer's backbone.
-Fig~\ref{fig:ORDM}B describes a perfectly circular loop situation where
- an end group has reacted at position \(L_{1}=0.75\), producing a final
- maximum length \(L_{2}\) of 0.92.
-Fig~\ref{fig:ORDM}C describes the extreme scenario for the previous
- hypothetical \(L_{1}=0.75\) situation, where the loop flattens completely
- and generates a final maximum length \(L_{2}=0.88\).
-Fig~\ref{fig:ORDM}C1/C2 provide the two extreme scenarios of ring
- flattening at both ends of the possible range of \(L_{1}\) values, providing
- the ultimately highest and lowest final maximum lengths possible under the
- Ordelt reaction mechanism \(L_{2}=[0.99,0.51]\).
-
-\noindent
-\begin{minipage}{0.485\textwidth}
-    \includegraphics[width=\textwidth]{OrdeltStringModel.png}
-    \captionsetup{format=custom,width=\textwidth,skip=0pt}
-    \captionof{figure}{
-        \footnotesize{
-            A schematic describing the model employed when considering
-            the Ordelt cyclisation mechanism.
-        }
-    }
-    \label{fig:ORDM}
-\end{minipage}
-
-Given the set initial length \(L_{0}=1\), Figure~\ref{fig:HDVM} describes
- the estimation of hydrodynamic volume for each of the scenarios (linear,
- Ordelt cyclised, and ring closure cyclised).
-Here, for each of the modelled scenarios we assumed conformations with
- the highest maximum lengths, we also assumed an average length between
- the maximum and minimum situations for the Ordelt scenario, whilst
- proxied hydrodynamic volumes were calculated by assuming the swept 
- spherical area of conformations.
-A simple comparison of the final hydrodynamic volume proxy \(V_{h}\) 
- values shows a clear hierarchy between the linear (\(V_{h}=1.05\)),
- the Ordelt (\(V_{h}=0.59\)), and the ring closure (\(V_{h}=0.26\)) 
- scenarios.
-Since the volume scales as a power of the dimensions, small changes
- in the total final length of the conformation could possible cause
- drastic changes in the hydrodynamic volume.
-Figure~\ref{fig:HDVM} shows how a polyester molecule of the same
- molecular weight (modelled here as length) can exhibit a variety of 
- hydrodynamic volumes due to both cyclisation mechanisms and coformations 
- adopted thereafter.
-
-\noindent
-\begin{minipage}{0.485\textwidth}
-    \includegraphics[width=\textwidth]{VolumeRodSphereModel.png}
-    \captionsetup{format=custom,width=\textwidth,skip=0pt}
-    \captionof{figure}{
-        \footnotesize{
-            A schematic describing the simple model by which
-            hydrodynamic volume of polymers was estimated.
-        }
-    }
-    \label{fig:HDVM}
-\end{minipage}
-
 
 \subsection{Notes on Mechanical Test Data Processing}
 Here is an unabridged overview of all the data processing undertaken
@@ -638,7 +550,6 @@ The graphs are further annotated with vertical lines representing sample
  \(\mathbf{x}^{i=68}=\{0.72,0.4,0.5\}\)
  \(\mathbf{x}^{\mu}=\{0.71,0.64,0.64\}\).
 
-
 Row B of Figure~\ref{fig:AppendixSliceGP} describes the processes as conditioned
  upon the experimental mean of sample predictors
  (\(\mathcal{GP}|\mathbf{x}^{\mu}\)); these graphs provide rough
@@ -691,7 +602,7 @@ Furthemore, this inversion presented a local trough in the vicinity of the
 \end{figure*}
 
 These three observations are respectively reflected in the Gaussian
- process topographies presented in Figure~\ref{fig:SliceGP}: when considering
+ process topographies presented in Figure~\ref{fig:AppendixSliceGP}: when considering
  predictor \(x_{3}\) (column 3: controlling balance of unsaturated polyester
  resin to initiating agent) we see that Gaussian processes clearly describe
  a negative correlation between \(x_{3}\) and optimality in all three slice
