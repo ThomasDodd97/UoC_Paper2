@@ -1,0 +1,9 @@
+VTC_REG_PID_SET_CH1=\
+<pid_settings type="probehead">
+   <standard_pid proportional="1.523" integral="40.995" differential="6.832" />
+   <temperature selftune="298.207" min="248.207" max="348.207" />
+   <vta type="2" sensor="1" connected_sensors="1" />
+   <gasflow selftune="535.000" min="481.500" max="588.500" />
+   <pics checksum="" name="" />
+   <checksum value="3DA36902" />
+</pid_settings>

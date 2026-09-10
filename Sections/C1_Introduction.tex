@@ -15,19 +15,19 @@ As most commercial thermosets are derived from fossil
  perturbation \autocite{Eriksson2009}.
 
 Since the vast majority of the virgin plastic manufactured annually
- is thermoplastic this group has naturally dominated plastict 
+ is thermoplastic, this group has naturally dominated the polymer 
  sustainability literature, with papers focused upon improvement of 
  recycling methods \autocite{Jagadeesh2022}, mitigation of microplastic 
  waste \autocite{Nafea2024},and biodegradability \autocite{Moshood2022}.
-However, in part due to their relatively low industrial volume have
- received far less attention \autocite{Liu2021}.
+However, in part due to their relatively low industrial volume, thermosets
+ have received far less attention \autocite{Liu2021}.
 It is generally impractical to depolymerise cross-linked thermoset
  materials which has lead to the widespread landfilling
  or incinerating of these materials at end-of-life
  \autocite{Utekar2021,Chen2023,Topham2019}.
 Contemporary European legislation has prioritised incineration ahead
  of landfill for composite materials with thermosetting matrices, 
- and incoming legislation (e.g. Directives `99/31/EC' and 
+ and recent legislation (e.g. Directives `99/31/EC' and 
  `2000/53/EC') is likely to increase the proportion incinerated
  \autocite{Pickering2006}.
 As the majority of thermoset plastics are derived from fossil-based
@@ -37,8 +37,7 @@ As the majority of thermoset plastics are derived from fossil-based
  \autocite{Levi2018}.
 The present work addresses this challenge by initially identifying a
  suitable bio-based thermoset chemistry, whereafter it seeks to
- sample efficiently formulate these for maximal cured strength by a
- procedure involving Bayesian optimisation.
+ efficiently optimise their formulation for compressive performance.
 Here, fully bio-sourceable denotes a resin whose organic constituents
  can all be produced from biogenic feedstocks using established or
  scalable routes.
@@ -57,7 +56,7 @@ Knox et al. applied autonomous multi-objective Bayesian optimisation to RAFT
  map the Pareto trade-off between monomer conversion and molar-mass 
  dispersity \autocite{Knox2022}.
 Various thermosets have been practically optimised using 
- Bayesian optimisation: Benzoxazine-based thermosets have been optimised
+ Bayesian optimisation: benzoxazine-based thermosets have been optimised
  with respect to six thermomechanical properties \autocite{Lu2025},
  polycyanurates have had three thermal/mechanical/hygroscopic properties
  improved upon \autocite{Xu2023}, and epoxy thermosets based on amine curing
@@ -73,8 +72,8 @@ In the more specific domain of practical Bayesian optimisation of
 
 Bayesian optimisation has seen practical application in the development
  of thermoset composites with a paper by Schoenholz et al. considering
- unidirectional carbon fibre prepreg based on epoxy resin; here, both the
- layup and curing cycle variables were optimised to reduce the 
+ unidirectional carbon fibre prepreg based on epoxy resin. In that work, 
+ both the layup and curing cycle variables were optimised to reduce the 
  process-induced deformation in final composite parts \autocite{Schoenholz2024}.
 Despite this, relatively little literature exists concerning the practical
  application of Bayesian optimisation in the development of properties in
@@ -93,24 +92,24 @@ One prominent group are the unsaturated polyester resins, which are
 These resins exhibit desirable properties including ease of handling in
  liquid form, rapid curing, and excellent dimensional stability
  \autocite{Aziz2005,Lawrence1960}.
-An archetypical unsaturated polyester resin is the mixture of 
- poly(propylene glycol fumarate) copolymer (polymerised 
+An archetypal unsaturated polyester resin is the mixture of 
+ poly(propylene fumarate) copolymer (polymerised 
  from propylene glycol and maleic anhydride) with a styrene reactive 
  diluent \autocite{Ahamad2001}.
 This conventional formulation is currently manufactured from fossil
  feedstocks.
 For example, propylene glycol is industrially manufactured from
- propylene oxide- a downstream chemical product of propane extracted
+ propylene oxide, a downstream chemical product of propane extracted
  from natural gas \autocite{Levi2018}.
 Maleic anhydride is synthesised by catalytic oxidation
- of the chemical butane \autocite{Felthouse2001}- this derived from 
+ of the chemical butane \autocite{Felthouse2001}, this derived from 
  fractional distillation of petroleum crude \autocite{Kissin1987}.
-And styrene is produced from the dehydrogenation of 
+Furthermore, styrene is produced from the dehydrogenation of 
  ethylbenzene- this being the product of a reaction between
  benzene and ethylene, both of which are fossil-fuel derived
  feedstocks \autocite{Lee2008,Levi2018}.
 
-Although literature describes numerous attempts at synthesising the
+Although the literature describes numerous attempts at synthesising the
  aforementioned conventional monomers from bio-based feedstocks
  (e.g. maleic anhydride \autocite{Pavarelli2015,Li2016,Teong2014} and
  styrene \autocite{McKenna2011}) only research into propylene glycol
@@ -133,6 +132,10 @@ Furthermore, itaconic acid can be synthesised into a
  homopolymerisation and a low viscosity), allowing
  them to replace styrene in an eventual unsaturated
  polyester resin \autocite{Sollka2020}.
+As an aside, the use of methanol in this work to synthesise
+ dimethyl itaconate was justified by the fact that a known
+ route to bio-derived methanol exists \autocite{Gautam2020}
+ and that commercial scale-up has been publicly acknowledged.
 
 Itaconic acid's potential is clear in the literature, where
  subjects including the catalytic influence on polycondensation
@@ -148,7 +151,7 @@ Furthermore, previous studies have considered partially bio-based
  resins incorporating itaconic-acid-based unsaturated polyesters
  together with the cross-linking compatible methacrylate class
  of reactive diluents \autocite{Spasojevic2021,Dai2017}.
-Although traditionally fossil-fuel derived, recent work has seen
+Although conventionally fossil-fuel derived, recent work has seen
  bio-based methyl methacrylate synthesised from
  itaconic acid, which would unlock fully bio-based resins based
  on methacrylate reactive diluents in future \autocite{Nagai2001,Bohre2021}.
@@ -157,15 +160,15 @@ Despite inferior homopolymerisation rates \autocite{Sollka2020} and viscosity
  diitaconates were nonetheless focused upon in this research ahead of 
  methacrylates on account of their relatively higher strengths as cured 
  thermosets \autocite{Spasojevic2021}, safety as reactive diluents 
- (lower toxicity and flammability) \autocite{Leonard1970}, and 
- environmentally-benign nature as a non-volatile organic compound 
+ (lower toxicity and flammability) \autocite{Leonard1970}, and
+ ease of handling on account of their lower volatility
  \autocite{Spasojevic2021,Trejbal2022}.
 
 \paragraph{A Thermoset Particulate Composite}
 In 1997, Kharas et al. prepared several samples of bioresorbable bone
  cement composites using both polyester-based thermosets in combination
  with particulate calcium sulphate, where the latter's content was
- found to effect the final thermosets' strength and modulus
+ found to affect the final thermosets' strength and modulus
  \autocite{Kharas1997}.
 The sensitivity of mechanical properties toward this variable inspired
  the present work's adoption of anhydrous calcium sulphate as a
@@ -173,7 +176,7 @@ The sensitivity of mechanical properties toward this variable inspired
  simple particulate composites based on a fully bio-sourceable
  unsaturated polyester resin.
 
-Counterparting this particulate reinforcing, the
+As a counterpart to this particulate reinforcing, the
  thermosetting matrix was based on a cross-linked unsaturated
  polyester system; these being reliant upon a combination of
  both condensation and addition polymer.
@@ -203,21 +206,20 @@ This work therefore sought to replicate these unsaturated polyester resins,
 Having both described the particular material considered in the present
  work and provided a thorough review of Bayesian optimisation's utility
  in the sample-efficient formulation of thermoset materials, the paper
- will subsequently take the following form:
-Initially, a detailed description of experimental methods will be
- provided spanning feedstock synthesis, bio-sourceable unsaturated
- polyester resin synthesis, and particulate composite preparation.
-Furthermore, this method section provides details of the various
- optimisation procedures implemented.
-Subsequently, a results and discussion section disseminates findings
+ will take the following form:
+Initially, a detailed description of experimental methods is
+ provided, spanning feedstock synthesis, bio-sourceable unsaturated
+ polyester resin synthesis, and particulate composite preparatio, followed
+ by a discussion of the optimisation procedures implemented.
+Subsequently, a results and discussion section summarises the findings
  arising from both the single-objective and dual-objective routines
- undertaken, as well as cross-comparing the optimisation of a 
+ undertaken, as well as a comparison with the optimisation of a 
  model conventional resin based on styrene.
-Finally, a conclusions section notes the more salient findings
- such as the successful single-objective Bayesian optimisation of
+Finally, we conclude by noting the most salient findings, including
+ the successful single-objective Bayesian optimisation of
  these materials to strengths approaching those of styrene analogues.
-Note that commercially available reagents were used throughout.
-Their individual carbon provenance was not independently verified;
- references to a fully bio-sourceable resin describe the availability
- of biogenic production routes for all organic constituents, rather 
- than the certified origin of the specific reagent batches used.
+% Note that commercially available reagents were used throughout.
+% Their individual carbon provenance was not independently verified;
+%  references to a fully bio-sourceable resin describe the availability
+%  of biogenic production routes for all organic constituents, rather 
+%  than the certified origin of the specific reagent batches used.

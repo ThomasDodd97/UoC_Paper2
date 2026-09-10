@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 3.8.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrservice
+$$ 2025-09-02 20:41:40.336 +0100  nmrservice@aberlour
+$$ H:/data/nmrservice/nmr/mml-tjh98_C_DMI/10/pdata/1/outd
+$$ process C:\Bruker\TopSpin3.8.0\prog\au\bin\2D37C5F5019BE1C272392D0B037958A2\service-1h-proc.exe
+##$CURPLOT= <PDF Complete>
+##$CURPRIN= <$PDF Complete>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/service-proton.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

@@ -1,0 +1,27 @@
+##TITLE= Audit trail, TopSpin 3.8.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrservice
+$$ H:/data/nmrservice/nmr/mml-tjh98_C_DMI/12/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-09-02 22:41:06.055 +0100>,<nmrservice>,<aberlour>,<go4>,<TopSpin 3.8.0>,
+      <acquisition in progress>)
+(   2,<2025-09-02 23:40:50.618 +0100>,<nmrservice>,<aberlour>,<go4>,<TopSpin 3.8.0>,
+      <created by zg on data set with UUID '87bf1cbe-8845-11f0-b6b0-507c6f2db82f'
+       started at 2025-09-02 22:41:06.059 +0100,
+       POWCHK enabled, PULCHK disabled,
+       completed at 2025-09-02 23:40:50.604 +0100
+
+       configuration hash MD5:
+       86 10 3E E2 50 5C 03 FF 94 B2 F8 4E DA A6 9C 60
+       data hash MD5: 209786
+       93 C4 2B D8 4C D1 9B 1D C2 CB 2C 8F A6 B7 2A 41>)
+(   3,<2025-09-02 23:40:50.755 +0100>,<nmrservice>,<aberlour>,<audit>,<TopSpin 3.8.0>,
+      <user comment:
+       ICON-NMR User ID: nmrservice
+       data hash MD5: 209786
+       93 C4 2B D8 4C D1 9B 1D C2 CB 2C 8F A6 B7 2A 41>)
+##END=
+
+$$ hash MD5
+$$ 3A 42 08 50 4D 93 21 E1 D9 87 09 3F 4B 87 3C F8

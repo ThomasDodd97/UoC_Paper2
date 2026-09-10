@@ -25,8 +25,8 @@ The objective-naive MIPT sampling technique was used to sample in a purely
  optimisation routine progression could be gauged.
 Given its objective-naivety, purely exploratory nature, and the fact that
  it was initiated on the same prior-forming dataset as the Bayesian routines,
- the MIPT routine was only run once (samples having both Young's
- modulus and yield strength evaluated).
+ the MIPT routine was only run once (samples having both apparent compressive
+ modulus and peak compressive stress evaluated).
 The resulting dataset could be directly compared with both the single- 
  and multi-objective Bayesian sequential routines (see Section~\ref{subsec:MultiObjRes}).
 
@@ -57,10 +57,12 @@ Subsequently, at sample 17, the Bayesian single-objective routine
     \captionsetup{format=custom,width=\textwidth,skip=0pt}
     \captionof{figure}{
         \footnotesize{
-            Progression of a the sequential optimisation experiment concerning
+            Progression of the sequential optimisation experiment concerning
             the maximisation of apparent compressive modulus.
             Initial one-shot samples drawn quasirandomly are presented
-             separately from the two sequential techniques which they prime.
+             separately from the two sequential techniques which they
+             prime (by providing the initial datasets on which they are 
+             predicated).
             These two sequential techiques are either objective-naive (MIPT)
              or single-objective (Bayesian).
         }
@@ -101,7 +103,9 @@ Subsequently, the Bayesian sequential technique improves upon the maximum
             Progression of a sequential optimisation experiment concerning
             the maximisation of peak compressive stress.
             Initial one-shot samples drawn quasirandomly are presented
-             separately from the two sequential techniques which they prime.
+             separately from the two sequential techniques which they prime
+             (by providing the initial datasets on which they are 
+             predicated).
             These two sequential techiques are either objective-naive (MIPT)
              or single-objective (Bayesian).
         }
@@ -123,9 +127,8 @@ The margins over MIPT were modest: 3.3\% for \(E_{\text{app}}\) (5,012 versus
 Independently replicated manufacture/testing or repeated optimisation trajectories 
  would be required to describe these differences as statistically significant.
 
-However, in both experiments, the exploratory sampling routine 
- outperformed the Bayesian single-objective technique in terms of sample 
- efficiency: the exploratory technique improved upon the baseline maxima 
+In these trajectories, MIPT exceeded the initial baseline earlier than the
+ Bayesian routines: this exploratory technique improved upon the baseline maxima 
  (\(E_{\text{app}}=4274\)~\unit{\mega\pascal} and \(\sigma_{\text{max}}=137\)~\unit{\mega\pascal}) 
  of both experiments on drawing sample 15 for evaluation (\(E_{\text{app}}=4851\) and
  \(\sigma_{\text{max}}=140\)).
@@ -200,7 +203,7 @@ This prior-forming dataset \(\mathcal{D}\) yielded an initial Pareto front
  apparent compressive modulus (sample 49) as their objectives.
 Whilst the third (sample 15) was derived from the exploratory technique as a
  point which performed well in both objectives of interest.
-With an ultimate sample limit of 72 and a single sample drawn per Bayesian
+With an ultimate sample limit of 71 and a single sample drawn per Bayesian
  iteration, the sequential multi-objective Bayesian routine proceeded to
  develop the Pareto front over 15 further samples (57-71).
 
@@ -242,9 +245,9 @@ How the acquisition function likely navigated the parameter space and came
     \captionof{figure}{
         \footnotesize{
             Results from a multi-objective Bayesian optimisation routine.
-            Bayesian confidence intervals were a single standard
-             deviation and sampled from the posterior Gaussian processes
-             on conclusion of the multi-objective routine.
+            Error bars correspond to the 68\% posterior confidence intervals
+             as sampled from the posterior Gaussian processes on conclusion
+             of the multi-objective routine.
             (A) Initially observed Pareto front as a dashed black line.
             (B) Observed Pareto front improvement as a dashed green line.
             PCS, Peak Compressive Stress.
@@ -257,13 +260,14 @@ How the acquisition function likely navigated the parameter space and came
 \end{minipage}
 
 Figure~\ref{fig:MOBOSampleComp} presents the strong relation between
- initiating agent content maximisation and improvements to sample optimality:
- the average content is 13\% for the anti-Pareto front, 44\% for the initial
- Pareto front, and 50\% for the putative global optimum.
-Furthermore, the initiating agent's composition also described a somewhat
+ initiator/filler-premix fraction maximisation and improvements to sample 
+ optimality: the average content is 13\% for the anti-Pareto front, 
+ 44\% for the initial Pareto front, and 50\% for the 
+ final non-dominated formulation (sample 68).
+Furthermore, the initiator/filler-premix fraction also described a somewhat
  weaker relation between dibenzoyl peroxide marginalisation and sample
  optimality: anti-Pareto front 13.3\%, initial Pareto front 12.3\%, and 8\%
- for the putative global optimum sample.
+ for the final non-dominated formulation.
 No analagously clear trend existed with respect to the unsaturated polyester
  resin composition.
 

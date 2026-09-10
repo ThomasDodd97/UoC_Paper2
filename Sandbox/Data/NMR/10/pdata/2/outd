@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.5.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= ptg20
+$$ 2025-09-04 11:09:24.607 +0100  ptg20@DESKTOP-3IJF6FR
+$$ C:/Users/ptg20/Documents/ThomasHojlundDodd/mml-tjh98_C_DMI/10/pdata/2/outd
+$$ process C:\Bruker\TopSpin4.5.0\prog\mod\dirdata.exe
+##$CURPLOT= <PDF Complete>
+##$CURPRIN= <$PDF Complete>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/service-proton.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

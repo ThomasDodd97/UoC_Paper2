@@ -1,0 +1,46 @@
+##TITLE= Parameter file, TopSpin 4.5.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 3	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= ptg20
+$$ 2025-09-04 11:12:30.024 +0100  ptg20@DESKTOP-3IJF6FR
+$$ C:/Users/ptg20/Documents/ThomasHojlundDodd/mml-tjh98_C_DMI/10/pdata/1//eretic
+$$ process C:\Bruker\TopSpin4.5.0\prog\mod\dataserver.exe
+##$CAL= 1
+##$CALACQUDATE= <>
+##$CALDATE= <>
+##$ECONC= 9.4
+##$ECONCU= <mmol/l>
+##$ECORR= 1
+##$EINT= 726673.552734375
+##$ELW= 1
+##$EPOS= 0
+##$ESCAL= 1
+##$EUNIT= <>
+##$INTSCL= 1
+##$NS= 1
+##$P1= 10.5
+##$PP= <zg>
+##$PROBHD= <>
+##$QUANTACQUDATE= <>
+##$QUANTDATE= <>
+##$RECONC= 9.4
+##$RECONCU= <mmol/l>
+##$REFSPEC= <e:/data/nmrservice/nmr/Quantref_0.1EB_20211101/1>
+##$REINT= 726673.552734375
+##$REINTERR= 590.729450594002
+##$RELW= 1
+##$RENSPIN= 2
+##$REPOS= 0
+##$REREG= <2.801988/2.507218>
+##$REUNIT= <>
+##$RG= 15.87
+##$RORIGIN= <C:/Users/ptg20/Documents/nmrdata/Aberlour/Quantref_0.1EB_20211101/1/pdata/1\eretic>
+##$RPROBHD= <Z115434_0002 (CP DCH 500S2 C/H-D-05 Z ET)>
+##$SI= 65536
+##$SW= 19.9978802126987
+##$TE= 297.9218
+##$scaledByNS= no
+##$scaledByRG= no
+##END=

@@ -1,0 +1,84 @@
+##TITLE= Audit trail, TopSpin 3.8.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrservice
+$$ H:/data/nmrservice/nmr/mml-tjh98_C_DMI/12/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-09-02 23:03:40.664 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <Start of raw data processing
+       efp LB = 0.6 FT_mod = 6 PKNL = 1 PHC0 = 249.8431 PHC1 = -240.3659 SI = 512K 
+       data hash MD5: 512K
+       59 DF C6 36 01 F3 FD F0 EC 44 57 49 A0 C6 72 50>)
+(   2,<2025-09-02 23:40:57.308 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <Start of raw data processing
+       efp LB = 0.6 FT_mod = 6 PKNL = 1 PHC0 = 249.8431 PHC1 = -240.3659 SI = 512K 
+       data hash MD5: 512K
+       40 4A 59 BD A3 83 47 5D 76 01 D4 34 83 A6 79 30>)
+(   3,<2025-09-02 23:40:57.502 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <abs ABSG = 5 
+       data hash MD5: 512K
+       21 C6 04 3D DD 12 0B D9 DE 55 7B 3A DF B9 96 30>)
+(   4,<2025-09-02 23:40:57.817 +0100>,<nmrservice>,<aberlour>,<apkm>,<TopSpin 3.8.0>,
+      <apkm
+       data hash MD5: 512K
+       F0 07 F3 B2 E6 A7 0D B5 97 9E 93 FA 2B 83 31 74>)
+(   5,<2025-09-02 23:40:58.047 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <apks 
+       data hash MD5: 512K
+       64 76 B0 82 FD A2 69 E5 F5 42 2F 6B 2F FC 61 C1>)
+(   6,<2025-09-02 23:40:58.217 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 226.819 ABSF1 = 248.0589 
+       data hash MD5: 512K
+       97 93 F5 F9 44 64 5E 59 A9 2D 1B 5B 75 10 6C 39>)
+(   7,<2025-09-02 23:40:58.312 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 205.5792 ABSF1 = 226.819 
+       data hash MD5: 512K
+       80 88 2F 8C 41 C3 00 36 31 53 9E 2A D3 E0 5F B2>)
+(   8,<2025-09-02 23:40:58.405 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 184.3394 ABSF1 = 205.5792 
+       data hash MD5: 512K
+       F5 1C 49 F2 AD 62 AD C6 35 49 F3 03 FA 73 53 3E>)
+(   9,<2025-09-02 23:40:58.493 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 163.0996 ABSF1 = 184.3394 
+       data hash MD5: 512K
+       62 56 C7 7B 1C 0F 97 40 74 45 B4 4C 8B 11 E0 C9>)
+(  10,<2025-09-02 23:40:58.589 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 141.8597 ABSF1 = 163.0996 
+       data hash MD5: 512K
+       7E 76 0E 77 D8 70 DD D8 C7 2D FD DE F8 AC D9 3E>)
+(  11,<2025-09-02 23:40:58.678 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 120.6199 ABSF1 = 141.8597 
+       data hash MD5: 512K
+       71 21 8E 46 15 2C BF 0D 45 16 48 7D 9A F2 3A BF>)
+(  12,<2025-09-02 23:40:58.768 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 99.38009 ABSF1 = 120.6199 
+       data hash MD5: 512K
+       C2 C9 26 AB 39 16 64 F7 75 E1 74 15 9C AF E6 A8>)
+(  13,<2025-09-02 23:40:58.857 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 78.14026 ABSF1 = 99.38009 
+       data hash MD5: 512K
+       AC E6 24 D4 E5 2C 27 81 85 3A 74 76 13 82 70 0E>)
+(  14,<2025-09-02 23:40:58.948 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 56.90043 ABSF1 = 78.14026 
+       data hash MD5: 512K
+       5E 53 23 2F A2 8A D3 97 05 86 1E 3C 01 C8 76 29>)
+(  15,<2025-09-02 23:40:59.045 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 35.66061 ABSF1 = 56.90043 
+       data hash MD5: 512K
+       A1 8A 00 F9 A7 4F 07 70 21 40 32 61 39 E3 76 61>)
+(  16,<2025-09-02 23:40:59.137 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = 14.42078 ABSF1 = 35.66061 
+       data hash MD5: 512K
+       74 EA A9 25 0F C1 10 FE BC 5B B2 25 CD F6 D2 8F>)
+(  17,<2025-09-02 23:40:59.227 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = -6.819047 ABSF1 = 14.42078 
+       data hash MD5: 512K
+       0A 31 7B 93 E3 B8 F4 54 3D EF E3 C9 D8 72 D4 18>)
+(  18,<2025-09-02 23:40:59.321 +0100>,<nmrservice>,<aberlour>,<proc1d>,<TopSpin 3.8.0>,
+      <absf ABSG = 5 ABSF2 = -28.05887 ABSF1 = -6.819047 
+       data hash MD5: 512K
+       CB 3F 84 74 EF 84 A8 DC E0 1A ED 7F FE DC 4C 06>)
+##END=
+
+$$ hash MD5
+$$ 9A F2 85 71 0F 3D 1F B0 92 16 D7 57 E3 FB C2 19

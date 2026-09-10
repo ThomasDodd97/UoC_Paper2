@@ -1,0 +1,14 @@
+##TITLE= Audit trail, TopSpin 3.8.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrservice
+$$ H:/data/nmrservice/nmr/mml-tjh98_C_DMI/10/pdata/700/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-09-02 20:37:57.431 +0100>,<nmrservice>,<aberlour>,<go4>,<TopSpin 3.8.0>,
+      <1H wobble curve at 500.053 MHz
+       data hash MD5: 512
+       34 18 14 AF 89 46 DF FD A5 63 1D 5A 88 5E 09 30>)
+##END=
+
+$$ hash MD5
+$$ A1 B0 54 FD 06 1E F1 E0 A2 14 41 51 8E F1 6E CA

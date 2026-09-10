@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmrservice" date="2025-09-02T20:41:40.297+01:00" expNo="10" name="mml-tjh98_C_DMI" owner="" procNo="1" source="H:/data/nmrservice/nmr">
+      <PeakPickDetails>F1=15.000000ppm, F2=-0.100000ppm, MI=0.50cm, MAXI=199.71cm, PC=1.500
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="7.261767" intensity="4.574810e+000" type="0"/>
+    <Peak1D F1="6.328847" intensity="8.782321e+000" type="0"/>
+    <Peak1D F1="5.717324" intensity="7.284675e+000" type="0"/>
+    <Peak1D F1="5.715286" intensity="7.151603e+000" type="0"/>
+    <Peak1D F1="3.766155" intensity="4.992842e+001" type="0"/>
+    <Peak1D F1="3.695804" intensity="4.568110e+001" type="0"/>
+    <Peak1D F1="3.342610" intensity="1.574107e+001" type="0"/>
+    <Peak1D F1="3.341416" intensity="1.556236e+001" type="0"/>
+    <Peak1D F1="1.632800" intensity="1.926086e+000" type="0"/>
+  </PeakList1D>
+</PeakList>

@@ -1,0 +1,25 @@
+<EreticRegionList serialization="custom">
+  <unserializable-parents/>
+  <list>
+    <default>
+      <size>1</size>
+    </default>
+    <int>1</int>
+    <EreticRegion>
+      <numberOfNuclei>1</numberOfNuclei>
+      <regionStart>5.889755</regionStart>
+      <regionEnd>5.567522</regionEnd>
+      <bias>0.0</bias>
+      <slope>0.0</slope>
+      <moleculeName></moleculeName>
+      <molarMass>NaN</molarMass>
+      <concentration>130.03967234521727</concentration>
+      <concentrationError>0.10600213573538582</concentrationError>
+    </EreticRegion>
+  </list>
+  <EreticRegionList>
+    <default>
+      <sampleVolume>NaN</sampleVolume>
+    </default>
+  </EreticRegionList>
+</EreticRegionList>
